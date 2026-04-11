@@ -1,0 +1,3232 @@
+{
+  "id": "ddd49213-85d2-467f-840a-2a98e908efd4",
+  "appName": "shopping_agent",
+  "userId": "user",
+  "state": {
+    "intent_mandate": {
+      "user_cart_confirmation_required": true,
+      "natural_language_description": "YouTube Premium subscription",
+      "merchants": [],
+      "skus": [],
+      "requires_refundability": false,
+      "intent_expiry": "2026-04-12T06:31:15.560568+00:00"
+    },
+    "risk_data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...fake_risk_data",
+    "shopping_context_id": "55f0ad83-3724-4952-ac8d-b1386dc8a3aa",
+    "cart_mandates": [
+      {
+        "contents": {
+          "id": "cart_1",
+          "user_cart_confirmation_required": true,
+          "payment_request": {
+            "method_data": [
+              {
+                "supported_methods": "https://www.x402.org/",
+                "data": {
+                  "x402Version": 1,
+                  "accepts": [
+                    {
+                      "scheme": "exact",
+                      "network": "base",
+                      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                      "payTo": "0xMerchantWalletAddress",
+                      "maxAmountRequired": "13990000"
+                    }
+                  ]
+                }
+              }
+            ],
+            "details": {
+              "id": "order_1",
+              "display_items": [
+                {
+                  "label": "Premium subscription - monthly",
+                  "amount": {
+                    "currency": "USD",
+                    "value": 13.99
+                  },
+                  "refund_period": 7
+                }
+              ],
+              "total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "USD",
+                  "value": 13.99
+                },
+                "refund_period": 30
+              }
+            },
+            "options": {
+              "request_payer_name": false,
+              "request_payer_email": false,
+              "request_payer_phone": false,
+              "request_shipping": true
+            }
+          },
+          "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+          "merchant_name": "Generic Merchant"
+        }
+      },
+      {
+        "contents": {
+          "id": "cart_2",
+          "user_cart_confirmation_required": true,
+          "payment_request": {
+            "method_data": [
+              {
+                "supported_methods": "https://www.x402.org/",
+                "data": {
+                  "x402Version": 1,
+                  "accepts": [
+                    {
+                      "scheme": "exact",
+                      "network": "base",
+                      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                      "payTo": "0xMerchantWalletAddress",
+                      "maxAmountRequired": "139990000"
+                    }
+                  ]
+                }
+              }
+            ],
+            "details": {
+              "id": "order_2",
+              "display_items": [
+                {
+                  "label": "Premium subscription - annual",
+                  "amount": {
+                    "currency": "USD",
+                    "value": 139.99
+                  },
+                  "refund_period": 14
+                }
+              ],
+              "total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "USD",
+                  "value": 139.99
+                },
+                "refund_period": 30
+              }
+            },
+            "options": {
+              "request_payer_name": false,
+              "request_payer_email": false,
+              "request_payer_phone": false,
+              "request_shipping": true
+            }
+          },
+          "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+          "merchant_name": "Generic Merchant"
+        }
+      },
+      {
+        "contents": {
+          "id": "cart_3",
+          "user_cart_confirmation_required": true,
+          "payment_request": {
+            "method_data": [
+              {
+                "supported_methods": "https://www.x402.org/",
+                "data": {
+                  "x402Version": 1,
+                  "accepts": [
+                    {
+                      "scheme": "exact",
+                      "network": "base",
+                      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                      "payTo": "0xMerchantWalletAddress",
+                      "maxAmountRequired": "22990000"
+                    }
+                  ]
+                }
+              }
+            ],
+            "details": {
+              "id": "order_3",
+              "display_items": [
+                {
+                  "label": "Premium subscription - family plan",
+                  "amount": {
+                    "currency": "USD",
+                    "value": 22.99
+                  },
+                  "refund_period": 30
+                }
+              ],
+              "total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "USD",
+                  "value": 22.99
+                },
+                "refund_period": 30
+              }
+            },
+            "options": {
+              "request_payer_name": false,
+              "request_payer_email": false,
+              "request_payer_phone": false,
+              "request_shipping": true
+            }
+          },
+          "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+          "merchant_name": "Generic Merchant"
+        }
+      }
+    ],
+    "chosen_cart_id": "cart_1",
+    "cart_mandate": {
+      "contents": {
+        "id": "cart_1",
+        "user_cart_confirmation_required": true,
+        "payment_request": {
+          "method_data": [
+            {
+              "supported_methods": "https://www.x402.org/",
+              "data": {
+                "x402Version": 1,
+                "accepts": [
+                  {
+                    "scheme": "exact",
+                    "network": "base",
+                    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                    "payTo": "0xMerchantWalletAddress",
+                    "maxAmountRequired": "13990000"
+                  }
+                ]
+              }
+            }
+          ],
+          "details": {
+            "id": "order_1",
+            "display_items": [
+              {
+                "label": "Premium subscription - monthly",
+                "amount": {
+                  "currency": "USD",
+                  "value": 17.490000000000002
+                },
+                "refund_period": 7
+              },
+              {
+                "label": "Shipping",
+                "amount": {
+                  "currency": "USD",
+                  "value": 2
+                },
+                "refund_period": 30
+              },
+              {
+                "label": "Tax",
+                "amount": {
+                  "currency": "USD",
+                  "value": 1.5
+                },
+                "refund_period": 30
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "amount": {
+                "currency": "USD",
+                "value": 17.490000000000002
+              },
+              "refund_period": 30
+            }
+          },
+          "options": {
+            "request_payer_name": false,
+            "request_payer_email": false,
+            "request_payer_phone": false,
+            "request_shipping": true
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "country": "US",
+            "organization": "Sample Organization",
+            "phone_number": "+1-000-000-0000",
+            "postal_code": "00000",
+            "recipient": "Bugs Bunny",
+            "region": "ST",
+            "address_line": [
+              "123 Main St"
+            ]
+          }
+        },
+        "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+        "merchant_name": "Generic Merchant"
+      },
+      "merchant_authorization": "eyJhbGciOiJSUzI1NiIsImtpZIwMjQwOTA..."
+    },
+    "shipping_address": {
+      "phone_number": "+1-000-000-0000",
+      "address_line": [
+        "123 Main St"
+      ],
+      "organization": "Sample Organization",
+      "region": "ST",
+      "postal_code": "00000",
+      "country": "US",
+      "city": "Sample City",
+      "recipient": "Bugs Bunny"
+    },
+    "payment_credential_token": {
+      "value": {
+        "x402_version": 1,
+        "scheme": "exact",
+        "network": "base",
+        "payload": {
+          "signature": "0xmocksignature",
+          "authorization": {
+            "from_": "0xPayerWalletAddress",
+            "to": "0xMerchantAddress",
+            "value": "100",
+            "valid_after": "0",
+            "valid_before": "9999999999",
+            "nonce": "0xrandomnonce"
+          }
+        }
+      },
+      "url": "http://localhost:8002/a2a/credentials_provider"
+    },
+    "payment_mandate": {
+      "payment_mandate_contents": {
+        "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+        "payment_details_id": "order_1",
+        "payment_details_total": {
+          "label": "Total",
+          "amount": {
+            "currency": "USD",
+            "value": 17.490000000000002
+          },
+          "refund_period": 30
+        },
+        "payment_response": {
+          "request_id": "order_1",
+          "method_name": "https://www.x402.org/",
+          "details": {
+            "value": {
+              "x402_version": 1,
+              "scheme": "exact",
+              "network": "base",
+              "payload": {
+                "signature": "0xmocksignature",
+                "authorization": {
+                  "from_": "0xPayerWalletAddress",
+                  "to": "0xMerchantAddress",
+                  "value": "100",
+                  "valid_after": "0",
+                  "valid_before": "9999999999",
+                  "nonce": "0xrandomnonce"
+                }
+              }
+            },
+            "url": "http://localhost:8002/a2a/credentials_provider"
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "country": "US",
+            "organization": "Sample Organization",
+            "phone_number": "+1-000-000-0000",
+            "postal_code": "00000",
+            "recipient": "Bugs Bunny",
+            "region": "ST",
+            "address_line": [
+              "123 Main St"
+            ]
+          },
+          "payer_email": "bugsbunny@gmail.com"
+        },
+        "merchant_agent": "Generic Merchant",
+        "timestamp": "2026-04-11T06:34:04.181154+00:00"
+      }
+    },
+    "signed_payment_mandate": {
+      "payment_mandate_contents": {
+        "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+        "payment_details_id": "order_1",
+        "payment_details_total": {
+          "label": "Total",
+          "amount": {
+            "currency": "USD",
+            "value": 17.490000000000002
+          },
+          "refund_period": 30
+        },
+        "payment_response": {
+          "request_id": "order_1",
+          "method_name": "https://www.x402.org/",
+          "details": {
+            "value": {
+              "x402_version": 1,
+              "scheme": "exact",
+              "network": "base",
+              "payload": {
+                "signature": "0xmocksignature",
+                "authorization": {
+                  "from_": "0xPayerWalletAddress",
+                  "to": "0xMerchantAddress",
+                  "value": "100",
+                  "valid_after": "0",
+                  "valid_before": "9999999999",
+                  "nonce": "0xrandomnonce"
+                }
+              }
+            },
+            "url": "http://localhost:8002/a2a/credentials_provider"
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "country": "US",
+            "organization": "Sample Organization",
+            "phone_number": "+1-000-000-0000",
+            "postal_code": "00000",
+            "recipient": "Bugs Bunny",
+            "region": "ST",
+            "address_line": [
+              "123 Main St"
+            ]
+          },
+          "payer_email": "bugsbunny@gmail.com"
+        },
+        "merchant_agent": "Generic Merchant",
+        "timestamp": "2026-04-11T06:34:04.181154+00:00"
+      },
+      "user_authorization": "fake_cart_mandate_hash_cart_1_fake_payment_mandate_hash_402d16a9868344749ec609fb5dd025f4"
+    },
+    "initiate_payment_task_id": "36a4538c-aa78-4944-83bd-88cda93ad8ef",
+    "payment_receipt": {
+      "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+      "timestamp": "2026-04-11T06:34:32.497546+00:00",
+      "payment_id": "c0532b2832de48dfb64bd23173bd9b40",
+      "amount": {
+        "currency": "USD",
+        "value": 17.490000000000002
+      },
+      "payment_status": {
+        "merchant_confirmation_id": "c0532b2832de48dfb64bd23173bd9b40",
+        "psp_confirmation_id": "c0532b2832de48dfb64bd23173bd9b40"
+      },
+      "payment_method_details": {
+        "method_name": "https://www.x402.org/"
+      }
+    }
+  },
+  "events": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "유튜브 프리미엄 구독제를 결제하고 싶어"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-31f185c1-18ff-46f2-a49a-8b2efb5470db",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "37e39919-5d92-4243-af03-e5b09eeaac5b",
+      "timestamp": 1775889045.810751
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CvcEAb4-9vum4O4U0oqBN-pvdrnQK4C3zqlpeqSW7FprpPWs2-yAqFHZuRp8aiboQOl-B8Zafz8IjSZGVA7WJ_VfKyRLZpfnWBjBRy95RFwrhq8y6TEbL4zCw1t5y-T3oVV5kX4kTe4gCiZeXG18OS9vCn21HROjA28BE_wZWd8snAsEp-rWAsBthg3Td_g1YehGZ3VbDh6xeygxezzqGXx1xwRR2wjIMk4yxn6_nvSMGohV0_8hptrRGwfSxOA27-OQHq2YPWrHWyfIOe8Ol72NK2cDZb7zLGi3Oeug5D4njkroDaeC1nV_B97-8lBjWfAAn7RA4eqfinXA7B-F1aBIVkbGvDHvWuF15-YrZT0flv6CIXZ736xojFAWRWv4twOl6l45GtLS8qmx0EAE10x9RAjKYVoReShaYxbsLqQ1ChR8wGcU1LsnTJZ74xw79YtmTJty5Xdj7Z5mTYhMl-PTMOjJIs1FzwYeikurHXrf0kbfgWwN3lK58GEEt5Awmj-LQJIpsDjzlbHu8jyAxJCi_XJEOAzGehGZuQOO9wv62vmgUdVTfu3i0jpQr_frh8gIH752lgKrEMyUQXMWEX72mCn9piylD37pFF3QP7WgXieoISWuPsUnKRNtfFk-ipUKS5NhnmWR3_5tuDOGr2heIOUmVxza0bhjKG0SMc4okbLL-W8al_4TD3-y2KQAMKqI15rbxgGSf1zMQaAsfkxLAr8SvGqgS5cv55kNbfXAdiDbXHFFkpMweynwPMU3VWLjdqFTnPsbIxxkQDuKZeVDVL9Ox5zmvavwDoQjoREDVhkbfp6i8ZIAqCHoxtZ0jWSEOwYRuTbKcw==",
+            "functionCall": {
+              "id": "adk-d9d365c9-1cd6-4262-940a-0bf759cc7b82",
+              "args": {
+                "agent_name": "shopper"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 20,
+        "promptTokenCount": 2363,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2363
+          }
+        ],
+        "thoughtsTokenCount": 124,
+        "totalTokenCount": 2507
+      },
+      "invocationId": "e-31f185c1-18ff-46f2-a49a-8b2efb5470db",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "9660ddd7-896e-42b8-8fec-4456b2b0ba6b",
+      "timestamp": 1775889045.812504
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-d9d365c9-1cd6-4262-940a-0bf759cc7b82",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-31f185c1-18ff-46f2-a49a-8b2efb5470db",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "shopper",
+        "requestedAuthConfigs": {}
+      },
+      "id": "2df438f4-26ef-44f0-87c3-b1861578952b",
+      "timestamp": 1775889047.559949
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqMGAb4-9vvTRAtsZtoj49JVz5jpvdZ0xqwhelytgkE7Y75OnkUNne-M1-8412qK45Q1ckJSoepPYqjUga8XFH3LRRkcIxUwVBZtS6sYR7jvOzbyzP5VD7dvRwr4i698zwn-DPvQwzaQZ6XTnxbVrxGEFl6ASNMtO9DDqEaPh1_sizGVaZFG8MXTjBW1gpQwUWHfZm-dNNFctm5dhEFMQSg-Yr9Jhx7w9UyLHPsZtQnKqDVIdby_t-FPPCQ4JI-7MV8PHg5pSKQM21tG_DERBJbDPtQv3RUG7mktUtwerCdz9Kz8go63oGtB51liPhvboGK41-DVosNWcWYNiOn-YTTLCqi9asd9d96QytbB3EKCifQvN8JoWL0GdUu2bsn-q658kIsNVyge2B3rDMCATxvHYqQL9LAVrbdPs5urdNjZi7jE2TXOf_qOqCXEWzf5SIBxpPTKv2_Suh6krOklq1E6rSfI5ACDsGw4ULq9sX_vFGKcYeo4NJvgzVitJTasFWpGOgNY4PxIX874hxkTDmjJRjJa0o5sVpriO1c9oHUv6KaZSiHEQ73iowSMEdDKZslq23k_Ql0sZkz1OaM7yCUK38FK6dlbbhovu9knb__tk8C5msOaSqCONuP7YWCpE678kFXJ1XIQU0544vux-EZoKkQ2t-xlsNSWxX1fI_v0X5ZKN7znFNyhKuhdi021xPDfp08yB2W_kos--ClriU6189-nKJuzL9eSgwUwYwP_RvxeW4kPVlabhAKSnAxr1v2qaCQcWQ9vIKBmMNX_Gy5muyO2a-njhSeDJI6CZrgVuRLSsohUCOmK0PA_IgXqTtrHDltxucFidxssMdrFSetx2Wti17Wouf5NmsbUKHwGi52IwoVYTKjJxDayfavgjnUBdVEQMDC90Ye1D3P-KKGlKSAHZGd07O9dH4kREFhyh5XBb4X8TuSCwawffwrNzTKJ6j8jxUcddXI12W2s8GfKjA4B4C7iMJaxME_fI__6HtpV1iIXbiG8CXg_k6zbRE-YpcZ7dpcFTCiCowwbT3p5VmEdiIrEv-aCoB7YKmnyT_GY9mk=",
+            "text": "유튜브 프리미엄 구독제를 결제하고 싶으시군요! 몇 가지 질문을 드릴게요.\n\n혹시 선호하는 판매자나 특정 SKU가 있으신가요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 39,
+        "promptTokenCount": 1894,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1894
+          }
+        ],
+        "thoughtsTokenCount": 181,
+        "totalTokenCount": 2114
+      },
+      "invocationId": "e-31f185c1-18ff-46f2-a49a-8b2efb5470db",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "8a2a0bc8-0432-4e1a-8274-1ed9f0844f6d",
+      "timestamp": 1775889047.563337
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "없어"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-2bd110ca-f66c-406c-bf6f-c3db06b2fc20",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "869994b3-cbeb-4370-9f15-ac7142bc2f15",
+      "timestamp": 1775889059.256127
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "환불 가능 여부가 중요한가요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 9,
+        "promptTokenCount": 1937,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1937
+          }
+        ],
+        "totalTokenCount": 1946
+      },
+      "invocationId": "e-2bd110ca-f66c-406c-bf6f-c3db06b2fc20",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "da95597d-cd79-4b0b-8f55-ddb2c8c517d9",
+      "timestamp": 1775889059.258186
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "아니. 더이상 질문 그만하고 진행해"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-cda761a8-b6cd-455c-982b-c2b8fe287055",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "17660081-3ffb-4b3b-bb77-0391dc6e572b",
+      "timestamp": 1775889072.622586
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqIOAb4-9vstNHunXrP6PZedSWgMOzgXgqiH3ea2q6-CRmcnPScMkPABbqcH-jBrG-vw08OJtvytgifPz3g5WWNV3ybQbDXsaTIBmQEE-JxOXbpuc_g12jlMY5K6yzNdnwsmhdjdciTFpSgH2sA6bEr1MWG2ILb8vra59oWOE4sUVBrcijcd_S6WsJOW2t1vlo5KXVL0-4A-v6Y_5lUG736xoNPEskGAEAj870bQhA-Ypdg4sxRIPIkQe6MRqZJZPcBaolHkHaRHa4tPVfmrX95DE5lKZm74vKIihu2K2hinAjcJrH0DcJORAdmVy0BlHq7PyamTQQljYEVYl7QGhs8cx9GJv8EgT7dqyF_NJFqL33egPK1NCt0wYdLTtJdaWicSpe5c1yxoGBhYyuNUR3nbsGI2x8KYlGvNTwhC0z8J6VIPNGQp_X8pTFdaXuO3S8ZxSECVQKUqWMRDT9QDxtd3SH0AtrOI8E8gQ3VLUA5FyAdYVbjKEtGnK7aOj-Zeo6zW9pLdMbiidh_AQTJG4taf_37sQEFgmTKfI_EZS5V_25fX72kMuNPxPEJRLg9hkyhyA9CFeNT8emGrBYc5aC2hkJxuTUJ4bV_-sYKnhFrbkwHcqWvrghr6ofQMT0SaP35zpgPM8aj6mrB2j4tXl2ml89jMPQCrB7GDUPWPH9N0tfvZ8nDf2E2ofWA8DRnEownRKYigMz6WEdkb9lirr0xAK_pgdV99rk6Al2tthdOVzYYtuFKO5X1F51UMVlT1Cmx0GNl7fOoyAhkRQb50NA3WFEvl3-5lEzTfZ3VgnYf7AWaJY_TXS2t-CIZc7LDmIJwgXgunbCUnUU7eE52osnrwMiHOjZnO7mky2V6zpeJRojZiX5uryId7VkJKzXUhI3QtQLKKvDlDBP6U76C88PZ6AuLXg_Z1ogtasnIN4B_JUJ4HWCtzzMah88R-lAcQdpkv3sGBoYcY6HI5n6GP1rLd5puIAfW1rtNMyRz9p6udsJr-73RB0JTOK2fcdey8pwwhvENbDczpAm2Z-Mepr2kQIFB6anoihBSernBOwVJ3UJNMnbclBpZHJtgNQeOGD0Zd4sCKEgl3PXlLV1b2BoSD_C-vU49L_2FnffMbhr2kVpp4XEXblIkqEc1gBoR-elPiIq0NMNxv4mJA4G9e3hKwBehIRKT7bzk64-dp8xWNSyOpw3hmIjHaeiuLnpm002_BxElkwPzRGp_Pf_gAn6ahZFScQezmbMeoJElfRWRGKoUBFvDvVaC5RBpy84FSwKdj0v8kQQdWb2jV3o4VlOO5tLXOoLtWM5RO8evheFKoKePzy-aciBctrROoydEaQbYwLlw1X11efn53reUihyUi3f0n-nXcvxZuizP5GbL5uPcTXwbH_56GZDJPwiXM9agvDQnm9AR6VGFwKEM2PQGc1eK9EbGcGZQsYX9bDNIzB20VN8iZpYaKvDE5AKrkomcWUTDY5HnLzBYTQH_FYSicLO433sHDC3lDsGjHVVLnrV6BTov4-NS2iLCNYbDBx6YsusLMDQah1mRZN8UobVMRtvGhy0O1Npx7ALylHhIII3zcmB5u_mMoLC4KE-v6_WBanAneiePtQV5Nv-80BgGEHlESSTNi4C2zHWF8ddwM_bJ7TxOEWbq4DJkQchBw3Igk0QigMsqNMT_VzV_S2Xyj5EVYZ7PRN-bIe0ilXBblQKG5Rg3frjUGB2owF8wzKJ17NZEv74apYcWJP5uxtAKTBsTt8tq555sQb4QKE26yCIMFc_RzIwtR-RmyHIglRWxckYC-7X-jZLUdvdF6Db-LvwrofruVCAB6lVyyqr8JFK21_iW1aCQQ4aYgXgOjYljPyXfu1cRY956HGuhxslaWPP53aXmZ3B_rp31m2hjW-S804wdPUnPPngh4cYyvmElKG3KvX7_7TNU3WqwZeeHRk66XswCOfMCbqqUGBfpYz5A9ItmJstKOEUY-Z8-xp11m-bcxXV6XHHa_4rL5Dly08rB9UBBwEHF6O2EJ58Thq3-qQGiHpH22wIblY7Rq1EWd8F_nTxpyXuutv_oO8g9-OEZgl5LT0LbtGNduF2ttuqkGFvQ7ujTDaj8dArRnxYYYCbAKGqMpNNa8ymZnlYeyIGmNkVv2ruOlhUn6l7wwmSuUDYYWos85Nt4F9wdX5gBkYbI4c_-OuaiDBP8C9FGWcq_Cqy7h_pKGjla2xLLsRygtcTUoaJ_xM1Zxytajf6BATJVHvagTwXserp0wLxNz9uExyADZRDzoxPDEIkcGAxc53O4xMVBKVkHCZuvXf9KukVCnXuFbiU43vFRSw28sWsSKVFazYEG_y0ewyOGL9mo3XOAE9bNqczTWoTS6h2u5a4iWxD4GqaOg20a7HLlkN-ywdPWselZf5rkMoR_O-KMhsrpDIKp4_KNu_A4sO5XaFCs=",
+            "functionCall": {
+              "id": "adk-0ce1ca40-7a39-4841-ae10-12856fe2d5c3",
+              "args": {
+                "natural_language_description": "YouTube Premium subscription",
+                "user_cart_confirmation_required": true,
+                "requires_refundability": false,
+                "skus": [],
+                "merchants": []
+              },
+              "name": "create_intent_mandate"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 49,
+        "promptTokenCount": 1959,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1959
+          }
+        ],
+        "thoughtsTokenCount": 412,
+        "totalTokenCount": 2420
+      },
+      "invocationId": "e-cda761a8-b6cd-455c-982b-c2b8fe287055",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "3745dd05-f73e-49d4-b7ad-fdf36ce8f180",
+      "timestamp": 1775889072.624175
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-0ce1ca40-7a39-4841-ae10-12856fe2d5c3",
+              "name": "create_intent_mandate",
+              "response": {
+                "result": {
+                  "user_cart_confirmation_required": true,
+                  "natural_language_description": "YouTube Premium subscription",
+                  "merchants": [],
+                  "skus": [],
+                  "requires_refundability": false,
+                  "intent_expiry": "2026-04-12T06:31:15.560568+00:00"
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-cda761a8-b6cd-455c-982b-c2b8fe287055",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {
+          "intent_mandate": {
+            "user_cart_confirmation_required": true,
+            "natural_language_description": "YouTube Premium subscription",
+            "merchants": [],
+            "skus": [],
+            "requires_refundability": false,
+            "intent_expiry": "2026-04-12T06:31:15.560568+00:00"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "15afdfd4-746d-4671-a0ad-5b05aa7a4985",
+      "timestamp": 1775889075.560724
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Please confirm the following details for your purchase. Note that this information will be shared with the merchant.\n\nItem Description: YouTube Premium subscription\nUser Confirmation Required: Yes\nMerchants: Any\nSKUs: Any\nRefundable: No\nExpires: in 1 day\n\nShall I proceed?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1456
+          }
+        ],
+        "cachedContentTokenCount": 1456,
+        "candidatesTokenCount": 60,
+        "promptTokenCount": 2103,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2103
+          }
+        ],
+        "totalTokenCount": 2163
+      },
+      "invocationId": "e-cda761a8-b6cd-455c-982b-c2b8fe287055",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "431d3bd1-446a-4010-b939-8d2e024b0205",
+      "timestamp": 1775889075.568917
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "어 진행해"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0710fece-ebac-4b6c-bbfa-7a568e461f88",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "6813adea-7933-41b1-b2ac-182b9db071b1",
+      "timestamp": 1775889083.476575
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-5cc8fc6f-2a3a-4db8-a95a-c0a373b56c74",
+              "args": {
+                "debug_mode": false
+              },
+              "name": "find_products"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 16,
+        "promptTokenCount": 2168,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2168
+          }
+        ],
+        "totalTokenCount": 2184
+      },
+      "invocationId": "e-0710fece-ebac-4b6c-bbfa-7a568e461f88",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "5d4ffcc0-1243-4f21-976a-f99003b86200",
+      "timestamp": 1775889083.479066
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-5cc8fc6f-2a3a-4db8-a95a-c0a373b56c74",
+              "name": "find_products",
+              "response": {
+                "result": [
+                  {
+                    "contents": {
+                      "id": "cart_1",
+                      "user_cart_confirmation_required": true,
+                      "payment_request": {
+                        "method_data": [
+                          {
+                            "supported_methods": "https://www.x402.org/",
+                            "data": {
+                              "x402Version": 1,
+                              "accepts": [
+                                {
+                                  "scheme": "exact",
+                                  "network": "base",
+                                  "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                                  "payTo": "0xMerchantWalletAddress",
+                                  "maxAmountRequired": "13990000"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "details": {
+                          "id": "order_1",
+                          "display_items": [
+                            {
+                              "label": "Premium subscription - monthly",
+                              "amount": {
+                                "currency": "USD",
+                                "value": 13.99
+                              },
+                              "refund_period": 7
+                            }
+                          ],
+                          "total": {
+                            "label": "Total",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 13.99
+                            },
+                            "refund_period": 30
+                          }
+                        },
+                        "options": {
+                          "request_payer_name": false,
+                          "request_payer_email": false,
+                          "request_payer_phone": false,
+                          "request_shipping": true
+                        }
+                      },
+                      "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                      "merchant_name": "Generic Merchant"
+                    }
+                  },
+                  {
+                    "contents": {
+                      "id": "cart_2",
+                      "user_cart_confirmation_required": true,
+                      "payment_request": {
+                        "method_data": [
+                          {
+                            "supported_methods": "https://www.x402.org/",
+                            "data": {
+                              "x402Version": 1,
+                              "accepts": [
+                                {
+                                  "scheme": "exact",
+                                  "network": "base",
+                                  "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                                  "payTo": "0xMerchantWalletAddress",
+                                  "maxAmountRequired": "139990000"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "details": {
+                          "id": "order_2",
+                          "display_items": [
+                            {
+                              "label": "Premium subscription - annual",
+                              "amount": {
+                                "currency": "USD",
+                                "value": 139.99
+                              },
+                              "refund_period": 14
+                            }
+                          ],
+                          "total": {
+                            "label": "Total",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 139.99
+                            },
+                            "refund_period": 30
+                          }
+                        },
+                        "options": {
+                          "request_payer_name": false,
+                          "request_payer_email": false,
+                          "request_payer_phone": false,
+                          "request_shipping": true
+                        }
+                      },
+                      "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                      "merchant_name": "Generic Merchant"
+                    }
+                  },
+                  {
+                    "contents": {
+                      "id": "cart_3",
+                      "user_cart_confirmation_required": true,
+                      "payment_request": {
+                        "method_data": [
+                          {
+                            "supported_methods": "https://www.x402.org/",
+                            "data": {
+                              "x402Version": 1,
+                              "accepts": [
+                                {
+                                  "scheme": "exact",
+                                  "network": "base",
+                                  "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                                  "payTo": "0xMerchantWalletAddress",
+                                  "maxAmountRequired": "22990000"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "details": {
+                          "id": "order_3",
+                          "display_items": [
+                            {
+                              "label": "Premium subscription - family plan",
+                              "amount": {
+                                "currency": "USD",
+                                "value": 22.99
+                              },
+                              "refund_period": 30
+                            }
+                          ],
+                          "total": {
+                            "label": "Total",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 22.99
+                            },
+                            "refund_period": 30
+                          }
+                        },
+                        "options": {
+                          "request_payer_name": false,
+                          "request_payer_email": false,
+                          "request_payer_phone": false,
+                          "request_shipping": true
+                        }
+                      },
+                      "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                      "merchant_name": "Generic Merchant"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0710fece-ebac-4b6c-bbfa-7a568e461f88",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {
+          "risk_data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...fake_risk_data",
+          "shopping_context_id": "55f0ad83-3724-4952-ac8d-b1386dc8a3aa",
+          "cart_mandates": [
+            {
+              "contents": {
+                "id": "cart_1",
+                "user_cart_confirmation_required": true,
+                "payment_request": {
+                  "method_data": [
+                    {
+                      "supported_methods": "https://www.x402.org/",
+                      "data": {
+                        "x402Version": 1,
+                        "accepts": [
+                          {
+                            "scheme": "exact",
+                            "network": "base",
+                            "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                            "payTo": "0xMerchantWalletAddress",
+                            "maxAmountRequired": "13990000"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "details": {
+                    "id": "order_1",
+                    "display_items": [
+                      {
+                        "label": "Premium subscription - monthly",
+                        "amount": {
+                          "currency": "USD",
+                          "value": 13.99
+                        },
+                        "refund_period": 7
+                      }
+                    ],
+                    "total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 13.99
+                      },
+                      "refund_period": 30
+                    }
+                  },
+                  "options": {
+                    "request_payer_name": false,
+                    "request_payer_email": false,
+                    "request_payer_phone": false,
+                    "request_shipping": true
+                  }
+                },
+                "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                "merchant_name": "Generic Merchant"
+              }
+            },
+            {
+              "contents": {
+                "id": "cart_2",
+                "user_cart_confirmation_required": true,
+                "payment_request": {
+                  "method_data": [
+                    {
+                      "supported_methods": "https://www.x402.org/",
+                      "data": {
+                        "x402Version": 1,
+                        "accepts": [
+                          {
+                            "scheme": "exact",
+                            "network": "base",
+                            "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                            "payTo": "0xMerchantWalletAddress",
+                            "maxAmountRequired": "139990000"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "details": {
+                    "id": "order_2",
+                    "display_items": [
+                      {
+                        "label": "Premium subscription - annual",
+                        "amount": {
+                          "currency": "USD",
+                          "value": 139.99
+                        },
+                        "refund_period": 14
+                      }
+                    ],
+                    "total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 139.99
+                      },
+                      "refund_period": 30
+                    }
+                  },
+                  "options": {
+                    "request_payer_name": false,
+                    "request_payer_email": false,
+                    "request_payer_phone": false,
+                    "request_shipping": true
+                  }
+                },
+                "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                "merchant_name": "Generic Merchant"
+              }
+            },
+            {
+              "contents": {
+                "id": "cart_3",
+                "user_cart_confirmation_required": true,
+                "payment_request": {
+                  "method_data": [
+                    {
+                      "supported_methods": "https://www.x402.org/",
+                      "data": {
+                        "x402Version": 1,
+                        "accepts": [
+                          {
+                            "scheme": "exact",
+                            "network": "base",
+                            "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                            "payTo": "0xMerchantWalletAddress",
+                            "maxAmountRequired": "22990000"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "details": {
+                    "id": "order_3",
+                    "display_items": [
+                      {
+                        "label": "Premium subscription - family plan",
+                        "amount": {
+                          "currency": "USD",
+                          "value": 22.99
+                        },
+                        "refund_period": 30
+                      }
+                    ],
+                    "total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 22.99
+                      },
+                      "refund_period": 30
+                    }
+                  },
+                  "options": {
+                    "request_payer_name": false,
+                    "request_payer_email": false,
+                    "request_payer_phone": false,
+                    "request_shipping": true
+                  }
+                },
+                "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                "merchant_name": "Generic Merchant"
+              }
+            }
+          ]
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "8244a7f2-83db-429e-a88b-2eb8b0155fb2",
+      "timestamp": 1775889090.14327
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "유튜브 프리미엄 구독제와 관련하여 다음과 같은 상품을 찾았습니다.\n\n1.  **Premium subscription - monthly**\n    Price: $13.99\n    Expires: in 1 day\n    Refund Period: 7 days\n    이 옵션은 월간 구독으로, 유연하게 이용할 수 있습니다.\n\n2.  **Premium subscription - annual**\n    Price: $139.99\n    Expires: in 1 day\n    Refund Period: 14 days\n\n3.  **Premium subscription - family plan**\n    Price: $22.99\n    Expires: in 1 day\n    Refund Period: 30 days\n\nSold by: Generic Merchant\n\n어떤 상품을 구매하시겠어요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 164,
+        "promptTokenCount": 3175,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3175
+          }
+        ],
+        "totalTokenCount": 3339
+      },
+      "invocationId": "e-0710fece-ebac-4b6c-bbfa-7a568e461f88",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "72f99d44-b06d-4bdf-8548-ff4d2ea1dde7",
+      "timestamp": 1775889090.147623
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "1번"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "6b9e2acd-4e12-46b5-8455-7d01dbce4694",
+      "timestamp": 1775889101.44238
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CtYBAb4-9vto_5EQ0kLnXYxrXfISvfqVrEQ1ArGNQIhhmLeN7qqRU-RBDSKgZvF9HFUwgHOc7X-lFIoVx6nMtZ7CxmVHiVhEnq4WAgljqStyMtYOG0v4KMRcZqt2yo6PNB99FtxKJol5nJ9Gg_BmSvcnKvhNxyyX-fLS3L1GBtI4dTcarK5b0xa40XBvmiTKta1zxmGV1uhUFwgvcItHhLgRDmPGd-LLPOqC3dxu4ZiHNPmtRkX1x-waizZX9VZNmc4T2cD5peTbHl3uaG2Sy4BlF2V9yU3NgA==",
+            "functionCall": {
+              "id": "adk-bc5a35a4-b741-41a9-aecb-3f5c46811416",
+              "args": {
+                "cart_id": "cart_1"
+              },
+              "name": "update_chosen_cart_mandate"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 24,
+        "promptTokenCount": 3343,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3343
+          }
+        ],
+        "thoughtsTokenCount": 50,
+        "totalTokenCount": 3417
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "e1129cea-2ea4-40c0-8266-d197513ef953",
+      "timestamp": 1775889101.444567
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-bc5a35a4-b741-41a9-aecb-3f5c46811416",
+              "name": "update_chosen_cart_mandate",
+              "response": {
+                "result": "CartMandate with ID cart_1 selected."
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {
+          "chosen_cart_id": "cart_1"
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "399914de-3c0f-43c9-b63b-03c9c7292801",
+      "timestamp": 1775889102.744372
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "선택하신 상품으로 업데이트되었습니다.\n"
+          },
+          {
+            "functionCall": {
+              "id": "adk-773bdd08-c3bc-404f-9954-dd787e553ae3",
+              "args": {
+                "agent_name": "root_agent"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 3396,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3396
+          }
+        ],
+        "totalTokenCount": 3426
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "9c319216-a53d-43f1-a1dc-7020317f6ddd",
+      "timestamp": 1775889102.752694
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-773bdd08-c3bc-404f-9954-dd787e553ae3",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "root_agent",
+        "requestedAuthConfigs": {}
+      },
+      "id": "f74bcb62-a381-40bb-8d65-3001c6e2fded",
+      "timestamp": 1775889104.250938
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-7a7c2064-47b8-485d-be37-d7f5cd353ee5",
+              "args": {
+                "agent_name": "shipping_address_collector"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 23,
+        "promptTokenCount": 4143,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4143
+          }
+        ],
+        "totalTokenCount": 4166
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "8fbcada8-292f-4283-b54e-e4f58ab8f762",
+      "timestamp": 1775889104.260318
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-7a7c2064-47b8-485d-be37-d7f5cd353ee5",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "shipping_address_collector",
+        "requestedAuthConfigs": {}
+      },
+      "id": "9b662db5-8286-451c-9a47-ff22e955a601",
+      "timestamp": 1775889105.727434
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Would you prefer to use a digital wallet to access your credentials for this purchase, or would you like to enter your shipping address manually?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 27,
+        "promptTokenCount": 2882,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2882
+          }
+        ],
+        "totalTokenCount": 2909
+      },
+      "invocationId": "e-97b864b9-5eb1-4574-9e1a-41606cb41a12",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "c44743ce-d954-4e67-80a0-e5ad09b77670",
+      "timestamp": 1775889105.731547
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "지갑 access"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-dac2c398-0477-4e14-b37b-c30abf7a061d",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "28414d51-745b-40ac-8f8c-ca062ee3cd66",
+      "timestamp": 1775889118.07104
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "어떤 디지털 지갑을 사용하시겠어요? (예: PayPal 또는 Google Wallet)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 19,
+        "promptTokenCount": 2914,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2914
+          }
+        ],
+        "totalTokenCount": 2933
+      },
+      "invocationId": "e-dac2c398-0477-4e14-b37b-c30abf7a061d",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "029e4ce4-c6a5-4336-ad89-ad7a8ddcceff",
+      "timestamp": 1775889118.075256
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "--payment-method x402 옵션으로 실행했는데 이 옵션 없어?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-17cef8f7-9c7a-425a-b4d5-01187b0ec875",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "d61f224a-5d64-44ff-95ec-028c2de50415",
+      "timestamp": 1775889188.422297
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqUuAb4-9vsrXLmHtWg33F0KmrUhyl_EICdang9VY2Y2Mueuen3U2IY0tRdvOihb6rAfB1JkoeCBTFgnF85jjKSs76daBoyi4pv-ewJtkbzhPgcZCLUPttvqv2NkmlsaE7Ky55JEi4ch8EmY0aCF8roY9XzTuJePeyikcjWYB3Ni4dueb3xkROlfkq5zxmVIQGDZeMky5VgpcucfSnG81R3FlI6JZkxs5XzxjOROftR4oBMF26UsLpqOWN6fpE_fgbPRI15v-Boj-q03vtENh4HKFpE9w9oBEblNcS-7LPCdZr0H8G7QUpMOqx3D77i_6Ffo6nJknwQ1BAsopGL2wRSb8m8fKoLtvxfZBUSl-BvOmv4u_ooNzRN8e8_TSoHI6rRug-andA12ZLFmWA_LFy7AIQAKto15cR4Xcf9MAw1EIfyAyTY7QFm7fw74jVoGw1GnKwcSL-jIkJCMksv_90XH3CmUmUt0JEtDeN485duu3Z_IjsEmxSUSEGETDFy_LbzEzdfY18nV0pksWl2AM36V3TXfngIzeH974V0KN7LVDfdIlS8B_5noxJH0DGL_3n_0lnUxZE4e1j-JzzVeSL63Qe213FJ-dnRmmENnlybiS_J2p6DSW8OhPomucQara3PEALXpNteeKZd7AyKQ8grg2Dk2iEM1NOWCLNGWDCLaIsPVXUhw6IvSkz6cMPqJBW9xHYbSLCvtAJVzhxcoakQzYyLS8J7nPBQxcqr0OIRdaUu9RiRYmBqmNdQMuZXNDlVeExvewL1goSpreguqdyIJq1cMCPycHLtN4G-eGof3WfHbYxaEpoUTZPPeQ8o7XnLFNLCMeW1jKwJavpM3_VuOprkHrAa-Fi9PIjyPF5j2khdBV_2kiQYTdmq-GQwphTv0xGUW7LY_KXtHH3-xMxefHarxJNE2G8G1ZYSQXyMhQ4sqdXGfWgXOgNfg5HxDgGvzvYadzuPfCVbwqV-sXUZwa_DPSFQDLkRCucAh4e4pK9Tcp9pFqu3l9po32hkrmf4qXbU9O4LUEEA5hJT1WeQl4WxDd7O8-f9g-R8-2ACKXZHCxMZA2renjeKe5EJ197aUdmsuxK9SQA0PLtSwFdRLYUo_X4UNm-cZmghHpkNBjt5Cy2AKnnScaAqoIgVHIen2QVHNQsNXD3M2NbyUlcFfW2AOA_vrx-Yd-bQPYzNW0iWwmmdaB7w9FyvbOYIbuDuO1QT561LVBdk9sdYu6aFlwOZWJECgVja-hJlZibDqEkHJp5EBNV1jbdtqtCZP5mruFssDA-03btDFL83cTEQ9ovKXVbyzu7qEduUpTYC8LYa1NldFpA00pVthhGuyTHHhxCVJ49h-UF99RFKIFU9MgD_ffu52KZAJ-fAhQLAGgMSv-bXDSCaA0A8l1V6WXrP6i-KsibbgRKI3XXVcHbLINeI5z8CKoBiwN_7hv2tQv-dxXKcPOs0drUBpsSZkIXF0yfETvHtrfmMuMhGTiJW23dsbcgPg_DWydHXnr9TufRMtuTwA3imt165MR7BD7R7UQyw5CE0kaeqsjUV_bBrRaHTU1i_y7yhZ0G4qnwf8AvDN3p7mPAgWTJghZGJjQV5AMkjn1e9AEgB3QS4S_K8JtIxuFbw-4_BXIrPjrcvTPr2T3mr9DFJeRB_dubzJ9Y77ZSeUjHbA2R3vtmzybaTG9bRw-LLxMjmu14MFYyzFdPKzReQx5Wv0LZNm1LlzUgQfcHrn7YxmYyHJrxdWHhunR1EaPzj9ULt0uSk-q9-h0NvFxrNHjYIh0ycehBvmobMrX0Vs5NLmq7Ykt1fASNQpUe6sCJW_XxcHz1RVe5rNyN8SQk-h3ToUdDcAtLjZYmVHHDlrY7mMa-xbZdDw95gjxW-jjnnlXAaYK5BOhe1CnuNgfk6BQcGlhhyYLnEQ0tFClo_11sCbAlSLGS3suciVHgSMee1p91MLtlSAcgXY2wWQyCuiU8F7QMOIdG7YjUy4aO-5osBa_qnhXYHuH0VSkDXBrpbHvm63toVVhJYz7qx76xaMXDP_zuzwhNII9Fw6S72AgG2Abh4QQ_lEdwTCCz5d6iak4T3TVNI1QuB6L1oQSGl3Io1d2_75u_DHFnfizZh1Jbg8XXoJjXAKeh58xjCkruICrr6HfaJ8lj8iupaZvW_TKgAxKxN13HrUAbJR0E1trIxe7-PKiU8MK9aS7tbbM5upPN69MlBw2j61BKj8x22yhdstL7KsRQIgLxJqj-Akt5Xz_tqRZzFFRdubZ-SCyaGVAbwEZE1hH0aDcafe-gUgGA58dTJ0QweAlHTuEOSNY-3LvmmlOrfOvdnXE01XV4_OCiUfy1ScYCnN5Jw_ROL7M18M8iGDHlxsxrvv8lJG3A9oFUBEdAqOwCYznyp9MCBMV5ut-oJiKHLvNd98Za8R_WAoUio5xZjYhOf1IBpnyH0NpBs6hNPh4LvQ-0RuIvV_sBXMg5kq6IYDBAiZWBCCigI87_DjUpH3ayVwJG9y2VforhutzXsqs_6Ef7KUfSOaD7vaLZ0pRbC4L5d6t6ojMxWXYQE799ukdZKONdwVQVsXXm33Z-_pONfJsbsJbTYMNojGhQCWHNfbX4imu8zJvaacTZIw73_5qap4dGOwKf7V_grXWsNtf25iOZzOu1yGx_dr_cdzWMCyMPKPX5rUI27ctAwO7iQs8tW1yhdbpSuoxMZvRLaJM_WangBmTB9PU7t0Zvwiudv930xD8I7NeoMHArhPWl_nAewsLIkRLH3UVrupGYN0c8_2v7_POs82A6exIluSs6QGxZ0iaukxCNdAu_UcQQ36fbxO8IrTw7YWUqtZjTDIRnXKVS3ccxSClC1DpBbohwygz1A-qsVzhDycnQWSaD6_jE0CL86PIdjhWvIfMzpEwWiwFCZtPhBbASdRMJsaujt1VVV86OIs1vpa-05pWR5dj2xrPc3VM5Qiewu1s4atjddQ6ZDCkcNEkIVX1P-FmqjPIJtw9ZDNpZt1DrhT8bnpIwZxX_UsdZIWnPa6NZjkiH9WW44roweJ5a3Nw2neelO763OsN4zRqXpDs2TMIgNeGmn7ryI8PtSfq_AUPqkjQCHNb1Drqwf1yIQYV4HrgKdh9XELlB9-jrAnM8TY310IjAH_h5NMDoKnMxRg2Tc2py1FkAP9-ia369y7JL2w9SIa5wwmRjcLLnPv5Ke5V2ctvc0zQAzbLKEZG9kVshyM7U7GXlfnBzdSDKgIghhXcPmXJaD48G02OMilhHC3mYBSz4_YzujSSwilHFowtglEvIb68_EUUZUBchuz1yI91BygShRcJmTq6TXfKBkIZWPlI0nZ81qBiXxXh2tQcK0mMdthbvke_XZWU2JRaErf9cQQE2sjXNZaYXSgiJ29x0BMJCh5l3IPayXTYgJ0iJhJIaMdPoa7BVYNRZq3ubJgtvPV4xSDwvquLBMwwe1Wu_p6dopM9mNfaK2BhW4Kk_Zne5NVqgr8cPTqJq43kZtAeF7IZQy-yZjjUsieX76AJkL-rhHTiw9DDafmYzel0IrmSqyRvdofLC-92KNhSzNNOYKLcOn27Q0xidGJVBwmgNrTykaYGOV7PqKQyp9ZPF7rWd0h5YCKQyrzIEvIgKQRop9HpuskLRiF88hVUiEHOe93bxoJwAPgNW4cDMr9FRrd9HIMKHipoEvpdo9qPP8SmHB7RVQZ41xuzF1JMdV4KrkgY7opDj86Xu9SVUvy70Z3UCdtBjr0u9Sp34YUV590TKSpZE6Q6OqhYsnHmFmYMqU8taQxZAJzEbjGyiy_b-en5P8sliHxd2pkquMj_6mm3f6nz85cCibThu-M7lvrstC5JcF_6lZxUvDlvZ0R94dWd3XZxG6INWcGQC-ghUwCqJjV8cQEW1Ia9sNs3if93utfXHOqZsL73Sk9DMRWF_dxmmfEgfzqwcdSadhpm8noNwwpndh5GoOwxcF8u8zyv9gIrAHoOJkdwHyHx-ozDlYPxd5_Rsc57hjARJfrccPQkRDmQ3koST9dnrUYIFi1aig-z5K6HwhIm_jbQRAq5Tma1QgwfP4XBb4jVSWqB9ieLN5abO3dFZRTgmKbHjOwnvk704rOmzv2uV4rs0K9oWVjntBlGNZ09Ztio1_ZXfjpv4eoU-r3-mW8jMNKxo5Gki6gGVXNGU-fSN7NEX5sBvBy5XewrQHINZKiS4DkPA0GBWbhRW32H4KXUKvyEo6UQj9Nr8dOF_Zgysc5QK_-lbspERtUEwhKndKa5EXdvbc-zxXgyJr7eVhho3z0u9N8XGHYwUdAOv3wI7SHXah77oH08ou4-fXgTBOsIgmr6rF0CdrrgVaBrpe145UiPiBLqaWprCnF-HGYoA92oIZZ7wpPU78PwJ3_t-H4BsgsKoFE3sFzlEEO1JaZU9EwAYeF2kMTHMBu8amBankQyzjh9mn_v9Ap9X79gDXhUfPMlFiierTcLJYVT-cVMGgpglr9QDxF1UbsrvefK_R-CP0uvbOIk31n-NrE5hY9rQoOseYTs-PGEv90RL5ybyVx2WOYrrWMI2_9Vfe_4RF1BADamIxRl649H0amvHqFx9pDKIu4hvQTI0UbX3Kq1FOWkFd1dG1xH_IjFA0z-kkDUfjAhvWj8vGfSI1MN8Q4u5dAPZcDFyJ2FkDOZykIAOz9fhbiuuGqVFOb0jF20UuO8_aOX9a9Xb3cmwZLQ2IAj1M9G9HDNmFB0YMs1lGb8-KcRFPfS4xfGvwkuu13ABZOp3GczY4IGwJWpPyTYAdswdt3zwhFEkxtr3V8t4k9-btpUJTTXHzoRn6v82WygtM8c7o-HdxVmeS2SClcky6_DZp6gPtz7LOwdlCvhOyl72595nTDSOnzD5rWVQwNSpOEVaaZ0RQS5VuhdILn6pf6UGp5L9yMObYIG6BT77_iekDR5z3TmFOvqSMlS7_WRDRNUquo96fx0AJR-UFEalC0USdgbgkoLic2If1FhKYTfDzcfgYL-muF9koitKteG9UGuz66SqkGBHez1R-6CTToGKc9JnfzooXDz9yaCD_YggpexZoZGIohibgQr66IlsVA050QtTr9_NualJe1n0kmlo7GVhZ4RQmwlZJ0hjhmTdqPilh0dUOtMBBrgrTJ25eI_w5ul-oxhfT9k2qgWu5CT553NAY3K7-6UraYo1L5rgEp7G2IkjtGxQwYitdkb8QCPO8kNV7_SdwM76_BY0LvpFpNCLaPY-TslH94b-FfsH-2EGU0US09vV9BU-HCPb4Pn1pByZBFtz99ocXEdlGmvIV8h73RNGfRsb-xDS6DcRAGAPzT8roUexxJ25lgQb6VG3Vxjv8XrcdR_xRGBtNl2ep1Y7P1rju9phmSbXMYaLoZYV7XPaEg9cMpOj7XM0470af_zNtRrUlbNk1J50WKsTmzkKIZO1PQlbU2Bvu0FOabpys5uhNb26VlZkBiN4zLNsKCAz9oPHinjhR67-WQ97e38-9FzekBSAI051pamgw2TB0AjHjGrZ_iBUAg79skcSDITHgFj3b7ECfUuQs5XtN83c-hY34wMzxab2v1RA7SH0lW82mQSsxEgFyqlejigbBykRHsNsMqOhZ_pchloX48rf5In_3jHqDJ6Z--MiPhmE59BXFIOcsqGYxRNzoC1kvi6ukYgIr0vPtTfM_hYBa697_qvFxAeq4Es-8J7O5bcVeSATJ2_XsdEuVbNhxuHnAdiYxnW_-kelU62vEgwK8NkcLhg9h2jDIoD7sQCgsX8jkknyahin0Z79yjt3ozw5lagKK7jtpLYiTODhA4CsI3HI3PliXUNkukDP_0qZ8OsbSDZNwSx73XDVq3kszQYdt1jcn3ivu98gm8U-VIFQdkcEuk3PmUmy9NR4x0pN8J2FGkwB3eS9F70cU4w7lkw_0NPC6wjxVGAXaGkc_fMiNQBW4hq746eRdC-zuHmgnfKK5dOIC9j2Yz240D_Qa6dYOyfU6FH5zMeDz5HFm7gWxVqHSNb9wsS3GLgYIkVJCuSU4LrF-GUjlQfVcp_XogWDeyNYBtBBB-NUz2T_IqbYBzCxfwJ9oUubdk7XY202Kq_Qft1cq3ItkI0idTeZORwe-p35IjIJqdiAwa0wlPqfzNZ9FyP47WdkHLGVeBf6qaxDePW2p8APyy2au5M0-vjgpoyOLO5-9EQkXnGmJEgWYCEHBEpA71d1obXXpInND_1FrgTzKfc7MwojFjPxVUBuLuA0RM1sIJIzPDm_I7CdzIMgvG25BxZE_R9Dh3CzAoH_Ku0KGD9HnjvuTkpxCw3He7F_gtDhbHdy0kSbJEyHuRQJorSdlZNAJgHm3J1O4vfY7Yb0fDEmiWJMoO_ktAyQDFKB1PUFb_GfMPCq3TkqaWRLMbe116wV7fAEERgRGBarGwnXAfT1tn-F0YN2X81NFWQIHmp-b36U0krS9gBJHb7szpbThrzfXHzeQP0mlom4KD-q25SHuiHoeqkU2fTlLiISOaF-Lvep9PyHHK7w0KdVEbGepS7llB1bF4AQCSO3H6naYgpbOjeMY0rDFItnZxn_F_4Atz_4XlYFxoGzHE5rDiiLkBhktNQmNPOrKwNdY0cBjJNRWpOpso7ZAlWEEEeyo9wG7Ip2NqcHeNVVeg3BIBo_I35iFZ24EhhA6VEXeA8pcwY21LtjDEViEb7OlBEuFySQiYyTHP39A75poDmolxa7xAP2PUeEkNx-ofmKoj_EFbi6XbaMOSzWpFyCUpxqPch1xRfF9_JIKi14PvjMyF7mxMENm20qKR1CunyaN29kBPLHEek9qwhvC-da_LVi6Srfk7elH4Kop7scjpwLA6XKqqETGBqRVylIuMmvaMa-fi3pM0aqVBoql7yJKMvfIQJLR8R3uP3hJqIQqYRtrNzgWPOEwULIfYjAEa3ru1DpjPEGLWy_gpuDmetozelfKwvsGhanvNTkCakYcr9sDKimXznWK4omJzrCHpxUi-xdszLYlwhUhXJ_iOOLJUnB8tW2aidu-U3zb5qnARRdF5dakKzzxGEjFAWCnZz_Ik5weNdkxN2IVxxuQ-S6SzRvC_f66ys41KpIKDm7MuN-xBJ-cS-iAT57RppFzaICrYteHieNWqaJzNmYaFzsgWLbti6gEdjl37G0_syngjiRdtGtRnzwrgwVTVtuMVSvRjEuw6HAkZdpROXGqni09zBpaebOaBFnKwKsOh-2gt2s7EN_mIxjf4tYdIzSXJkrZtdwiRkak82jGvq_mw1b5NvcGpeCuis8yKNg1Gmau52xm_Xn2smQftwddfPJ9AFEEePdvoWpnIJbIkswRSQr0R_NEVLXOe9J92xJ0H49PEcXRz1H5BYdd01IWivy2hkQn_TuTRXKsjlMvtvUozDVJqLBOrAI92mJVaOJYsuJTMaE7O84NcyvrUWOZZNqMdlg6q7Zm2m1gMjFlhXWMiJ7RpjBRoPIpPWTAwK1X15OzhjQPAfF09AQRHrQQooupQUrdN6JkuY00R7czpOri54cX1-caTeh2LGc31Yry-_nuApmqZPuwZ1gHZFhJQfILzux7jCkvUuMm1Kp2y1n2zoUGJUYEAyzXoDloQFFYZeOwlewZnmmJKe0VtLHYQJHuQPLf_DHg_iEX2-A1ehKfsD0BnJCmMXraRtH8f5lvBYLtjxenuSw1kGYffVQTk-iEeggw0RKoITAKUKosCiSb1b9QxEiiALpftoJqWV6DU5g5eOvz8Cb9Owr9aqk5-l-N0F8ClbtE85aO8B-tOprtfuNJhLdEwFl8NdilQZVwO4k-95rLzmPt121tw-Pvy5wxjdYiDE7Nc3ManYOXC-3n2WCrU2EWTqUuRLznSYH3ShweR9qythZCiLdHcuRb8lOOtyZTgUJl2uUZxxDVx9X-b1gwYW5M2zqydECBKrY7N",
+            "text": "현재 배송 주소를 확인하기 위해 디지털 지갑을 통한 자격 증명 접근을 말씀드린 것입니다. `x402`는 결제 방식에 가까워 보이며, 현재 단계에서 배송 주소 정보를 가져오는 데 사용할 수 있는 디지털 지갑 목록에는 포함되어 있지 않습니다.\n\n배송 주소를 가져올 디지털 지갑으로 PayPal이나 Google Wallet 같은 서비스를 이용하시겠어요? 아니면 배송 주소를 수동으로 입력하시겠어요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 100,
+        "promptTokenCount": 2953,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2953
+          }
+        ],
+        "thoughtsTokenCount": 1314,
+        "totalTokenCount": 4367
+      },
+      "invocationId": "e-17cef8f7-9c7a-425a-b4d5-01187b0ec875",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "a78ecd22-2056-4358-9194-f29877d142cf",
+      "timestamp": 1775889188.424637
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "google wallet"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-e082d2c4-4829-47d1-957d-3798ccc82e9c",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "16ef0ac1-a8c6-4fd5-8877-623286161297",
+      "timestamp": 1775889205.818095
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "This is where you might have to go through a redirect to prove your identity and allow your credentials provider to share credentials with the AI Agent.\nBut this is a demo, so I will assume you have granted me access to your account, with the login of bugsbunny@gmail.com.\n\nIs that ok?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2714
+          }
+        ],
+        "cachedContentTokenCount": 2714,
+        "candidatesTokenCount": 66,
+        "promptTokenCount": 3057,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3057
+          }
+        ],
+        "totalTokenCount": 3123
+      },
+      "invocationId": "e-e082d2c4-4829-47d1-957d-3798ccc82e9c",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "f02ae4c6-bffe-45f6-80bb-3f50073dd104",
+      "timestamp": 1775889205.821962
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "yeah"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "f2140248-35d6-4858-8328-005ee954223a",
+      "timestamp": 1775889212.407821
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CvMBAb4-9vsdOU8fKDOGYYOIUYcoG8MQ30gVPhOb_dD43CE0F5ge5tZ-QgdFWG3C4WceHELf1UCCY4iMGeZPB1CMVizd_spj3GZ2FI44VTe12jbgIAVfMk_hBTfY5GlxkRmrAgpg93LeTTHlQxJCqnj1KtJenU-yw3l0he42JzQ_e6ZD3DDOJ_0DH8bb3rF65S_GMyHGhKPJYXzebLGjeLpaNqP5Q-crWfvH9pTM6qVM-8fXesW5V77HzxbORvDKnRIDgMCV1DMc9U-PGMN9e9-PsA4JkMKkq1ge7ORubQ4b6IXS_4uu72H9CTAwiRrg3uJlNDSG",
+            "functionCall": {
+              "id": "adk-8839e988-0991-47c6-ab46-0f3c8cb28b15",
+              "args": {
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "get_shipping_address"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 26,
+        "promptTokenCount": 3126,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3126
+          }
+        ],
+        "thoughtsTokenCount": 49,
+        "totalTokenCount": 3201
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "33660f20-c0b2-4dbd-ae61-8826d69fa146",
+      "timestamp": 1775889212.411986
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-8839e988-0991-47c6-ab46-0f3c8cb28b15",
+              "name": "get_shipping_address",
+              "response": {
+                "result": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "c9c3de9d-48f8-495e-ba88-130a2a829d20",
+      "timestamp": 1775889215.6043
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CtIBAb4-9vs6l1NSuX_MM4LcLocyeGPBrmZrpj7D4rxOAqhJ6OEgPaukrEQHhSofUUI5nsAFFuSm6Tjr1J9DxrYwDnVZkLCH0Bjys7otjmWJwaY392ATRS5SUGGaOJk8xgFbG_Bd6h-ZBcIcL-FgBHAxZw3ag_VtanGKfbOxXak8-ETmmdg6lrmNSuyyR0PqhdNemPAFJcZN_xGX85IIwtkr8CbPF482SNp-ZLXKmnErR1VnrOUhCNIXQuh1HoHnVtab_P0ArmU5v2UNLtNci-P-sIG8",
+            "functionCall": {
+              "id": "adk-aee68414-ac5f-49c5-a783-40c31ec22237",
+              "args": {
+                "agent_name": "root_agent"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 21,
+        "promptTokenCount": 3246,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3246
+          }
+        ],
+        "thoughtsTokenCount": 42,
+        "totalTokenCount": 3309
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "af8de455-94f9-4210-9662-8baf653a8e2d",
+      "timestamp": 1775889215.610012
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-aee68414-ac5f-49c5-a783-40c31ec22237",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "root_agent",
+        "requestedAuthConfigs": {}
+      },
+      "id": "787daffa-625b-4aa5-980a-c92c4f0601d9",
+      "timestamp": 1775889216.863495
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "배송 주소:\n"
+          },
+          {
+            "text": "```\nRecipient: Bugs Bunny\nAddress: 123 Main St, Sample City, ST 00000, US\nPhone: +1-000-000-0000\nOrganization: Sample Organization\n"
+          },
+          {
+            "text": "```"
+          },
+          {
+            "functionCall": {
+              "id": "adk-05e72b25-bcd6-4b38-97b9-9adfb06fb629",
+              "args": {
+                "shipping_address": {
+                  "phone_number": "+1-000-000-0000",
+                  "address_line": [
+                    "123 Main St"
+                  ],
+                  "organization": "Sample Organization",
+                  "region": "ST",
+                  "postal_code": "00000",
+                  "country": "US",
+                  "city": "Sample City",
+                  "recipient": "Bugs Bunny"
+                },
+                "debug_mode": false
+              },
+              "name": "update_cart"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 159,
+        "promptTokenCount": 4675,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4675
+          }
+        ],
+        "totalTokenCount": 4834
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "3e5d6cc5-3c89-445d-a4d3-439b23dc5bd0",
+      "timestamp": 1775889216.8665
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-05e72b25-bcd6-4b38-97b9-9adfb06fb629",
+              "name": "update_cart",
+              "response": {
+                "result": {
+                  "contents": {
+                    "id": "cart_1",
+                    "user_cart_confirmation_required": true,
+                    "payment_request": {
+                      "method_data": [
+                        {
+                          "supported_methods": "https://www.x402.org/",
+                          "data": {
+                            "x402Version": 1,
+                            "accepts": [
+                              {
+                                "scheme": "exact",
+                                "network": "base",
+                                "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                                "payTo": "0xMerchantWalletAddress",
+                                "maxAmountRequired": "13990000"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "details": {
+                        "id": "order_1",
+                        "display_items": [
+                          {
+                            "label": "Premium subscription - monthly",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 17.490000000000002
+                            },
+                            "refund_period": 7
+                          },
+                          {
+                            "label": "Shipping",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 2
+                            },
+                            "refund_period": 30
+                          },
+                          {
+                            "label": "Tax",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 1.5
+                            },
+                            "refund_period": 30
+                          }
+                        ],
+                        "total": {
+                          "label": "Total",
+                          "amount": {
+                            "currency": "USD",
+                            "value": 17.490000000000002
+                          },
+                          "refund_period": 30
+                        }
+                      },
+                      "options": {
+                        "request_payer_name": false,
+                        "request_payer_email": false,
+                        "request_payer_phone": false,
+                        "request_shipping": true
+                      },
+                      "shipping_address": {
+                        "city": "Sample City",
+                        "country": "US",
+                        "organization": "Sample Organization",
+                        "phone_number": "+1-000-000-0000",
+                        "postal_code": "00000",
+                        "recipient": "Bugs Bunny",
+                        "region": "ST",
+                        "address_line": [
+                          "123 Main St"
+                        ]
+                      }
+                    },
+                    "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+                    "merchant_name": "Generic Merchant"
+                  },
+                  "merchant_authorization": "eyJhbGciOiJSUzI1NiIsImtpZIwMjQwOTA..."
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "cart_mandate": {
+            "contents": {
+              "id": "cart_1",
+              "user_cart_confirmation_required": true,
+              "payment_request": {
+                "method_data": [
+                  {
+                    "supported_methods": "https://www.x402.org/",
+                    "data": {
+                      "x402Version": 1,
+                      "accepts": [
+                        {
+                          "scheme": "exact",
+                          "network": "base",
+                          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bda02913",
+                          "payTo": "0xMerchantWalletAddress",
+                          "maxAmountRequired": "13990000"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "details": {
+                  "id": "order_1",
+                  "display_items": [
+                    {
+                      "label": "Premium subscription - monthly",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 17.490000000000002
+                      },
+                      "refund_period": 7
+                    },
+                    {
+                      "label": "Shipping",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 2
+                      },
+                      "refund_period": 30
+                    },
+                    {
+                      "label": "Tax",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 1.5
+                      },
+                      "refund_period": 30
+                    }
+                  ],
+                  "total": {
+                    "label": "Total",
+                    "amount": {
+                      "currency": "USD",
+                      "value": 17.490000000000002
+                    },
+                    "refund_period": 30
+                  }
+                },
+                "options": {
+                  "request_payer_name": false,
+                  "request_payer_email": false,
+                  "request_payer_phone": false,
+                  "request_shipping": true
+                },
+                "shipping_address": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                }
+              },
+              "cart_expiry": "2026-04-11T07:01:30.130648+00:00",
+              "merchant_name": "Generic Merchant"
+            },
+            "merchant_authorization": "eyJhbGciOiJSUzI1NiIsImtpZIwMjQwOTA..."
+          },
+          "shipping_address": {
+            "phone_number": "+1-000-000-0000",
+            "address_line": [
+              "123 Main St"
+            ],
+            "organization": "Sample Organization",
+            "region": "ST",
+            "postal_code": "00000",
+            "country": "US",
+            "city": "Sample City",
+            "recipient": "Bugs Bunny"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "6c64164d-ea5d-4649-ac4a-daba34bdac7b",
+      "timestamp": 1775889220.755642
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-35c4cb20-22fb-4402-8e70-d578f24adf44",
+              "args": {
+                "agent_name": "payment_method_collector"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 23,
+        "promptTokenCount": 5370,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5370
+          }
+        ],
+        "totalTokenCount": 5393
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "c2f32391-ddfd-419e-9884-2bea993f1ad6",
+      "timestamp": 1775889220.765324
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-35c4cb20-22fb-4402-8e70-d578f24adf44",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "payment_method_collector",
+        "requestedAuthConfigs": {}
+      },
+      "id": "40a53c95-2e3d-4017-a390-7352cfe0b647",
+      "timestamp": 1775889222.231561
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Cp0HAb4-9vsfNvFKSlotxIqMi6tv5OR8022B7n_dylUOQjVZVFnr6ntMiTMZAqmTxXeneNT0bBrGZAUmzUxwAjbQJhB-dLxnU7_8rBUAppS7VNWsrLOdtiW2AFGbCtYZa3F13DdF7nTHm6xqUDgms-SITh4tlH2P4yhAFRpl98umabwbSca0KGMm-YFhUmSNBLrCVNwRH1tkmsJcNwHB2RMhegHm2sB9bvnc8arqa2dmwZ0nAk73eXj10SzPZh73TbqpyThbnLy0ALr1sIg3QDcNwm18HX0GuscOCDM1nB8KHA3qIiwiQIBoZ5dqQhDz5eMydlso5Wq0uIHPwRfR5gx2rHxhzIcf6Y37CDeOji6-od1tnlOC8woLF61ynxop0fwCraE4HZDeffMMSohNBTJM5dHWQvg-AexrunXCD7e_iqqIaaexKgvKDovcZ4VdnnkPc-8_YsFnQDvayjvrQ4eMOx7bpNTrBD1DEQ12mP_-yN4Cc_1cvtkQ7QOKYLIZaghPDhKE67U6DgeEq4vqZUNtD8j3hK1Oh1ZyRFO6Oexcl_VMjae5N72KXxUDGVCId0a7hfXhZBmDUFwOUfuWW2zYoIY9ljVhvGLIVwhQbsBH5hw3tNKYwAPWo5S4zHDlM-3jPxVTxycsXXvOz-wpJdR9JSRvMYTXwDQk09yy4jMVmDr7OaERgVo8LETHMkB9031-Eiw9L8i6vPyuk8nyH-O9NbhLu8t4iXSfxY1OrTRFyCrTABHPYdTbVxSjxUKIejpFKTozBlCb_UiCMZrFXowddvP_vNEi9bSBp_5Ia7YQckjRKVCbTJMDhQR_VkC9EcRhapFum_MD97SOItEalam-YgbYVQ1jeZbW2YYiN7kyZyJK7aNcV1X7fquVZdaVU10Fm_LLg8mxaWKEHROyvftIeZmBC9ea4a_ab2IA3pg05wEYkwD-6bqHJaFXif5AvZYcbR-9EG72RExEMVdW3c9HlIYXCNnU6wYA4no8F68EynMJX3eW7oYbAgoS5F5jS10PO0s5oIy366miwR8uwhNwvBITHwdhSUqlMo-EuoroSzuxushRO4C43FtHKDhVytocra3gFmNKSF0BL2S5ino5OBE6yrBeHGOAW4uSHHIpYOjV4n9klavPic5rPstM6n24CtRH-VHOmC9IS1D3HFzwBua4a_0IgKAFtvwj8I8WNrQmjN5Z9m8oTcTT07pBu0afcWuyzxfoxrEsghqbiQqnEwG-Pvb7tuxFCXkKtj7c-onmXvYa8qZC8pK3NX27i1KdmwveqPYhkHCTzm2CT7aGWb7q6-EATtsvO0bSz9VT-Z2hj9UdRfKKHm82ZRLqu7d77nEOk1K8kbtsYPCTVPwFiuv_Oqk7aZX6ddtf7W7_uLY_rohYrf04BOkftA8hwhzyCZJhrpVPQLAUcecJvr0xeV9NRVCJYeKHuQor-Ewkmvce73nCKLJyYlBKin7hMxAhLQYn6nJiytscumUgi6MsgPmcFVjQ9BEa-b1DyDcAcCogwKBChQkZMfWTXg05em93OvyEpIZR1ftfISsmX6Z7KpDRu64JjKAITdw8iBf2-d-8nMX8S2VOpwucklkDBhyK18y1fWc6mCOf05Bo3k5TIBA3gGj6nZSoWN4sMPcA5h5U5sv30zkansapOIJgskl0sYVhbTFmr5EzwTWDIJ_MMCPk-zCpfdL_uQfnMhYI4BGaB0E9yMDc4Zn4bg8hHGeEes32WRx43ubiRJMIkqUNZ6l2Y0fCU9qBsYXaibUBMFH__Qz1q2ydaUz_hpuF9KNhNgGM6TwkYoI5wsLsjJMOT5JmjWYAlatvCre1PzwUjnYys5r8acN0kZMH4MFhr-Gv3APGscqnrkb_WUXn9h3YP-wLY6i2ILhPEsTm4lXNaMrrE76tELtIyzMoZpsTUjlCbo5OBdSRTWU3k7vjbLL8dh20Yynvy6SpVY_jeLssCNot6RVHGVqKTVF2X6kSbXkpWqHJaHmPMEYbC3W31sSn5MNmhxj9D9EGdc0XP7aI34AG4l4pyS210Sf12HVecOSLkRm01QQMx4NlATs6xu-ON26tlmHk6ZddG5DvS8Zs7AhnEZ-X7P4hTQokGCkp4c7ue7_JDoiLJXnNzj0evHz-7XXJsQMFeu78vpfKFpgvYrIVMvLA6UbeNaNKygbGbMUOukvB_1Xr9tzhd_EeV0WSMU1P199kvSt7qrMtlIu3fj4hUPZpDkokhMttSf8DHzeNZYtQ1Fj1l2VTUqVU4LTsYZ7rSfBe1csybGoizB9ZkSIWYkwuwpylbqS8909JmfKUcGNbufj-z2EYrme0VClQGrwVOsM3goCUcWwA6VWaFjk2dmn5s4LaDEf-Te-WbUsbHZean1dZTML_Qj5dqdOJD-zhGthE_0xCGPis4szJzzAkhA_8JMVzNEXI-UzKMAvCQIIVO6lehKmTPZbGG-9sf2W8k5ng32fKOGnvtWsxVItszclRJVUiJSiIkUQUaRZrcttAZHAzGlGapYdBQukEMYKFsFFM0uZE2LUTrccWcvgzjoJK-aG5ZHTA6srdpXF_BGRvBsKMkmpvJiVZs_hPl3YL9MTWawc_5fRR0dor-SSPUwn3o5EeoWghrgtJO2Ou8LVN0Hr7POCzwBvzLvlE5XFMiaOxWBKE4F8UfCRP2G3ryEnyb4W_zIM1j7fgmVb23beyD9FcuQXmG5751o-P_5H029gijCz1Prz1NETZHq6Vsumdngcipg-uIgQXVoBURt-35pceoZKLVXA9ZvfT_cxeDqyQ0237QLr3w0mAvGphVJ0QpTzOSfBK5peTe7lZvJxHX3zQT0nTvPNRHxTHj0bDULvKr620QUNlqD_pYLIrohMs8PjcJMNsG2LDHiVEt_SAVMJHxoY26a_OVT3q7fJ4yiPfQcJkm2mLWryi4Mamf67BVJh85sEgErEAG39K2f5qMRY60zNjfZM22JWbSuaVamGXsbUfst-h3Ajb3VhUnwvmq6nltplzIHFoAMbs97vrfRY4OcVY7u4e_QSvfPlv8eFubAVUvbxgUj9vGQXnBOSSvT9zO-OcUSEwsc9hJwNxX1C6NeXzKd1moIWfuulXnLT6gX7xwuryPQCtSUA6JTt1g91dcbhKxUIGk5pQZUPEVaAiAHcrurQl1kHMGvkk18V6Ufxai0bmQ4y8UEiB5AT506mQkOrAjbfwJ0azXwuJcmhy87JcF_lYabZcN65DeOonvKeQ8o9vCItVcYf1LxRHWjolbmg8VhjLkyJ_cShyQtmmwBOpN3f7IanMeCJ3USt3_JTWzTMIRcHA9iUlq7hYudtGDUq7vju5NqCzyb3NtwoWNNg-TQANeLYvBO0IBPbIG4EHQLiLnVvtOYdd92nzT8yFII2b-JwBDmWoeVok1vN2ovwWlpuaRLOqhCCrU28EpSSZDBmoozQAu622oh3FHww2_pBvYHZSnv8B-dBwe0xClHLJUkZ_P1VtID8uNxaG2fKC67NqgS9kVSMgOc0Xbo517hMNYUu3mno5YSLkGmFRSCzntQXiB0iwj2gETwLOboYwK-T6rXGlgFdieyJCLEcml1bgFKkLSxy9MlQ8vQ9nkdCDqA1aEPhrPseHZgD0ED1AtwvyowHo785a1WzqbTGdaliCVcODdXfCR5Szei7zPqbHApH6QPWiM69VDEB_FCYR5Ey_gDDC7VMfVtAReUJ3xaHQw73BJ9NJIzVdljqZRUYY5wd14GAW23QmN8PNGD6mllCaRH_sN6Mg4qWFL28Df-pcmRcb0iVmKmogMTlP5AYz8C_fnKrd6CNq1_y-sbiPJX6wC2JjMqVJP0LxwUrmcAFmFGuFC_l_r45HKA_5KW_BDPLiMuv4FH49-Hxxs8FNWVGexNzdZ20vXyrvD6q15QGIZQBxOHkN7CzAj78E416DA0CHVcYxKO3wDoo84enHK62-2EAeTGomdRKllWkFGdIYHD2-2AOdOei2rgKHZxMJrJxHV3p-gE1hWW4DqNd_vNqswbmlFU-fzTSe6tBIm3Oi3pLcdDXlfP5WG9yUeHRQKm-RZlInq0ICQynrvHxtPZ8bHb7KhM0u_FnfjUn8tzIaGk-1csosRC2tAKVJyapkbSecPR9jMW8j56WTIvN88MITa6aPkDZ8S9_JgCbqCYyWRi4h67bNxO7vv3tmGh0yb0v6WZNVMBOd7Mvgq_cA-f1cFBNQ1jyGtJk3StK7ro5PB4cJDa_9W2W3YaTUOPTPv4a8tpXuFE_U-x_t_Fr450dr-KLwj-qaLt4zWK2umai2fMUWDOMbNu7ka20PbbfEdigBQG0n8D_Kx-ku7vb430kfJsR2Oo5lEHzQotmfQ4A7rydu9VFtb952y3bp_3aHlVY2UXEPHeLoh9mlvVaZiEgM7NalLWVoVxc-xOpYaExoz5YA3mEU5Y0_9g6oL67AoAEd2LHeP9Lap-djWGgDIe--5iJL26k29FXHPHca1M2WiRGKgpt5QLucl8_8_JEnn4PAeJXWIWun0JhnKCAqDcEpm_a8UzaxNY6VZFFOCqYNAb4-9vsdttuHNnAoWXQEQ7SXXIpgK6zOSCDH-U7SMKi3XBXR7Xk__FT8IwAi5V4eJE9qnlgsWuLov5TJIh3qdKpfO7RrGksPmb66IFdOgg5XiH85fKPeFVeA6qunbuSfSmMxvyAIEwcpVf4zI50corKb42AAhQxwc7pL1bwXzuES6zP3PeRdb1KcPnpZAyylIJhayNW2aglf8IkT4iG-zMTKcIIJ4fy1u5bUKGjre-2ZscvPpWQAoMk4qP_YBUvRwDIk1xLG_HrwSQ0MAdmz9rQaKrMO3G6JcmUaSX4rSJ-MGpsDbo7GKWR4rJsoahiJmD53Sy-dQk2f3UUVEc899wBiQzpLjcy-nycq-ezN-OQMCkoAzY0MrV18VZsVGyUVq7w3wAYTqnL4tvBcKwhDR3SeycG9y-WSjcpDGlmB2S0hPBMB0fWv4cw8YGlHw3DPeYgXctqZT8pttBRGr4vXgJGbqdgk-cCMkgR25W9pHlgH7E_uvKoX5H8q9DI0aaggjfOY1bsSdbbuCrMbQFnFRwQ2r14o8IVFovJxijyU2h2NYcoxdRq9ITM9GcPqN-WyOTb1bPomIAU3mPIwDyqIkN2EfsY0c6Q64iZHaMKhouoc4D4SBhdxutVZIKKVSYOUeVeXfj6IaRE8FiwQ9--TAH97X7fbkNJbWNCoJC-lvZ7vmhJHsuK6M5PeVgXz1WNG1R7l6dPfQh9lHSEwY0ZbWQ2b_uf189_aEW57KR3zFeV-iUioCA8yFtE4D7IcGcaRAGkMlTftBpJQE1DWw1C4UnXK637cBwF50Vjiye57rK-JrlG02aUuXpHmmfCrVA93uYJWNthG-Es-fvuCv_3YMGJNj1kNxHvncoNlaYVfD9kR-xehMI2jJ7c1vDJ6_83o7LydxmJ4-iWwch9f0wkcMDmB29DxeScUpAHejNNh0hm3BRoV5QnDvZEfPGUxWjM1rHtjPqlxZTdokPPnaAqxpkSAz5ZyNA-nlCspQANXCLClhQP5ehFy41Hc15too3x9FRNH9Yy5ftDGVYzP3FHnFWXSIANh16P4QBFIx2xERwEs1wwp1hpzKRZT38WP0cxK-uCWY034rxQLlE5He5d5t7i8ixSrNc6Y_ZRBqi3OVNx9SNUFOBwwA4KJQC1PQNRistoJPaRviDZoMUntMKAS8Css0W8wX75NrJz-NKuty45_vgsuMzbzNgP4sO7Cf1vMreZLPUDWKmTejAFASuy4eqsexqFpA_dPfJRG-7nJRw_I8efyAHYjksoaogTnpZoL1sooA1smQ-XXMhAHuyu94GcYrpqPJVNIEnj6OyCsptAwrIH1zttzM4JLb3wwBVHI23-TiJlDo8Ek57GnEgQQ9oUig_YLi8ETbjCAFDCJeST5QmrilWD3ulu0c6p9_-k_5S2HQv79fZMwP-J8Ei2IWyTEMWiFss5pAruXwG4w7hLZwyOlUIxE_tHcMa5jGUzAMfoOn9jgNufWgml8HlV-PEr2rwhuJeP2laEywTL7Fsho8y63A0TfoXGyESFyCehv28LnfG4yFX4f7s0sSkXFFtx81OUFOGr4yFLsv_VliXliqAVyuTs3AD7Ynp9JiR8T8o8XgQnmPctpY_yUvg97D4fIn2rIUcTZn4CbnapQyWZe9z1zGOHLXsdczv_alqdBB8k49gHt7ecr6dOxvsqjkG8TWv4yjNe4GEB6vB3RRT3rntgvlYxm2Nr9H-0a4iWDQdAVOST3bbjS3j8GjyKBwBlmgkEbLJKKUx8NfOLuy7IC3LtHWRuG12PM3YnhfklUNmYXOYxIm6aBDQlXiXM-64s8PAWRkc0ErWg0KxGKocSiD4dpVHd_4B-fDTRgNHnAsvSHsnewhmZSeynPZfOleI3QwcCzK3QZOolv2XkOgsymDronCibp-i_3o26ePnpg9fGrWvTyDIC0oy6o9OKKFqtmFuYxBNPsWdaE92cox0-_qMU3DfR54XET3WnYr95m4-zbsDF35_Ap69CSowV1QnAbpKaJcYUQyyOv552tQTDJeXr52svq41ySmWzavq3FftDES6e2-IiHo4sa-2IiKslmUo2DpfvYR5Hk_QuLKyd78E-lFuvM8-Wzzd0zetoC-kwT8BdiX3rX7WL6OkMtkmFLmH7gnYCXUdt36z-f3P0J_kTFBZhtonnCyjEMfnlrYa96xS3YucSDHo8aHnq18j0-OeSad4GThl4zITIeLoCTeL-Nb-hm_MhLKgnoeXvx4nl8nxW2R9MoV41PpeD59vFQ2x715Q==",
+            "text": "주문 요약:\n\n**주문 요약:**\n*   **판매자:** Generic Merchant\n*   **상품:** Premium subscription - monthly\n*   **가격 세부 정보:**\n    *   배송비: $2.00\n    *   세금: $1.50\n    *   총액: $17.49\n*   **만료일:** 2026년 4월 11일 오전 7시 1분 (UTC)\n*   **환불 기간:** 7일\n\n**배송 주소:**\n*   **수령인:** Bugs Bunny\n*   **주소:** 123 Main St, Sample City, ST 00000, US\n*   **전화번호:** +1-000-000-0000\n*   **기관:** Sample Organization\n"
+          },
+          {
+            "functionCall": {
+              "id": "adk-a91ac366-bc7d-49a7-8c6c-5474727ca134",
+              "args": {
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "get_payment_methods"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 221,
+        "promptTokenCount": 4345,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4345
+          }
+        ],
+        "thoughtsTokenCount": 1593,
+        "totalTokenCount": 6159
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "42985f24-cbaa-4026-9066-23dfb4d435dc",
+      "timestamp": 1775889222.240039
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-a91ac366-bc7d-49a7-8c6c-5474727ca134",
+              "name": "get_payment_methods",
+              "response": {
+                "payment_method_aliases": [
+                  "Bugs's x402 Base USDC Wallet"
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "a2fa2b4d-691c-4779-b370-c509b24057c5",
+      "timestamp": 1775889232.7012
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "다음은 사용 가능한 결제 수단입니다:\n\n1.  Bugs's x402 Base USDC Wallet\n\n어떤 결제 수단을 사용하시겠어요? 1번을 선택하시면 됩니다."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2872
+          }
+        ],
+        "cachedContentTokenCount": 2872,
+        "candidatesTokenCount": 45,
+        "promptTokenCount": 4598,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4598
+          }
+        ],
+        "totalTokenCount": 4643
+      },
+      "invocationId": "e-db4d0169-303f-4df8-927f-46e2de8967d1",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "0e814d58-c075-48a3-9056-892c25658f1d",
+      "timestamp": 1775889232.706418
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "1"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "4acead92-5710-4efd-a28f-173310e98bbe",
+      "timestamp": 1775889237.275892
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-b4c823bb-4ba3-491c-8996-595ada4b4147",
+              "args": {
+                "payment_method_alias": "Bugs's x402 Base USDC Wallet",
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "get_payment_credential_token"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 47,
+        "promptTokenCount": 4646,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4646
+          }
+        ],
+        "totalTokenCount": 4693
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "4a801a21-2296-40ee-bbb9-42d3f60fd3d3",
+      "timestamp": 1775889237.280714
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-b4c823bb-4ba3-491c-8996-595ada4b4147",
+              "name": "get_payment_credential_token",
+              "response": {
+                "status": "success",
+                "token": {
+                  "x402_version": 1,
+                  "scheme": "exact",
+                  "network": "base",
+                  "payload": {
+                    "signature": "0xmocksignature",
+                    "authorization": {
+                      "from_": "0xPayerWalletAddress",
+                      "to": "0xMerchantAddress",
+                      "value": "100",
+                      "valid_after": "0",
+                      "valid_before": "9999999999",
+                      "nonce": "0xrandomnonce"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {
+          "payment_credential_token": {
+            "value": {
+              "x402_version": 1,
+              "scheme": "exact",
+              "network": "base",
+              "payload": {
+                "signature": "0xmocksignature",
+                "authorization": {
+                  "from_": "0xPayerWalletAddress",
+                  "to": "0xMerchantAddress",
+                  "value": "100",
+                  "valid_after": "0",
+                  "valid_before": "9999999999",
+                  "nonce": "0xrandomnonce"
+                }
+              }
+            },
+            "url": "http://localhost:8002/a2a/credentials_provider"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "8c7cd8c8-f13e-4e76-9907-3d8054d315e6",
+      "timestamp": 1775889240.751011
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-defd6345-e54a-404c-9ea7-bef015cb50f0",
+              "args": {
+                "agent_name": "root_agent"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3795
+          }
+        ],
+        "cachedContentTokenCount": 3795,
+        "candidatesTokenCount": 21,
+        "promptTokenCount": 4816,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4816
+          }
+        ],
+        "totalTokenCount": 4837
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "df695a25-f8d3-493b-807e-241e73f10e4e",
+      "timestamp": 1775889240.759161
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-defd6345-e54a-404c-9ea7-bef015cb50f0",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "root_agent",
+        "requestedAuthConfigs": {}
+      },
+      "id": "7fdd56d1-35d3-47c2-bb46-c45832eefde1",
+      "timestamp": 1775889242.122421
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "This is where you would be redirected to a trusted surface to confirm the purchase.\nBut this is a demo, so you can confirm your purchase here."
+          },
+          {
+            "functionCall": {
+              "id": "adk-c96d7c68-d46a-44b2-be06-eaa21163c333",
+              "args": {
+                "payment_method_alias": "Bugs's x402 Base USDC Wallet",
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "create_payment_mandate"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 77,
+        "promptTokenCount": 6007,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6007
+          }
+        ],
+        "totalTokenCount": 6084
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "ade40af6-1af4-4345-9f0a-37d51849599e",
+      "timestamp": 1775889242.142541
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-c96d7c68-d46a-44b2-be06-eaa21163c333",
+              "name": "create_payment_mandate",
+              "response": {
+                "result": {
+                  "payment_mandate_contents": {
+                    "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+                    "payment_details_id": "order_1",
+                    "payment_details_total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 17.490000000000002
+                      },
+                      "refund_period": 30
+                    },
+                    "payment_response": {
+                      "request_id": "order_1",
+                      "method_name": "https://www.x402.org/",
+                      "details": {
+                        "value": {
+                          "x402_version": 1,
+                          "scheme": "exact",
+                          "network": "base",
+                          "payload": {
+                            "signature": "0xmocksignature",
+                            "authorization": {
+                              "from_": "0xPayerWalletAddress",
+                              "to": "0xMerchantAddress",
+                              "value": "100",
+                              "valid_after": "0",
+                              "valid_before": "9999999999",
+                              "nonce": "0xrandomnonce"
+                            }
+                          }
+                        },
+                        "url": "http://localhost:8002/a2a/credentials_provider"
+                      },
+                      "shipping_address": {
+                        "city": "Sample City",
+                        "country": "US",
+                        "organization": "Sample Organization",
+                        "phone_number": "+1-000-000-0000",
+                        "postal_code": "00000",
+                        "recipient": "Bugs Bunny",
+                        "region": "ST",
+                        "address_line": [
+                          "123 Main St"
+                        ]
+                      },
+                      "payer_email": "bugsbunny@gmail.com"
+                    },
+                    "merchant_agent": "Generic Merchant",
+                    "timestamp": "2026-04-11T06:34:04.181154+00:00"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "payment_mandate": {
+            "payment_mandate_contents": {
+              "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+              "payment_details_id": "order_1",
+              "payment_details_total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "USD",
+                  "value": 17.490000000000002
+                },
+                "refund_period": 30
+              },
+              "payment_response": {
+                "request_id": "order_1",
+                "method_name": "https://www.x402.org/",
+                "details": {
+                  "value": {
+                    "x402_version": 1,
+                    "scheme": "exact",
+                    "network": "base",
+                    "payload": {
+                      "signature": "0xmocksignature",
+                      "authorization": {
+                        "from_": "0xPayerWalletAddress",
+                        "to": "0xMerchantAddress",
+                        "value": "100",
+                        "valid_after": "0",
+                        "valid_before": "9999999999",
+                        "nonce": "0xrandomnonce"
+                      }
+                    }
+                  },
+                  "url": "http://localhost:8002/a2a/credentials_provider"
+                },
+                "shipping_address": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                },
+                "payer_email": "bugsbunny@gmail.com"
+              },
+              "merchant_agent": "Generic Merchant",
+              "timestamp": "2026-04-11T06:34:04.181154+00:00"
+            }
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "363bb603-d268-45e2-932f-d7938817a402",
+      "timestamp": 1775889244.181314
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "## 최종 결제 내역\n\n### 카트 내용\n*   **상품:** Premium subscription - monthly\n*   **가격:** $13.99\n*   **배송비:** $2.00\n*   **세금:** $1.50\n*   **총액:** $17.49\n*   **카트 유효 기간:** 2026년 4월 11일 오전 7시 1분 30초 UTC (약 1일 남음)\n*   **환불 가능 기간:** 30일\n\n### 배송 주소\n*   **수령인:** Bugs Bunny\n*   **주소:** 123 Main St, Sample City, ST 00000, US\n*   **전화번호:** +1-000-000-0000\n*   **기관:** Sample Organization\n\n### 결제 수단\n*   Bugs's x402 Base USDC Wallet\n\n위에 명시된 상품을 선택하신 결제 수단으로 구매하시겠어요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5752
+          }
+        ],
+        "cachedContentTokenCount": 5752,
+        "candidatesTokenCount": 239,
+        "promptTokenCount": 6519,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6519
+          }
+        ],
+        "totalTokenCount": 6758
+      },
+      "invocationId": "e-ac92cbbe-26e8-42f0-8436-2068565737f9",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "3670abee-c7ca-4751-88e6-40748ac33b0c",
+      "timestamp": 1775889244.193848
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "yes"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "bbfd672b-6ff6-4f41-9308-4bf9f00a04a4",
+      "timestamp": 1775889252.604206
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-81acb7bf-43b7-4beb-ba7a-407c47b95c5d",
+              "args": {},
+              "name": "sign_mandates_on_user_device"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5758
+          }
+        ],
+        "cachedContentTokenCount": 5758,
+        "candidatesTokenCount": 17,
+        "promptTokenCount": 6761,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6761
+          }
+        ],
+        "totalTokenCount": 6778
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "a78c1420-52b3-4e6b-88d8-6489dc7a13e5",
+      "timestamp": 1775889252.609465
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-81acb7bf-43b7-4beb-ba7a-407c47b95c5d",
+              "name": "sign_mandates_on_user_device",
+              "response": {
+                "result": "fake_cart_mandate_hash_cart_1_fake_payment_mandate_hash_402d16a9868344749ec609fb5dd025f4"
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "signed_payment_mandate": {
+            "payment_mandate_contents": {
+              "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+              "payment_details_id": "order_1",
+              "payment_details_total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "USD",
+                  "value": 17.490000000000002
+                },
+                "refund_period": 30
+              },
+              "payment_response": {
+                "request_id": "order_1",
+                "method_name": "https://www.x402.org/",
+                "details": {
+                  "value": {
+                    "x402_version": 1,
+                    "scheme": "exact",
+                    "network": "base",
+                    "payload": {
+                      "signature": "0xmocksignature",
+                      "authorization": {
+                        "from_": "0xPayerWalletAddress",
+                        "to": "0xMerchantAddress",
+                        "value": "100",
+                        "valid_after": "0",
+                        "valid_before": "9999999999",
+                        "nonce": "0xrandomnonce"
+                      }
+                    }
+                  },
+                  "url": "http://localhost:8002/a2a/credentials_provider"
+                },
+                "shipping_address": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                },
+                "payer_email": "bugsbunny@gmail.com"
+              },
+              "merchant_agent": "Generic Merchant",
+              "timestamp": "2026-04-11T06:34:04.181154+00:00"
+            },
+            "user_authorization": "fake_cart_mandate_hash_cart_1_fake_payment_mandate_hash_402d16a9868344749ec609fb5dd025f4"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "3e9d1585-809f-428c-a134-7a38e0494609",
+      "timestamp": 1775889254.056873
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-b8eb75c5-7ca4-40d8-8ed0-9427a2f2e465",
+              "args": {
+                "debug_mode": false
+              },
+              "name": "send_signed_payment_mandate_to_credentials_provider"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5757
+          }
+        ],
+        "cachedContentTokenCount": 5757,
+        "candidatesTokenCount": 27,
+        "promptTokenCount": 6908,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6908
+          }
+        ],
+        "totalTokenCount": 6935
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "555fb0b6-0b04-428a-b037-8a106662427f",
+      "timestamp": 1775889254.070349
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-b8eb75c5-7ca4-40d8-8ed0-9427a2f2e465",
+              "name": "send_signed_payment_mandate_to_credentials_provider",
+              "response": {
+                "result": {
+                  "contextId": "55f0ad83-3724-4952-ac8d-b1386dc8a3aa",
+                  "history": [
+                    {
+                      "contextId": "55f0ad83-3724-4952-ac8d-b1386dc8a3aa",
+                      "kind": "message",
+                      "messageId": "f7903f957e744a2a90cc7a705f43386d",
+                      "parts": [
+                        {
+                          "kind": "text",
+                          "text": "This is the signed payment mandate"
+                        },
+                        {
+                          "data": {
+                            "ap2.mandates.PaymentMandate": {
+                              "payment_mandate_contents": {
+                                "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+                                "payment_details_id": "order_1",
+                                "payment_details_total": {
+                                  "label": "Total",
+                                  "amount": {
+                                    "currency": "USD",
+                                    "value": 17.490000000000002
+                                  },
+                                  "refund_period": 30
+                                },
+                                "payment_response": {
+                                  "request_id": "order_1",
+                                  "method_name": "https://www.x402.org/",
+                                  "details": {
+                                    "value": {
+                                      "x402_version": 1,
+                                      "scheme": "exact",
+                                      "network": "base",
+                                      "payload": {
+                                        "signature": "0xmocksignature",
+                                        "authorization": {
+                                          "from_": "0xPayerWalletAddress",
+                                          "to": "0xMerchantAddress",
+                                          "value": "100",
+                                          "valid_after": "0",
+                                          "valid_before": "9999999999",
+                                          "nonce": "0xrandomnonce"
+                                        }
+                                      }
+                                    },
+                                    "url": "http://localhost:8002/a2a/credentials_provider"
+                                  },
+                                  "shipping_address": {
+                                    "city": "Sample City",
+                                    "country": "US",
+                                    "organization": "Sample Organization",
+                                    "phone_number": "+1-000-000-0000",
+                                    "postal_code": "00000",
+                                    "recipient": "Bugs Bunny",
+                                    "region": "ST",
+                                    "address_line": [
+                                      "123 Main St"
+                                    ]
+                                  },
+                                  "payer_email": "bugsbunny@gmail.com"
+                                },
+                                "merchant_agent": "Generic Merchant",
+                                "timestamp": "2026-04-11T06:34:04.181154+00:00"
+                              },
+                              "user_authorization": "fake_cart_mandate_hash_cart_1_fake_payment_mandate_hash_402d16a9868344749ec609fb5dd025f4"
+                            }
+                          },
+                          "kind": "data"
+                        },
+                        {
+                          "data": {
+                            "risk_data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...fake_risk_data"
+                          },
+                          "kind": "data"
+                        }
+                      ],
+                      "role": "agent",
+                      "taskId": "957c493d-77cd-4b92-be88-0e7b087ccaef"
+                    }
+                  ],
+                  "id": "957c493d-77cd-4b92-be88-0e7b087ccaef",
+                  "kind": "task",
+                  "status": {
+                    "state": "completed",
+                    "timestamp": "2026-04-11T06:34:16.933607+00:00"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "69826c00-b7fa-4200-9ccb-bdc19f387109",
+      "timestamp": 1775889256.93889
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqkCAb4-9vuvKFPuRQAzEtmWw_SffOhWsVF9jBd_Rje5hK_TYKI20jA1AcgSjFJPkM41sNs3GlZpQ-kAvQHhSa387onmFptWDeuS4uxGGTosGSdZuI-i-FJoQrxYFmGBw2mE_luOVvdiAq9CWWHU0l1ep6obsZa44ZsDAmK7DiaOJa_EPYkiShWvk_zcdOORQJA21iC0_ktqeA-LFPC0Hv-ycTPVgvoKccO8SrXw1vyaEoPEERhAkrqDE-GLReG9EHW76jlFKZq_ey1XxFyJ7ZES13M-k5B5aQndBCT6MDQXUylsoA7HaKc0uKi_WAe23R__3-EmwXBWBLt4SyjJPJLKqcfx2rYpZUg89f1H24joxVvev5OkynPn1l_gbXmS6j-tgzRi5xGT42oS",
+            "functionCall": {
+              "id": "adk-b38c76be-c19a-4d86-ba29-4ac030f984bd",
+              "args": {
+                "debug_mode": false
+              },
+              "name": "initiate_payment"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6754
+          }
+        ],
+        "cachedContentTokenCount": 6754,
+        "candidatesTokenCount": 17,
+        "promptTokenCount": 7775,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7775
+          }
+        ],
+        "thoughtsTokenCount": 69,
+        "totalTokenCount": 7861
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "fb58f970-fe8c-4188-baf3-77c5c4a1a11b",
+      "timestamp": 1775889256.949393
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-b38c76be-c19a-4d86-ba29-4ac030f984bd",
+              "name": "initiate_payment",
+              "response": {
+                "result": {
+                  "message": {
+                    "contextId": "55f0ad83-3724-4952-ac8d-b1386dc8a3aa",
+                    "kind": "message",
+                    "messageId": "de630644-3085-44b9-a1f1-cd494c715c7f",
+                    "parts": [
+                      {
+                        "kind": "text",
+                        "text": "Please provide the challenge response to complete the payment."
+                      },
+                      {
+                        "data": {
+                          "challenge": {
+                            "type": "otp",
+                            "display_text": "The payment method issuer sent a verification code to the phone number on file, please enter it below. It will be shared with the issuer so they can authorize the transaction.(Demo only hint: the code is 123)"
+                          }
+                        },
+                        "kind": "data"
+                      }
+                    ],
+                    "role": "agent",
+                    "taskId": "9579bca7-790d-43c8-af52-00fa11b077e3"
+                  },
+                  "state": "input-required",
+                  "timestamp": "2026-04-11T06:34:22.477092+00:00"
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "initiate_payment_task_id": "36a4538c-aa78-4944-83bd-88cda93ad8ef"
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "b2f43f01-c999-49b6-9145-c6c638b480f0",
+      "timestamp": 1775889262.480007
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The payment method issuer sent a verification code to the phone number on file, please enter it below. It will be shared with the issuer so they can authorize the transaction.(Demo only hint: the code is 123)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7659
+          }
+        ],
+        "cachedContentTokenCount": 7659,
+        "candidatesTokenCount": 46,
+        "promptTokenCount": 8077,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8077
+          }
+        ],
+        "totalTokenCount": 8123
+      },
+      "invocationId": "e-2c636c3b-065f-4f5b-82ed-18813ee4ca35",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "baeb4eb8-42ce-43cc-9276-ecebae55bee6",
+      "timestamp": 1775889262.488697
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "123"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ca679100-14f3-4f65-9fa8-07263eb6ec6b",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "eea163ee-b1d3-4e3b-80a6-e09668e0ef13",
+      "timestamp": 1775889267.550645
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqgDAb4-9vuItRe02iajoMl3bg03XJQDvBHdCcY7fotchlOaIr5Ator2__kSvI4FGwSHrUKywYAGgeOPD4MDci68YuQ3jsFh21eFwzY3Y0ahuhIB9WiKsbqyiYBxpsUDHBS5OduyIGNdRWlfeVFqn87wi6AklZ4rtPtXijgOCNl1879yzAZofrnMx8vIMsYnz0EH7YkGTVXyvp9OkuWfAL37sA6Fmh0sPLFMyHWefXRDjBJAxMCXJIe2JCDkaYgUpt8r01DiIjSclQDUBmwXxyGrZ1F5eh7kL8NPm-ETI3xRSUGrQDuxxeWb9LhuqFtb1j8FSSjkcM8SwOxiLOq7WgkUy5uDlr5de-EPlt5oCND30ayTnRKUk7vXikzY8ukRPPfxzda0HS2EZ2nr_41wBdLShHbdZdo_U08T4i9OuhHxQANiMdKJGykUe4Wrszk4b5voRtzUY8AUFVwJuQg0osS7EFXc8JlKLixhfbPX4gwDABnAMpiTDgx8-K_ojGSA4Gcxc1JFbC9HQQBC0FXcg_iU9DeR8KnxRp3si2k5VtwaQw0h1M9vJyaBEw==",
+            "functionCall": {
+              "id": "adk-f9751ec2-d441-44a8-a071-18ef29894a96",
+              "args": {
+                "debug_mode": false,
+                "challenge_response": "123"
+              },
+              "name": "initiate_payment_with_otp"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5788
+          }
+        ],
+        "cachedContentTokenCount": 5788,
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 8070,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8070
+          }
+        ],
+        "thoughtsTokenCount": 92,
+        "totalTokenCount": 8192
+      },
+      "invocationId": "e-ca679100-14f3-4f65-9fa8-07263eb6ec6b",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "4a15407a-8c5d-41f8-a18a-6f05fcfd4b4c",
+      "timestamp": 1775889267.555842
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-f9751ec2-d441-44a8-a071-18ef29894a96",
+              "name": "initiate_payment_with_otp",
+              "response": {
+                "result": {
+                  "message": {
+                    "contextId": "55f0ad83-3724-4952-ac8d-b1386dc8a3aa",
+                    "kind": "message",
+                    "messageId": "94bf3466-9994-47b1-8bc0-ce759313dfc8",
+                    "parts": [
+                      {
+                        "kind": "text",
+                        "text": "{'status': 'success'}"
+                      }
+                    ],
+                    "role": "agent",
+                    "taskId": "9579bca7-790d-43c8-af52-00fa11b077e3"
+                  },
+                  "state": "completed",
+                  "timestamp": "2026-04-11T06:34:32.502049+00:00"
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ca679100-14f3-4f65-9fa8-07263eb6ec6b",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "payment_receipt": {
+            "payment_mandate_id": "402d16a9868344749ec609fb5dd025f4",
+            "timestamp": "2026-04-11T06:34:32.497546+00:00",
+            "payment_id": "c0532b2832de48dfb64bd23173bd9b40",
+            "amount": {
+              "currency": "USD",
+              "value": 17.490000000000002
+            },
+            "payment_status": {
+              "merchant_confirmation_id": "c0532b2832de48dfb64bd23173bd9b40",
+              "psp_confirmation_id": "c0532b2832de48dfb64bd23173bd9b40"
+            },
+            "payment_method_details": {
+              "method_name": "https://www.x402.org/"
+            }
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "140886e0-ee1a-46ba-8e84-ac33c70987aa",
+      "timestamp": 1775889272.504392
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "## Payment Receipt\n\n*   **상품:** Premium subscription - monthly\n*   **가격:** $13.99\n*   **배송비:** $2.00\n*   **세금:** $1.50\n*   **총액:** $17.49\n\n### 배송 주소\n*   **수령인:** Bugs Bunny\n*   **주소:** 123 Main St, Sample City, ST 00000, US\n*   **전화번호:** +1-000-000-0000\n*   **기관:** Sample Organization\n\n### 결제 수단\n*   Bugs's x402 Base USDC Wallet"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7637
+          }
+        ],
+        "cachedContentTokenCount": 7637,
+        "candidatesTokenCount": 156,
+        "promptTokenCount": 8312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8312
+          }
+        ],
+        "totalTokenCount": 8468
+      },
+      "invocationId": "e-ca679100-14f3-4f65-9fa8-07263eb6ec6b",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "eb67797b-944f-44c6-b3ff-35d8588dbdaf",
+      "timestamp": 1775889272.510708
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "thanks"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-e17b6957-2a07-434d-8d52-ebeefa47f779",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "2c3049d3-7a61-4b83-b9c9-ef8d7e74adbd",
+      "timestamp": 1775889282.167152
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Cq4CAb4-9vt6HxQo7knmbunNuv6ffYYn2Tg7biB1B9op8Aroip_GloAKlD0SRdmi0k41PcQziOVhqxIhghR62vGZbVVpSqEwlsqVoOeJGV6L2p8mRP8SYRKMFxKOob65-WPF1AOTkIHKiZCEUklvEaKQMPGmpNY1kX7w85la1WtuYfvxXFUjEEbEG3_avhgHI3LZF7eP4eXBBgO0X2yhvg9cHRxGKreW-dcsRA5VleeKopVJNVgm45S-Q9lPmPb6KGU6fM9MW-KPWGpX657xlc7UB36chZwO09ODA0FoNEZlX_6_JIhWE54DF_GxzC0ELCfEjJc5ZZjEDe16w7tV0sNxB8DXtxFF9pahZXrjg_vVtQF33NnTc7_p4MUkNilnTs5VbKUNjbaxx09qcuRgPXM=",
+            "text": "천만에요! 더 궁금한 점이나 필요한 것이 있으시면 언제든지 말씀해주세요."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7721
+          }
+        ],
+        "cachedContentTokenCount": 7721,
+        "candidatesTokenCount": 18,
+        "promptTokenCount": 8471,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8471
+          }
+        ],
+        "thoughtsTokenCount": 47,
+        "totalTokenCount": 8536
+      },
+      "invocationId": "e-e17b6957-2a07-434d-8d52-ebeefa47f779",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "ee239bcf-d43f-45b6-9da4-d6ac24d8432d",
+      "timestamp": 1775889282.173654
+    }
+  ],
+  "lastUpdateTime": 1775889282.173654
+}

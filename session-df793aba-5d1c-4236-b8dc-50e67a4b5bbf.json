@@ -1,0 +1,3141 @@
+{
+  "id": "df793aba-5d1c-4236-b8dc-50e67a4b5bbf",
+  "appName": "shopping_agent",
+  "userId": "user",
+  "state": {
+    "intent_mandate": {
+      "user_cart_confirmation_required": true,
+      "natural_language_description": "capsule coffee machine",
+      "merchants": [],
+      "skus": [],
+      "requires_refundability": false,
+      "intent_expiry": "2026-04-12T06:22:49.530197+00:00"
+    },
+    "risk_data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...fake_risk_data",
+    "shopping_context_id": "7e599330-1b93-4768-94cf-e3727d5926b2",
+    "cart_mandates": [
+      {
+        "contents": {
+          "id": "cart_1",
+          "user_cart_confirmation_required": true,
+          "payment_request": {
+            "method_data": [
+              {
+                "supported_methods": "CARD",
+                "data": {
+                  "network": [
+                    "mastercard",
+                    "paypal",
+                    "amex"
+                  ]
+                }
+              }
+            ],
+            "details": {
+              "id": "order_1",
+              "display_items": [
+                {
+                  "label": "Capsule Coffee Machine - Standard",
+                  "amount": {
+                    "currency": "USD",
+                    "value": 89.99
+                  },
+                  "pending": false,
+                  "refund_period": 30
+                }
+              ],
+              "total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "USD",
+                  "value": 89.99
+                },
+                "refund_period": 30
+              }
+            },
+            "options": {
+              "request_payer_name": false,
+              "request_payer_email": false,
+              "request_payer_phone": false,
+              "request_shipping": true
+            }
+          },
+          "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+          "merchant_name": "Generic Merchant"
+        }
+      },
+      {
+        "contents": {
+          "id": "cart_2",
+          "user_cart_confirmation_required": true,
+          "payment_request": {
+            "method_data": [
+              {
+                "supported_methods": "CARD",
+                "data": {
+                  "network": [
+                    "mastercard",
+                    "paypal",
+                    "amex"
+                  ]
+                }
+              }
+            ],
+            "details": {
+              "id": "order_2",
+              "display_items": [
+                {
+                  "label": "Capsule Coffee Machine - Premium Model",
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 149.5
+                  },
+                  "refund_period": 60
+                }
+              ],
+              "total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "EUR",
+                  "value": 149.5
+                },
+                "refund_period": 30
+              }
+            },
+            "options": {
+              "request_payer_name": false,
+              "request_payer_email": false,
+              "request_payer_phone": false,
+              "request_shipping": true
+            }
+          },
+          "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+          "merchant_name": "Generic Merchant"
+        }
+      },
+      {
+        "contents": {
+          "id": "cart_3",
+          "user_cart_confirmation_required": true,
+          "payment_request": {
+            "method_data": [
+              {
+                "supported_methods": "CARD",
+                "data": {
+                  "network": [
+                    "mastercard",
+                    "paypal",
+                    "amex"
+                  ]
+                }
+              }
+            ],
+            "details": {
+              "id": "order_3",
+              "display_items": [
+                {
+                  "label": "Capsule Coffee Machine - Compact",
+                  "amount": {
+                    "currency": "GBP",
+                    "value": 65
+                  },
+                  "pending": true,
+                  "refund_period": 14
+                }
+              ],
+              "total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "GBP",
+                  "value": 65
+                },
+                "refund_period": 30
+              }
+            },
+            "options": {
+              "request_payer_name": false,
+              "request_payer_email": false,
+              "request_payer_phone": false,
+              "request_shipping": true
+            }
+          },
+          "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+          "merchant_name": "Generic Merchant"
+        }
+      }
+    ],
+    "chosen_cart_id": "cart_3",
+    "cart_mandate": {
+      "contents": {
+        "id": "cart_3",
+        "user_cart_confirmation_required": true,
+        "payment_request": {
+          "method_data": [
+            {
+              "supported_methods": "CARD",
+              "data": {
+                "network": [
+                  "mastercard",
+                  "paypal",
+                  "amex"
+                ]
+              }
+            }
+          ],
+          "details": {
+            "id": "order_3",
+            "display_items": [
+              {
+                "label": "Capsule Coffee Machine - Compact",
+                "amount": {
+                  "currency": "GBP",
+                  "value": 68.5
+                },
+                "pending": true,
+                "refund_period": 14
+              },
+              {
+                "label": "Shipping",
+                "amount": {
+                  "currency": "USD",
+                  "value": 2
+                },
+                "refund_period": 30
+              },
+              {
+                "label": "Tax",
+                "amount": {
+                  "currency": "USD",
+                  "value": 1.5
+                },
+                "refund_period": 30
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "amount": {
+                "currency": "GBP",
+                "value": 68.5
+              },
+              "refund_period": 30
+            }
+          },
+          "options": {
+            "request_payer_name": false,
+            "request_payer_email": false,
+            "request_payer_phone": false,
+            "request_shipping": true
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "country": "US",
+            "organization": "Sample Organization",
+            "phone_number": "+1-000-000-0000",
+            "postal_code": "00000",
+            "recipient": "Bugs Bunny",
+            "region": "ST",
+            "address_line": [
+              "123 Main St"
+            ]
+          }
+        },
+        "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+        "merchant_name": "Generic Merchant"
+      },
+      "merchant_authorization": "eyJhbGciOiJSUzI1NiIsImtpZIwMjQwOTA..."
+    },
+    "shipping_address": {
+      "city": "Sample City",
+      "region": "ST",
+      "postal_code": "00000",
+      "address_line": [
+        "123 Main St"
+      ],
+      "country": "US",
+      "organization": "Sample Organization",
+      "recipient": "Bugs Bunny",
+      "phone_number": "+1-000-000-0000"
+    },
+    "payment_credential_token": {
+      "value": "fake_payment_credential_token_0",
+      "url": "http://localhost:8002/a2a/credentials_provider"
+    },
+    "payment_mandate": {
+      "payment_mandate_contents": {
+        "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+        "payment_details_id": "order_3",
+        "payment_details_total": {
+          "label": "Total",
+          "amount": {
+            "currency": "GBP",
+            "value": 68.5
+          },
+          "refund_period": 30
+        },
+        "payment_response": {
+          "request_id": "order_3",
+          "method_name": "CARD",
+          "details": {
+            "token": {
+              "value": "fake_payment_credential_token_0",
+              "url": "http://localhost:8002/a2a/credentials_provider"
+            }
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "country": "US",
+            "organization": "Sample Organization",
+            "phone_number": "+1-000-000-0000",
+            "postal_code": "00000",
+            "recipient": "Bugs Bunny",
+            "region": "ST",
+            "address_line": [
+              "123 Main St"
+            ]
+          },
+          "payer_email": "bugsbunny@gmail.com"
+        },
+        "merchant_agent": "Generic Merchant",
+        "timestamp": "2026-04-11T06:24:54.906190+00:00"
+      }
+    },
+    "signed_payment_mandate": {
+      "payment_mandate_contents": {
+        "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+        "payment_details_id": "order_3",
+        "payment_details_total": {
+          "label": "Total",
+          "amount": {
+            "currency": "GBP",
+            "value": 68.5
+          },
+          "refund_period": 30
+        },
+        "payment_response": {
+          "request_id": "order_3",
+          "method_name": "CARD",
+          "details": {
+            "token": {
+              "value": "fake_payment_credential_token_0",
+              "url": "http://localhost:8002/a2a/credentials_provider"
+            }
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "country": "US",
+            "organization": "Sample Organization",
+            "phone_number": "+1-000-000-0000",
+            "postal_code": "00000",
+            "recipient": "Bugs Bunny",
+            "region": "ST",
+            "address_line": [
+              "123 Main St"
+            ]
+          },
+          "payer_email": "bugsbunny@gmail.com"
+        },
+        "merchant_agent": "Generic Merchant",
+        "timestamp": "2026-04-11T06:24:54.906190+00:00"
+      },
+      "user_authorization": "fake_cart_mandate_hash_cart_3_fake_payment_mandate_hash_f212c3375d47471b8e53d99c41bc5929"
+    },
+    "initiate_payment_task_id": "69ce9965-bca7-49a7-bfc3-27a55722cbfe",
+    "payment_receipt": {
+      "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+      "timestamp": "2026-04-11T06:25:28.217892+00:00",
+      "payment_id": "b683d5ee1e85403bab4e6b316df1d1d7",
+      "amount": {
+        "currency": "GBP",
+        "value": 68.5
+      },
+      "payment_status": {
+        "merchant_confirmation_id": "b683d5ee1e85403bab4e6b316df1d1d7",
+        "psp_confirmation_id": "b683d5ee1e85403bab4e6b316df1d1d7"
+      },
+      "payment_method_details": {
+        "method_name": "CARD"
+      }
+    }
+  },
+  "events": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "커피 메이커 사고 싶어"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-665da740-d7a9-4b63-abdd-c13346284dcc",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "8bfe21e2-21d5-4103-89db-ea04a09c7ed0",
+      "timestamp": 1775888451.072263
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Co8EAb4-9vsJgUtkpjwLXse3g1yE_sqB0IAq9q9wDl5eq65Pz9zJT-02aJWHRZaUXg0LXVR0i1MJRAG-C5Pve48diYiRtPL5jpU40vGxR3SmdetrKTlMP4rZTxHEhpMu_hsYwWL7QAyWF3ZtWVYROcBAw9DnS-XrZKmXRK9JwdYIbecpIcf-JANUtDjVxJ5pE3N6ClUCaIVK3f4CKT-fC41f9zZQ-ZBKtvQxe8vbTwpDkTfsM7L89Vl89S5VqOkp5v9lJ1dihkdTxRk2dAnA9VGvtfk2XeNXQHuhi7td3xRkARxBltsEUTGaLaLLnjFo1v9oA7-ikSW51FwOcqvxsKitDAVXHefkcMqX7z9Y2AcL9NmqNWL8aVm2bqeZnyGYpgwB5_33bHJ5qSbNi1GnUzjAjeUSWc6AeKWdC0Ckec4yXA_3NLZtMh_h4QoXsQlPwvWWiXxu1vx5qz88N6kzz5-b0vXD11AiC2xZeJNkwc4QV8mWnKJpetGvsI33UWTCJ8WO5W1Drrg_6WDs2nPHEuUP-78Ery4oTWHaNruYA4kISsz8JwZhTmeYMjD5IKwgrFvgPOQtvSecRSmc5SZFEMOLp03vjZSE97Gr6AeWeX7sgCxIiyl8y4CwrAYsN2zyDtEL61lYcZLL01LmR0PJUKX0ICu6gZRcrk6ti9A-0wdiWrXuiTMZwr8B3o0bOGlU1UA=",
+            "functionCall": {
+              "id": "adk-c5b20c58-2f00-47ee-a38d-8f6b0860faf2",
+              "args": {
+                "agent_name": "shopper"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 20,
+        "promptTokenCount": 2359,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2359
+          }
+        ],
+        "thoughtsTokenCount": 110,
+        "totalTokenCount": 2489
+      },
+      "invocationId": "e-665da740-d7a9-4b63-abdd-c13346284dcc",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "ce5e0776-2ac8-4694-8184-1a9e3715deae",
+      "timestamp": 1775888451.073966
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-c5b20c58-2f00-47ee-a38d-8f6b0860faf2",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-665da740-d7a9-4b63-abdd-c13346284dcc",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "shopper",
+        "requestedAuthConfigs": {}
+      },
+      "id": "d1db0910-bbd0-4093-a76c-29a9df602dee",
+      "timestamp": 1775888452.99913
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqkCAb4-9vt_hL2xhXu3G9apLE8cqBu_yPbZsOVjgCc1kMEEUJmojjWocqpvl6_q49wkdRcZPu2mUu5hNoE4VXjCnuv8GTM_yLgNF7oJjm2lUk_rnkjPiccryoHUzLakJybSGUwLbCU9RggbeCkMwO1I2_v21HfIywR30hsJfVE6oRtZygE7hlU1Dwx9eC6qVTRbsEWOzXOZM8knChrFoC48y9FkK0hmfVIMvjP_tL_ILAN0Pt4nZJQ20K3WIOoskDQEqH7vbtvtpVIlkWbXObTSI3G3iYsbykSMgeoLzpI1fyfw2skmHzf_Nr_K7kLIbLu9hsRdoSJubUWmO4QnevlFgroOeVNs7RUUyZGZO8DP7UezNxXKpiSEIUzkbnd0Ls09OWendYO01UXq",
+            "text": "커피 메이커를 구매하고 싶으시군요! 어떤 종류의 커피 메이커를 찾고 계신가요? (예: 드립 커피 메이커, 에스프레소 머신, 캡슐 커피 머신 등)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 54,
+        "promptTokenCount": 1890,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1890
+          }
+        ],
+        "thoughtsTokenCount": 55,
+        "totalTokenCount": 1999
+      },
+      "invocationId": "e-665da740-d7a9-4b63-abdd-c13346284dcc",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "fc404fe0-283d-4bc2-b49a-047903c6d0ba",
+      "timestamp": 1775888453.002303
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "혹시 verbose 모드로 실행할 수 있어? 모든 mandate objects들을 JSON 형태로 보고싶어(만들거나 변경될 때마다)"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-52357f70-f957-4056-9e85-892e7477112b",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "93215ab2-161c-4a89-b67a-8f5ee36dc1d0",
+      "timestamp": 1775888511.574252
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CpIJAb4-9vtv2GASckZxHPhpGJqRqPvBvCluG4BdLXNc2E7N49XEob-BLL9EKA9bLHcJNWaMjnFm-UHECN9cthZIJ3_YeZMqmYesPh7cygl-McEAa4RWdGqUhnod3SsRElQOo3NbYModiYTwJ_1MklfEaU_Dd38bLU34H0TT9eRFWv4sCRINP4dK4hhw_qHdqo2IdcK1NqM6JQkV8QMx8ZhcvzzOaZsPD0CAGgScptgyvEooGFaVTLf0cWGFSuKsaaMX2CsBdwH_yWG91_b5c3Ul8UkpUx7Ta3WU1XBEDd55T6vEKU0KiWrhLi9pKKEZMuzV2hgtAQc2tFawGjVE7r-wrcss-EOD_oNSpK4JbcT2PDyAKxKdOyuvdNEFniNL5v5gcQvC7bQg1_RP4nKTZXbT1-lJUfPqgafbq_IjfFPcA8PkSXpzW951-XGYqbChmpvE2IJQALZ16y57f_DJgEZbca3Xf68eAe2g4JQkKcjcN9O35jGNNFRtDkrOdG0rOKX_GjHSIYCIGB1AANsBIXU3heIqT-kH-0MRL-MiaESvSoKW5HTDMJwu0CmKHg_Nv1x6eTJp0NVdzOXBoaYu8hiuG1mPwrii-oWF0X2OdpnZHGfK0r5gpkMKjgXwMV6grFsAf6JBEjbnFOy4WpwwLKmT8p6OJjYSx5D1FX24K_YKjjlK4lVDdfkMMB9DoFxZHM3K_E0XANB5jF_YkoGlySuy7z3nVP92SQQXG5dRSErbe3Zcd4hhpXkCJMQ9nG6n9ssqLfBRgQJnnxbrdGAvCOPh147v1x-LfcTk9CN_BqgHPUUIVU_uhpoZkx87G3Wut1Y3OxFO2DwI-t1WbJ21mhcXgAc2IEwLovWp0k8IpQ8IsDCAjPEswS572i1Gh0gFaRktAN9Sk8uqOQ-HJAKrDNQPHK1X_-ESmYn26wcl1LKaeRqGKcN-78dqhcGEwlluNZghAk56b9QNEYNuAf-5fMh-I5-dhqTEI2_fAod9YESTufIaK2izinBX8RFVBJorw6BYvC1cDUJVE4wIUA-PgiboCTMmbHBC9hUCWXrwOc8_5VZEAP3QGytzG90GWzK2p2T7w3zRnbfgym8GCupuaHHAoFzJrxjm7ch-0moVCh1yn3O4GuI_OasWtmNYG3vIppQWd7ZdlUvIC8kZDQADsDdNwTH5_DDw60a2iTzjmXh93iAOoqJYcXoHamUlHYATEQ2OegYs86IP2UWy2F9sOE1y9Bx7eHANoWK3ZXy_UkDo7kGaKdSoX_9qvBqQ_nPf8d1Y5Ff7O91Lq8zESf7-qa3X32PVoWv4pVTz9ZqDshCIO_dStYl1fcvc-L1wOm7gnATDxZYiAlnWcYloVMi_q1YByHqnCb2umtogRzWufd4MoKdoqqZ89E-s__CLIBw-exhGJ4X-RRLj_QAzpjAxXYj31hM6msDrxQT4TwEr-RC8ud0CkHTfO9vYaeXjFFjxhnv49ilDT-LGEZ0ZDFTaUgcTDImsVPi2W5kQKHJtY0sth5qgpWj4dHOaODs0Zef8dxChcVrZaZs0YVrVaXxC5TNYNr7C",
+            "text": "네, 이제부터 상세 모드로 실행되어 모든 데이터를 JSON 형태로 보여드리겠습니다.\n\n현재 저는 쇼핑 도우미로서 사용자님의 구매를 돕는 역할을 합니다. 사용자님의 요청에 따라 상품을 찾고, 적절한 구매 의도 명령(IntentMandate)을 생성하며, 최종적으로 사용자님께서 선택하신 상품에 대한 정보를 업데이트하는 과정을 거치게 됩니다. 이를 위해 `create_intent_mandate`, `find_products`, `update_chosen_cart_mandate`와 같은 도구들을 사용합니다.\n\n이전 질문으로 돌아가서, 어떤 종류의 커피 메이커를 찾고 계신가요? (예: 드립 커피 메이커, 에스프레소 머신, 캡슐 커피 머신 등)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 164,
+        "promptTokenCount": 1974,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1974
+          }
+        ],
+        "thoughtsTokenCount": 259,
+        "totalTokenCount": 2397
+      },
+      "invocationId": "e-52357f70-f957-4056-9e85-892e7477112b",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "98eec313-630b-46b5-9cf2-1299b27e09f6",
+      "timestamp": 1775888511.576056
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "캡슐커피 머신"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-cfc3966f-45c4-4cab-9ac3-6f5c8d4ce770",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "6626e465-a180-4baa-8af0-f403ab3f558a",
+      "timestamp": 1775888530.496683
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CuUBAb4-9vscWu_4op7hmXDgM7MHw8-h5DDt2DX_8P7N05wpdoy9DSXX7LZTyOEWZ4yqXj46_MAQb1SYj2dWfagABm9xYo_eQcwIUaYTIEicgh0hnycWeRsxp9J_0ucuioNe9-ETlsT1LUlyJ_6it2wCANUSfPPpo6CUMNz1J_tgb7QEJnNCEidkwAhepoEyQqM1E5BGdm8I4TR-b1j7NlGwFVjo8oMQdy_bgYcac9ZMcar95GY3UEe2el4zd0ciOURBRY-Vyh0P2D3_GMe20qdHlqxKyckbIwZhY2E6-FPGhDkYGPSwCw==",
+            "text": "캡슐 커피 머신이군요! 혹시 구매하려는 캡슐 커피 머신이 환불 가능해야 할까요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 27,
+        "promptTokenCount": 2146,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2146
+          }
+        ],
+        "thoughtsTokenCount": 40,
+        "totalTokenCount": 2213
+      },
+      "invocationId": "e-cfc3966f-45c4-4cab-9ac3-6f5c8d4ce770",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "20c809da-0ae2-4b02-84bf-319ded7d0f81",
+      "timestamp": 1775888530.49846
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "아니 괜찮아"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-8050cd9a-f6ef-4c1f-b02b-99c9c78c6e89",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "f6522777-387b-4fb8-9130-9efb088d24b3",
+      "timestamp": 1775888551.877243
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqEIAb4-9vu8Glzm-33eMBcd_Mq-aoqnsO45JQw_46WjA49HoTMrbkShBfKfwxmhQ3gowL6pIDmyTlr_gfwVlfC-o3jewbQhEkKyGbswF82SwSim0snNhWaZdMB-nORy15aiDkEs5K3DC7YL8wCpBkeW0vu1DFdjxX_CO7X2mJZHYeJzEQYVpERyfUghtwCalP4iuzf-sazA-jiuRC1siPPt-mZ2F7Lrd__k__Du_6e5DMZ0bHcVcgNOoY7VFjJcr88jmdwqjweVeru_UYsmcgbk3U-kykbmPYA3zsslsvVrXwEGLjK5vAGEND2Q3gOgLPq_l-xYTdDTqO9oHNOrVhn1e9T0pm9O7M67r2GRqXhuGfkSg6VqfbWV9KqFDxCcjisKIalM7D75DDVSplxDJouo7Qty4lXa6Gm0V4uKbo61pg1-v-gifpCtz7Qy7q04MMZSKWCfn-4T04o1Ew6I4h7Poo0xP68pCyq6fxzYncG0wEkVmqc7foAphOJ4mynkhXDhedv2Zdk7-kfuwBpS0jZcQjfJ53p5EMHKX8gIZE49Dx9bLkbsZvgU6uyXJkFO2KDTWzZJbqjrYArLnmXV-jv0ZfXhX-GC9uY5z77LGEv0HGQPne1sK09lvq8bvnuBw3wX4bd2wCtEquc92_5hssUZkVAciNggFwFrYr6Fvq-OzEdoKbggLetu9eikGrX2w0SZKNVh8bHtnZ7lDXw75xy3HR3R7T__2RLCNXCEbdkjCJdSE4YEx8skFpPsIee6PNG7chXi8sBBB9UCLODRPtpi90pHPdnzGA1gg6X8NLPUCgtX5hjja3Ds_MDdJAF6k_OTlh7MpsU5TBYWvVm25uwuKewSpH7X8jqeRCwsj7wvNoYgeXwZjhD8UnXEv8JI7kLVZRKiDk-G70NhiyubLvpqI_KJKRVFwwWWsD_SA3NKFNFrDLOhV0lcYZQibYp5rdNgX5I-4RZdmQ4dbcNs8v0Ar6w6wem8BPj0QSV8JVTV6qg2ecjupakXUG1tv1qYZ9kt0m01FEPvadTk0ydXIA_YRDGOc7v7loBxQ8Z0TdWFOtRwYBuk__Ahx4x9jXGZFHzLiFzUnRVDKyh5YwAmAs2r2EvV5cTsGBQ2aELEC7TQRotAfnJMB0TC1uFfW9eYyo2b1pYBaTw8Q40p1ozcwxjF1LJMw3vhmCmJ6n7DJm7IS2QUmLrWQPUU-gFTPxxhoBzfwVePVZmBg6bgvRINJ9TqB_JKxf9vP3S49tEaye2mftAFG0O8Pp7O6b9CpgB9Sa97EIaU-bkHFQxMEprePaIdZ3HbIZJqt1pRvCbYXrFq1lGy8ZbPJp0Io4tbIIlJR_VVjnX3vEe3ROPwkAN51j7XAgUCn-MOA5KmY5oq1UvGvIiBbp9N0Tvio_mPgwZv9a1SAA==",
+            "text": "알겠습니다. 특별히 선호하는 판매처(예: 특정 브랜드 매장, 온라인 쇼핑몰 등)가 있으신가요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 2179,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2179
+          }
+        ],
+        "thoughtsTokenCount": 246,
+        "totalTokenCount": 2455
+      },
+      "invocationId": "e-8050cd9a-f6ef-4c1f-b02b-99c9c78c6e89",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "f6236ae2-6577-4288-aa57-d5cbc5f95ed8",
+      "timestamp": 1775888551.878836
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "아니 없어. 더이상 질문하지 말고 진행해줘"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-124badbc-232f-4742-bb6c-da7642e64ba8",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "71074d02-0a94-4d0a-a586-46d8cc3589b5",
+      "timestamp": 1775888567.300188
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CrUGAb4-9vtT2m7tYHcJE6o15sic7oDWicwW0_uwOqsYsLU49JorV1PsExcDwDP1G5LeL3hkcZ4f8ZGHJ1hapoyVrypvURw1cUr57oede8HVyEsK_JCgjEIZuYzX9IOFSSWLn5s3IBxfxeb7e_Qjx-g8p3Zsb-tqElkV2vTmLuQbbzfHEBHtO-3UquXHUDJLhF4sz4Ye0tfm3qJNGE5D59Cao4D3ACIWHKho5y0VoUZOT3W6XklW4gw0htuX-iLf2Kqpf6BBy36aaIEfnZwzKVOjHpFsJjWThP35kmXddRSPmYIP7m0q6JP4nk4XDDUrxbSB2yZBnzCTRMAkqT2vIozORS6bMmY_P2GnofqcK0gW-6JllRCWpcNkjVEKcPnyIgXPkry9nvVCDz3_YrFXwDUJpbkopAgLkmOfC_x5CHzSP9D99ByyACrjBE0LfQGLhbrItkeUxuXs9p-5AgE8dbzeTeOBRF0zPVyDGfDxo6eoNn7OIk5Kg2wR_8Wt3ZAlbDpQdvbq2VJAAZk-jbxP8mdSOOY8vQgvVvSx6DijPEVxRrB0em5-DQbhr3n_nzYP3FaTXq9V06mwY-wIFYKvEV8Oh2VdfHh2O0SWPAlbwlL8WvfbGudLPBWUyTGLPoMma7SVdfhVuL4TZM75BjJVm8IIHiI8aGYskrHExfHRxUaIEXJbkWPG0n6ivEKMiQk_B10uipIux9sdqjTsbZ9CqJloCLu6CZdT9n0JKlhJc01aVCSO62nt5R639wFNK6snexx4YQsgTNu4rRnQQZmPPXcob3xASI1uNNs8M5eVc57fDuDPxG8DAgRHTvDd8qb_ap-drpYT5rrby52xR85ZRMXJPKfBYNi6m6BfqmDgWabKZXOD7RK8U84sL5JutDnHRXd3FbUMsbULRyOfZp9y2_cbdvoyNkH3Fe7DwGlETlk_vD06ICRPv6TJdHoEPG6BgwViZdqG7dX6ZuSp6DqZhmoYiG2ATnjLlcRibtoDEGkRta5ARYVA57G3mqG7w-6wnOCtLA5GCMxeKetVz-0Jsx0afYxpdKBZxqzjmKvi_lVPGTenmgERftcv3gPnCDXG1aVmtmBz8zQ=",
+            "functionCall": {
+              "id": "adk-fd0f328f-a157-49f8-b760-d6f0f8f4dcf2",
+              "args": {
+                "natural_language_description": "capsule coffee machine",
+                "skus": [],
+                "requires_refundability": false,
+                "merchants": [],
+                "user_cart_confirmation_required": true
+              },
+              "name": "create_intent_mandate"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 50,
+        "promptTokenCount": 2223,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2223
+          }
+        ],
+        "thoughtsTokenCount": 177,
+        "totalTokenCount": 2450
+      },
+      "invocationId": "e-124badbc-232f-4742-bb6c-da7642e64ba8",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "f81c7fc0-c70f-4dbd-baa8-920916e36402",
+      "timestamp": 1775888567.302101
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-fd0f328f-a157-49f8-b760-d6f0f8f4dcf2",
+              "name": "create_intent_mandate",
+              "response": {
+                "result": {
+                  "user_cart_confirmation_required": true,
+                  "natural_language_description": "capsule coffee machine",
+                  "merchants": [],
+                  "skus": [],
+                  "requires_refundability": false,
+                  "intent_expiry": "2026-04-12T06:22:49.530197+00:00"
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-124badbc-232f-4742-bb6c-da7642e64ba8",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {
+          "intent_mandate": {
+            "user_cart_confirmation_required": true,
+            "natural_language_description": "capsule coffee machine",
+            "merchants": [],
+            "skus": [],
+            "requires_refundability": false,
+            "intent_expiry": "2026-04-12T06:22:49.530197+00:00"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "e58261c3-657e-4637-9e05-719917699403",
+      "timestamp": 1775888569.530374
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "현재 생성된 IntentMandate는 다음과 같습니다:\n\n"
+          },
+          {
+            "text": "```json\n{\n  \"create_intent_mandate_response\": {\n    \"result\": {\n      \"intent_expiry\": \"2026-04-12T06:22:49.530197+00:00\",\n      \"merchants\": [],\n      \"natural_language_description\": \"capsule coffee machine\",\n      \"requires_refundability\": false,\n      \"skus\": [],\n      \"user_cart_confirmation_required\": true\n    }\n  }\n}\n```"
+          },
+          {
+            "text": "\n\n구매를 위한 다음 세부 정보를 확인해주세요. 이 정보는 판매자와 공유됩니다.\n\nItem Description: capsule coffee machine\nUser Confirmation Required: Yes\nMerchants: Any\nSKUs: Any\nRefundable: No\nExpires: in 1 day\n\n진행할까요?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 197,
+        "promptTokenCount": 2369,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2369
+          }
+        ],
+        "totalTokenCount": 2566
+      },
+      "invocationId": "e-124badbc-232f-4742-bb6c-da7642e64ba8",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "aff8140c-2403-4ae9-b6e3-56693823379d",
+      "timestamp": 1775888569.537049
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "어"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-b140c4af-4a1d-42d4-a0a7-7a52d9171875",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "e9f05bc0-1bdb-48f5-8643-c5db0dfbafa8",
+      "timestamp": 1775888579.87777
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Ct0BAb4-9vsBbHiAz5cfMt6NZSdFbH9V8wSj_alJXDm-znP_fGEqsM7-8CkmCyi1uyjY_mEQbzBB3i8da_HIB_Z2IfIjhneps28VN3Jrb-3JuVkPKPA5YxPngtnTBfN-pn4vXoNmQyaKYnbd04azc4gHytKcbfQvhHGrQc5BKbSBY0tA16oAhNa47QuXAxe1csMvuGCMnfJ_nunStPtz0I-jiBW7qFUe_PLnIoVI7-v3JlwItrF7Sq5Uu4zLFCfNb01Hg6R8zSmG5bsQLZZbTRZXMAW3eRwDq5sBQnT1rmU=",
+            "functionCall": {
+              "id": "adk-f78ab36e-c4c8-4d65-9588-f3abeb516c73",
+              "args": {
+                "debug_mode": true
+              },
+              "name": "find_products"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1735
+          }
+        ],
+        "cachedContentTokenCount": 1735,
+        "candidatesTokenCount": 16,
+        "promptTokenCount": 2568,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2568
+          }
+        ],
+        "thoughtsTokenCount": 46,
+        "totalTokenCount": 2630
+      },
+      "invocationId": "e-b140c4af-4a1d-42d4-a0a7-7a52d9171875",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "a3aff4f1-ab86-480b-a5e1-926e3eb768c6",
+      "timestamp": 1775888579.880302
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-f78ab36e-c4c8-4d65-9588-f3abeb516c73",
+              "name": "find_products",
+              "response": {
+                "result": [
+                  {
+                    "contents": {
+                      "id": "cart_1",
+                      "user_cart_confirmation_required": true,
+                      "payment_request": {
+                        "method_data": [
+                          {
+                            "supported_methods": "CARD",
+                            "data": {
+                              "network": [
+                                "mastercard",
+                                "paypal",
+                                "amex"
+                              ]
+                            }
+                          }
+                        ],
+                        "details": {
+                          "id": "order_1",
+                          "display_items": [
+                            {
+                              "label": "Capsule Coffee Machine - Standard",
+                              "amount": {
+                                "currency": "USD",
+                                "value": 89.99
+                              },
+                              "pending": false,
+                              "refund_period": 30
+                            }
+                          ],
+                          "total": {
+                            "label": "Total",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 89.99
+                            },
+                            "refund_period": 30
+                          }
+                        },
+                        "options": {
+                          "request_payer_name": false,
+                          "request_payer_email": false,
+                          "request_payer_phone": false,
+                          "request_shipping": true
+                        }
+                      },
+                      "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                      "merchant_name": "Generic Merchant"
+                    }
+                  },
+                  {
+                    "contents": {
+                      "id": "cart_2",
+                      "user_cart_confirmation_required": true,
+                      "payment_request": {
+                        "method_data": [
+                          {
+                            "supported_methods": "CARD",
+                            "data": {
+                              "network": [
+                                "mastercard",
+                                "paypal",
+                                "amex"
+                              ]
+                            }
+                          }
+                        ],
+                        "details": {
+                          "id": "order_2",
+                          "display_items": [
+                            {
+                              "label": "Capsule Coffee Machine - Premium Model",
+                              "amount": {
+                                "currency": "EUR",
+                                "value": 149.5
+                              },
+                              "refund_period": 60
+                            }
+                          ],
+                          "total": {
+                            "label": "Total",
+                            "amount": {
+                              "currency": "EUR",
+                              "value": 149.5
+                            },
+                            "refund_period": 30
+                          }
+                        },
+                        "options": {
+                          "request_payer_name": false,
+                          "request_payer_email": false,
+                          "request_payer_phone": false,
+                          "request_shipping": true
+                        }
+                      },
+                      "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                      "merchant_name": "Generic Merchant"
+                    }
+                  },
+                  {
+                    "contents": {
+                      "id": "cart_3",
+                      "user_cart_confirmation_required": true,
+                      "payment_request": {
+                        "method_data": [
+                          {
+                            "supported_methods": "CARD",
+                            "data": {
+                              "network": [
+                                "mastercard",
+                                "paypal",
+                                "amex"
+                              ]
+                            }
+                          }
+                        ],
+                        "details": {
+                          "id": "order_3",
+                          "display_items": [
+                            {
+                              "label": "Capsule Coffee Machine - Compact",
+                              "amount": {
+                                "currency": "GBP",
+                                "value": 65
+                              },
+                              "pending": true,
+                              "refund_period": 14
+                            }
+                          ],
+                          "total": {
+                            "label": "Total",
+                            "amount": {
+                              "currency": "GBP",
+                              "value": 65
+                            },
+                            "refund_period": 30
+                          }
+                        },
+                        "options": {
+                          "request_payer_name": false,
+                          "request_payer_email": false,
+                          "request_payer_phone": false,
+                          "request_shipping": true
+                        }
+                      },
+                      "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                      "merchant_name": "Generic Merchant"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-b140c4af-4a1d-42d4-a0a7-7a52d9171875",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {
+          "risk_data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...fake_risk_data",
+          "shopping_context_id": "7e599330-1b93-4768-94cf-e3727d5926b2",
+          "cart_mandates": [
+            {
+              "contents": {
+                "id": "cart_1",
+                "user_cart_confirmation_required": true,
+                "payment_request": {
+                  "method_data": [
+                    {
+                      "supported_methods": "CARD",
+                      "data": {
+                        "network": [
+                          "mastercard",
+                          "paypal",
+                          "amex"
+                        ]
+                      }
+                    }
+                  ],
+                  "details": {
+                    "id": "order_1",
+                    "display_items": [
+                      {
+                        "label": "Capsule Coffee Machine - Standard",
+                        "amount": {
+                          "currency": "USD",
+                          "value": 89.99
+                        },
+                        "pending": false,
+                        "refund_period": 30
+                      }
+                    ],
+                    "total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 89.99
+                      },
+                      "refund_period": 30
+                    }
+                  },
+                  "options": {
+                    "request_payer_name": false,
+                    "request_payer_email": false,
+                    "request_payer_phone": false,
+                    "request_shipping": true
+                  }
+                },
+                "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                "merchant_name": "Generic Merchant"
+              }
+            },
+            {
+              "contents": {
+                "id": "cart_2",
+                "user_cart_confirmation_required": true,
+                "payment_request": {
+                  "method_data": [
+                    {
+                      "supported_methods": "CARD",
+                      "data": {
+                        "network": [
+                          "mastercard",
+                          "paypal",
+                          "amex"
+                        ]
+                      }
+                    }
+                  ],
+                  "details": {
+                    "id": "order_2",
+                    "display_items": [
+                      {
+                        "label": "Capsule Coffee Machine - Premium Model",
+                        "amount": {
+                          "currency": "EUR",
+                          "value": 149.5
+                        },
+                        "refund_period": 60
+                      }
+                    ],
+                    "total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "EUR",
+                        "value": 149.5
+                      },
+                      "refund_period": 30
+                    }
+                  },
+                  "options": {
+                    "request_payer_name": false,
+                    "request_payer_email": false,
+                    "request_payer_phone": false,
+                    "request_shipping": true
+                  }
+                },
+                "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                "merchant_name": "Generic Merchant"
+              }
+            },
+            {
+              "contents": {
+                "id": "cart_3",
+                "user_cart_confirmation_required": true,
+                "payment_request": {
+                  "method_data": [
+                    {
+                      "supported_methods": "CARD",
+                      "data": {
+                        "network": [
+                          "mastercard",
+                          "paypal",
+                          "amex"
+                        ]
+                      }
+                    }
+                  ],
+                  "details": {
+                    "id": "order_3",
+                    "display_items": [
+                      {
+                        "label": "Capsule Coffee Machine - Compact",
+                        "amount": {
+                          "currency": "GBP",
+                          "value": 65
+                        },
+                        "pending": true,
+                        "refund_period": 14
+                      }
+                    ],
+                    "total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "GBP",
+                        "value": 65
+                      },
+                      "refund_period": 30
+                    }
+                  },
+                  "options": {
+                    "request_payer_name": false,
+                    "request_payer_email": false,
+                    "request_payer_phone": false,
+                    "request_shipping": true
+                  }
+                },
+                "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                "merchant_name": "Generic Merchant"
+              }
+            }
+          ]
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "0fbd5e0d-9495-41ac-aee6-91862461737b",
+      "timestamp": 1775888585.344654
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "제품 검색 결과입니다:\n\n"
+          },
+          {
+            "text": "```json\n{\n  \"find_products_response\": {\n    \"result\": [\n      {\n        \"contents\": {\n          \"cart_expiry\": \"2026-04-11T06:53:05.326162+00:00\",\n          \"id\": \"cart_1\",\n          \"merchant_name\": \"Generic Merchant\",\n          \"payment_request\": {\n            \"details\": {\n              \"display_items\": [\n                {\n                  \"amount\": {\n                    \"currency\": \"USD\",\n                    \"value\": 89.99\n                  },\n                  \"label\": \"Capsule Coffee Machine - Standard\",\n                  \"pending\": false,\n                  \"refund_period\": 30\n                }\n              ],\n              \"id\": \"order_1\",\n              \"total\": {\n                \"amount\": {\n                  \"currency\": \"USD\",\n                  \"value\": 89.99\n                },\n                \"label\": \"Total\",\n                \"refund_period\": 30\n              }\n            },\n            \"method_data\": [\n              {\n                \"data\": {\n                  \"network\": [\n                    \"mastercard\",\n                    \"paypal\",\n                    \"amex\"\n                  ]\n                },\n                \"supported_methods\": \"CARD\"\n              }\n            ],\n            \"options\": {\n              \"request_payer_email\": false,\n              \"request_payer_name\": false,\n              \"request_payer_phone\": false,\n              \"request_shipping\": true\n            }\n          },\n          \"user_cart_confirmation_required\": true\n        }\n      },\n      {\n        \"contents\": {\n          \"cart_expiry\": \"2026-04-11T06:53:05.326162+00:00\",\n          \"id\": \"cart_2\",\n          \"merchant_name\": \"Generic Merchant\",\n          \"payment_request\": {\n            \"details\": {\n              \"display_items\": [\n                {\n                  \"amount\": {\n                    \"currency\": \"EUR\",\n                    \"value\": 149.5\n                  },\n                  \"label\": \"Capsule Coffee Machine - Premium Model\",\n                  \"refund_period\": 60\n                }\n              ],\n              \"id\": \"order_2\",\n              \"total\": {\n                \"amount\": {\n                  \"currency\": \"EUR\",\n                  \"value\": 149.5\n                },\n                \"label\": \"Total\",\n                \"refund_period\": 30\n              }\n            },\n            \"method_data\": [\n              {\n                \"data\": {\n                  \"network\": [\n                    \"mastercard\",\n                    \"paypal\",\n                    \"amex\"\n                  ]\n                },\n                \"supported_methods\": \"CARD\"\n              }\n            ],\n            \"options\": {\n              \"request_payer_email\": false,\n              \"request_payer_name\": false,\n              \"request_payer_phone\": false,\n              \"request_shipping\": true\n            }\n          },\n          \"user_cart_confirmation_required\": true\n        }\n      },\n      {\n        \"contents\": {\n          \"cart_expiry\": \"2026-04-11T06:53:05.326162+00:00\",\n          \"id\": \"cart_3\",\n          \"merchant_name\": \"Generic Merchant\",\n          \"payment_request\": {\n            \"details\": {\n              \"display_items\": [\n                {\n                  \"amount\": {\n                    \"currency\": \"GBP\",\n                    \"value\": 65\n                  },\n                  \"label\": \"Capsule Coffee Machine - Compact\",\n                  \"pending\": true,\n                  \"refund_period\": 14\n                }\n              ],\n              \"id\": \"order_3\",\n              \"total\": {\n                \"amount\": {\n                  \"currency\": \"GBP\",\n                  \"value\": 65\n                },\n                \"label\": \"Total\",\n                \"refund_period\": 30\n              }\n            },\n            \"method_data\": [\n              {\n                \"data\": {\n                  \"network\": [\n                    \"mastercard\",\n                    \"paypal\",\n                    \"amex\"\n                  ]\n                }\n                ,\n                \"supported_methods\": \"CARD\"\n              }\n            ],\n            \"options\": {\n              \"request_payer_email\": false,\n              \"request_payer_name\": false,\n              \"request_payer_phone\": false,\n              \"request_shipping\": true\n            }\n          },\n          \"user_cart_confirmation_required\": true\n        }\n      }\n    ]\n  }\n}\n```"
+          },
+          {
+            "text": "\n\n제공해주신 정보에 따르면, 이 표준 캡슐 커피 머신이 가장 적합할 것으로 보입니다. 합리적인 가격에 환불이 가능하며, 사용자님의 요구 사항을 충족합니다.\n\n다음은 찾은 캡슐 커피 머신 목록입니다.\n\n1.  **Capsule Coffee Machine - Standard**\n    Price: $89.99\n    Expires: tomorrow at 6:53 AM\n    Refund Period: 30 days\n    Sold by: Generic Merchant\n\n2.  **Capsule Coffee Machine - Premium Model**\n    Price: €149.50\n    Expires: tomorrow at 6:53 AM\n    Refund Period: 60 days\n    Sold by: Generic Merchant\n\n3.  **Capsule Coffee Machine - Compact**\n    Price: £65.00\n    Expires: tomorrow at 6:53 AM\n    Refund Period: 14 days\n    Sold by: Generic Merchant\n\n어떤 상품을 구매하시겠습니까? (예: 1번, 2번)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1767
+          }
+        ],
+        "cachedContentTokenCount": 1767,
+        "candidatesTokenCount": 1344,
+        "promptTokenCount": 3307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3307
+          }
+        ],
+        "totalTokenCount": 4651
+      },
+      "invocationId": "e-b140c4af-4a1d-42d4-a0a7-7a52d9171875",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "86ba7062-715e-46fc-a004-8bbbc0f71b10",
+      "timestamp": 1775888585.348305
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "3번"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "baccfc63-1e9c-4180-83c3-1372ac19ddd5",
+      "timestamp": 1775888601.042768
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Ct0BAb4-9vsbfefHkOMT7RtBmBZguhn2nM-Z3z2Aa9B3msXslmhl_83QwbeEhXB393n_cgcH6Jj52AqReLc33cAXs5PnHN966QcoaS7PVjS1Lja03O28lsWbenQNH9UqbIOGjyO2A4gWx1OpKJrTlis3Sm1Tu5zSFoekfThFsONr-s_HS34A24HKud22--xMi3CpRysHqtg__6Kzf6uOK9DaUWKQ8CM6NnB_x4bycqobKqqDMWoFj4kRqvApxCYhRDungBb1M4pty6yI5NW-nkD6nYNbPslIYmHTdsBvsHw=",
+            "functionCall": {
+              "id": "adk-853b81a3-14e0-4eb9-8496-19b7a40da094",
+              "args": {
+                "cart_id": "cart_3"
+              },
+              "name": "update_chosen_cart_mandate"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1855
+          }
+        ],
+        "cachedContentTokenCount": 1855,
+        "candidatesTokenCount": 24,
+        "promptTokenCount": 4654,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4654
+          }
+        ],
+        "thoughtsTokenCount": 52,
+        "totalTokenCount": 4730
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "6dc8c1a0-b230-44a3-b47b-5a895fc160e5",
+      "timestamp": 1775888601.045478
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-853b81a3-14e0-4eb9-8496-19b7a40da094",
+              "name": "update_chosen_cart_mandate",
+              "response": {
+                "result": "CartMandate with ID cart_3 selected."
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {
+          "chosen_cart_id": "cart_3"
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "2271b6b7-39e3-491a-b57b-4f03f31e9a3e",
+      "timestamp": 1775888602.502995
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "CartMandate 업데이트가 성공적으로 완료되었습니다.\n"
+          },
+          {
+            "functionCall": {
+              "id": "adk-12dd05da-103d-4de3-a543-14782a05ce11",
+              "args": {
+                "agent_name": "root_agent"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 32,
+        "promptTokenCount": 4707,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4707
+          }
+        ],
+        "totalTokenCount": 4739
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "1f5b050b-90f1-4e72-9c5a-7e964c0d76d4",
+      "timestamp": 1775888602.512727
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-12dd05da-103d-4de3-a543-14782a05ce11",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "shopper",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "root_agent",
+        "requestedAuthConfigs": {}
+      },
+      "id": "ec7e0db4-5a22-47b6-9a31-05c51cc2e9c8",
+      "timestamp": 1775888604.058042
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Cr8CAb4-9vuIrBACOA0banAUSNZOjnyDTwuR9xBAAvIKaZrjjtjAg-gJGjFeFX1W4Byc839VTySNLzVGVGsvCAv5-QyX763TGrT5iaGSDTZNnSseHGYrcJTHFclL4M0oyiEB8FW-D_obYoEo3EDanvCiaed21U-S2rmxNKt8N7uMqjhIF0IZx8ovAKDw32S98M1UeXvFagSHbynS_U1gmVSDFK66pxioRrn7LuUfcSM0V4wPJYXcsDbptA9jpTjHQoQGHKrynmY1fO-2LtOQowjehfN6NrPtH1LhO54eP0TFdSaHePTLOkpRTbSgEm0MsfY_FMUs4xWnl04nqZtPVlnRgO8nN5M6z4OJz3ZxQYMlsWd-Z3z6maYtRXDePYts3FM3xCIchCx-jvI4C_a0alwS4ikf5lJ8b5ljehw_GEtYjQ==",
+            "functionCall": {
+              "id": "adk-d22e8558-4ab5-4ca5-bece-260a249722b3",
+              "args": {
+                "agent_name": "shipping_address_collector"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 23,
+        "promptTokenCount": 5496,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5496
+          }
+        ],
+        "thoughtsTokenCount": 62,
+        "totalTokenCount": 5581
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "5d3f1601-621c-4d72-9741-806e112c07f5",
+      "timestamp": 1775888604.069695
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-d22e8558-4ab5-4ca5-bece-260a249722b3",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "shipping_address_collector",
+        "requestedAuthConfigs": {}
+      },
+      "id": "eedcb6c4-1c1d-41be-abe0-79f1576c0b5f",
+      "timestamp": 1775888605.781495
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqQDAb4-9vsX-2zsHS4rftccnR2v6oGzi1ATGVZv2RpXAGXtcViBTQnby8o1IwblgOpbck5UiJ8WAOY9gh7zPuHlOaG5aWOnAd1nk8EawVUzAG55LhsREMc07mgq7p3tE_cy50kaila4dzyg4jP9qYm1F7zcU0OgB2YsPM7Gp001CQV8f_whYA-cEARsFxXnqRE6fUm0OK1YEzIKNdx1DWfIokLYc7-62uu8QXUmmwwSAA_eQDEnATaGOD_bRxM89EKdBZ3yqGr32XgH3l0fxyIlPALmcWg4qwhuwOt5Zh62K5s8YBOuQT_Riz6Zu3Vk-sQl5YteSeXsIY2sh8GI83kA5FYR-iox4v4xNabYjkzw1znLQVAe5_UzjANRaGTS-vItCshhPLTzbHppGrm9IW9So1ukFvh5yVmCvUPh_d1l7CEcMbJVv8eUOfKWCOYZ-SsVd2oji5wus4KoETF0-iST5QDgtZgarKoSjWK1IX0Pp1kx_sSCFVKao1oIzyxd1BRA9_5nlxyGRPcgacdgLXbkCshHkU56P9R00phi14A-OMPgHEQX",
+            "text": "안녕하세요, 저는 배송 주소 수집 에이전트입니다. 이 작업에서는 사용자님의 배송 주소를 수집하는 역할을 합니다. 사용자님께서 디지털 지갑을 통해 주소를 제공하시거나, 수동으로 입력하시는 두 가지 방법 중 하나를 선택하실 수 있습니다. 저는 이 과정에서 `get_shipping_address` 도구를 사용하여 디지털 지갑에서 주소를 가져오거나, 사용자로부터 직접 주소를 입력받아 root_agent로 전달합니다.\n\n배송 주소를 위해 디지털 지갑을 사용하여 자격 증명에 액세스하시겠습니까, 아니면 배송 주소를 수동으로 입력하시겠습니까?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 135,
+        "promptTokenCount": 4235,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4235
+          }
+        ],
+        "thoughtsTokenCount": 94,
+        "totalTokenCount": 4464
+      },
+      "invocationId": "e-7822222e-5c65-4c7e-b8e8-cdafc802f543",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "292ccd2a-a0b6-4c58-b34b-71bfaa356322",
+      "timestamp": 1775888605.78955
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "자격 증명 액세스."
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-bd0caa76-fc11-4297-a341-ddeb800985f5",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "c49f59ec-6dd1-4837-b6c1-aee23d6b7187",
+      "timestamp": 1775888635.920004
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "어떤 디지털 지갑을 사용하시겠습니까? (예: PayPal, Google Wallet)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3768
+          }
+        ],
+        "cachedContentTokenCount": 3768,
+        "candidatesTokenCount": 19,
+        "promptTokenCount": 4379,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4379
+          }
+        ],
+        "totalTokenCount": 4398
+      },
+      "invocationId": "e-bd0caa76-fc11-4297-a341-ddeb800985f5",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "2a3c03b8-e8fc-424f-ab27-d07095fd8429",
+      "timestamp": 1775888635.922803
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "paypal"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-3da2c382-e5c7-4e8d-b1aa-aa5094e4c536",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "16b22d2f-f455-40b7-950e-ad308fc173e7",
+      "timestamp": 1775888653.399302
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "이것은 신원을 증명하고 자격 증명 공급자가 AI 에이전트와 자격 증명을 공유하도록 허용하기 위해 리디렉션을 거쳐야 할 수도 있는 부분입니다.\n\n하지만 이것은 데모이므로, bugsbunny@gmail.com 계정으로 귀하의 계정에 대한 액세스 권한을 부여했다고 가정하겠습니다.\n\n괜찮으시겠습니까?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3764
+          }
+        ],
+        "cachedContentTokenCount": 3764,
+        "candidatesTokenCount": 87,
+        "promptTokenCount": 4401,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4401
+          }
+        ],
+        "totalTokenCount": 4488
+      },
+      "invocationId": "e-3da2c382-e5c7-4e8d-b1aa-aa5094e4c536",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "3cbf3d50-da7f-4e14-9a0d-5a60197a53db",
+      "timestamp": 1775888653.403116
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "어"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "728d366f-6e50-4bd9-87bc-e15a2b97981f",
+      "timestamp": 1775888661.364156
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-aee69140-8e54-40eb-a02d-5e34cabe1dfc",
+              "args": {
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "get_shipping_address"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3764
+          }
+        ],
+        "cachedContentTokenCount": 3764,
+        "candidatesTokenCount": 26,
+        "promptTokenCount": 4491,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4491
+          }
+        ],
+        "totalTokenCount": 4517
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "319bc8fe-7b6a-4aec-9944-52d6b5f9ceeb",
+      "timestamp": 1775888661.366333
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-aee69140-8e54-40eb-a02d-5e34cabe1dfc",
+              "name": "get_shipping_address",
+              "response": {
+                "result": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "2a9f5ad5-3f67-408d-a653-fa7e781d95fe",
+      "timestamp": 1775888664.331618
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[shipping_address_collector] said: "
+          },
+          {
+            "text": "```json\n{\n  \"get_shipping_address_response\": {\n    \"result\": {\n      \"address_line\": [\n        \"123 Main St\"\n      ],\n      \"city\": \"Sample City\",\n      \"country\": \"US\",\n      \"organization\": \"Sample Organization\",\n      \"phone_number\": \"+1-000-000-0000\",\n      \"postal_code\": \"00000\",\n      \"recipient\": \"Bugs Bunny\",\n      \"region\": \"ST\"\n    }\n  }\n}\n"
+          },
+          {
+            "text": "```"
+          },
+          {
+            "functionCall": {
+              "id": "adk-7cb0f3f4-ee8a-4148-8cd6-e5959553f05f",
+              "args": {
+                "agent_name": "root_agent"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3763
+          }
+        ],
+        "cachedContentTokenCount": 3763,
+        "candidatesTokenCount": 164,
+        "promptTokenCount": 4611,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4611
+          }
+        ],
+        "totalTokenCount": 4775
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "330f26e6-c3ba-437a-987a-258b5a82a048",
+      "timestamp": 1775888664.336216
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-7cb0f3f4-ee8a-4148-8cd6-e5959553f05f",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "shipping_address_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "root_agent",
+        "requestedAuthConfigs": {}
+      },
+      "id": "9ca647b0-8d03-4f42-8387-74f797adcddc",
+      "timestamp": 1775888666.410752
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "배송 주소:\nRecipient: Bugs Bunny\nAddress: 123 Main St, Sample City, ST 00000, US\nPhone: +1-000-000-0000\nOrganization: Sample Organization\n\n"
+          },
+          {
+            "functionCall": {
+              "id": "adk-9e1e4cce-ed33-4d69-bf3c-eff5c2e4a3a5",
+              "args": {
+                "shipping_address": {
+                  "city": "Sample City",
+                  "region": "ST",
+                  "postal_code": "00000",
+                  "address_line": [
+                    "123 Main St"
+                  ],
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "recipient": "Bugs Bunny",
+                  "phone_number": "+1-000-000-0000"
+                },
+                "debug_mode": true
+              },
+              "name": "update_cart"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 156,
+        "promptTokenCount": 6197,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6197
+          }
+        ],
+        "totalTokenCount": 6353
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "2f280113-35dc-4726-817a-c363a6ae6aa1",
+      "timestamp": 1775888666.414963
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-9e1e4cce-ed33-4d69-bf3c-eff5c2e4a3a5",
+              "name": "update_cart",
+              "response": {
+                "result": {
+                  "contents": {
+                    "id": "cart_3",
+                    "user_cart_confirmation_required": true,
+                    "payment_request": {
+                      "method_data": [
+                        {
+                          "supported_methods": "CARD",
+                          "data": {
+                            "network": [
+                              "mastercard",
+                              "paypal",
+                              "amex"
+                            ]
+                          }
+                        }
+                      ],
+                      "details": {
+                        "id": "order_3",
+                        "display_items": [
+                          {
+                            "label": "Capsule Coffee Machine - Compact",
+                            "amount": {
+                              "currency": "GBP",
+                              "value": 68.5
+                            },
+                            "pending": true,
+                            "refund_period": 14
+                          },
+                          {
+                            "label": "Shipping",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 2
+                            },
+                            "refund_period": 30
+                          },
+                          {
+                            "label": "Tax",
+                            "amount": {
+                              "currency": "USD",
+                              "value": 1.5
+                            },
+                            "refund_period": 30
+                          }
+                        ],
+                        "total": {
+                          "label": "Total",
+                          "amount": {
+                            "currency": "GBP",
+                            "value": 68.5
+                          },
+                          "refund_period": 30
+                        }
+                      },
+                      "options": {
+                        "request_payer_name": false,
+                        "request_payer_email": false,
+                        "request_payer_phone": false,
+                        "request_shipping": true
+                      },
+                      "shipping_address": {
+                        "city": "Sample City",
+                        "country": "US",
+                        "organization": "Sample Organization",
+                        "phone_number": "+1-000-000-0000",
+                        "postal_code": "00000",
+                        "recipient": "Bugs Bunny",
+                        "region": "ST",
+                        "address_line": [
+                          "123 Main St"
+                        ]
+                      }
+                    },
+                    "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+                    "merchant_name": "Generic Merchant"
+                  },
+                  "merchant_authorization": "eyJhbGciOiJSUzI1NiIsImtpZIwMjQwOTA..."
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "cart_mandate": {
+            "contents": {
+              "id": "cart_3",
+              "user_cart_confirmation_required": true,
+              "payment_request": {
+                "method_data": [
+                  {
+                    "supported_methods": "CARD",
+                    "data": {
+                      "network": [
+                        "mastercard",
+                        "paypal",
+                        "amex"
+                      ]
+                    }
+                  }
+                ],
+                "details": {
+                  "id": "order_3",
+                  "display_items": [
+                    {
+                      "label": "Capsule Coffee Machine - Compact",
+                      "amount": {
+                        "currency": "GBP",
+                        "value": 68.5
+                      },
+                      "pending": true,
+                      "refund_period": 14
+                    },
+                    {
+                      "label": "Shipping",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 2
+                      },
+                      "refund_period": 30
+                    },
+                    {
+                      "label": "Tax",
+                      "amount": {
+                        "currency": "USD",
+                        "value": 1.5
+                      },
+                      "refund_period": 30
+                    }
+                  ],
+                  "total": {
+                    "label": "Total",
+                    "amount": {
+                      "currency": "GBP",
+                      "value": 68.5
+                    },
+                    "refund_period": 30
+                  }
+                },
+                "options": {
+                  "request_payer_name": false,
+                  "request_payer_email": false,
+                  "request_payer_phone": false,
+                  "request_shipping": true
+                },
+                "shipping_address": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                }
+              },
+              "cart_expiry": "2026-04-11T06:53:05.326162+00:00",
+              "merchant_name": "Generic Merchant"
+            },
+            "merchant_authorization": "eyJhbGciOiJSUzI1NiIsImtpZIwMjQwOTA..."
+          },
+          "shipping_address": {
+            "city": "Sample City",
+            "region": "ST",
+            "postal_code": "00000",
+            "address_line": [
+              "123 Main St"
+            ],
+            "country": "US",
+            "organization": "Sample Organization",
+            "recipient": "Bugs Bunny",
+            "phone_number": "+1-000-000-0000"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "63f4f966-4c11-4b0b-b348-bae9670ec5bf",
+      "timestamp": 1775888669.951376
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "Cv8CAb4-9vtIZ0g43W124D__Vocv_n2Krrf7C5JpwkvmOlSoQUrudv9TPe71oTvZ40bmcK1ssUCkB8VrK1uFBNcsI2oRmyRtXasNp-HBYAi1fTkpGVI2CjO6SjI0SribA49prHMp0qBh9GRGdeUsfKKN8Da6Qou3f0sw0bODDghJlfVOe1an4lQx8hcttTmgi0KjW8AnpHpcoE5vP26yUBtJy1osz1UTcZBuM16jEDXgk7lf8CYH9LrWkAyCgMErygOyGxWTX8K8ttHZ0hraUsLxHPoysQtxkNt-TccYzdc4Pf6EAqa1t_z740GCKBdRp7BkXfT85UE06Oos4yGVBR1FbdyMl_X_W0gc0ITl9n6gGx6Oq-Mj27lmdAPwKUFSYWSsStXGFViJ5_PI1WiIyPMnx9zNG4aXnEIQ0-q_Mpb9IzTtnTX5RTlaQ1ODsVpBlpWmXxxCqpoGXelzOY1nCUeqz97ecdIXjafckTtqyNVZVvO3Oc9NCpTc7cK2-io68mM=",
+            "functionCall": {
+              "id": "adk-64aee0f9-4c4c-446c-9178-277c7d909c94",
+              "args": {
+                "agent_name": "payment_method_collector"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5783
+          }
+        ],
+        "cachedContentTokenCount": 5783,
+        "candidatesTokenCount": 23,
+        "promptTokenCount": 6777,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6777
+          }
+        ],
+        "thoughtsTokenCount": 75,
+        "totalTokenCount": 6875
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "098fd151-2fef-48aa-84c0-a81ede802e0f",
+      "timestamp": 1775888669.96048
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-64aee0f9-4c4c-446c-9178-277c7d909c94",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "payment_method_collector",
+        "requestedAuthConfigs": {}
+      },
+      "id": "c0917fb6-c7db-4fd8-804f-15b415b89898",
+      "timestamp": 1775888671.527352
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqEeAb4-9vuFmCRDYXQfuvPj6HJfAgtaNV27UuE2jCjyTlgMbz9Y6YMfmFL_r71O-28rx4EMINV7Wd4ySJvhO7xSlnM7MpcxHY2ZX3i0PzR3P9TJ4FBZnP9cLWSpS3NK9xycsjJIQKe-8Yhi9iw-3XHB0cFpndO75JDSuvlQEFVYoYwtZMqqZSK_EcUe8y5h_qiFAu4SNzzrhPsCStBHES-iOnLCvVjKEAco1BQ96pW16uhET6q81guZuT2ISAuAYHck3EEDGyHKqQ9akRlz3UbtHxTw-erjpIVS7-SusCEeK5M1P_Oib6rJ4f4094ZjSXeyY6JDX7C2c0tm7BzLYNDyt9XBvRMlZ_ipFmDCwtxmilWBwcGj663f2Hd0a3Xv2Ewfv_TN0UQJIt5eKJt9JbU1F8reuAO4J05-fSBhi8GGk54qhcMtb-3X_eSNNQgyWTCzCWTkvV_a6lKS42dGDLd1mkwZQIZJ2x2CBSvclWZ2PTmvRe_YB0saFIDvl_xH660ifV8idkg-ZKtkW9qus6Mv6XbAqqFHhHqwHlAiQjCF5m115vNBZIJjcNUIaV8DgS2n5stGmvhQT0fO_36CGEzXpxAvFyvTWzJrO-wvMMUoXzYy7CnbT4FoIqoaRQVOVkww8doqJ4uVghC4hEwxn4QScdWOhxwCr_Kvvdxx3k1rd5mYKnqV_eBuLdu-aFC1hQjwccj4SJeQK_QW8DBAS9ryJeY7eiBWXxXBA1bSKUutUxOV5zfZpHSlAkYcBH4RYvwVLc2x9QlVweBYOsK7GoLhifPHZ6cA23CphpYcZfiNM6KX585SChYvUqBLrV95mUg7D1P7Gr2sj_gJ4wkHqXoSU7UdNETHnJeDF9KR9_DcCpqWaxJYmsxxu0E8qaQ5VimF8qIMS1lDgQZ5t-f8AjgL40cDZAc0MIb6ajiYiVDeULXEjv2bBW5qIvhFag7gME81xMivDaoDlut9OlTWCF9lzFJpnV2RmSPqVs69pvYvnsNWNW8byRlEDmuKWyAhyITo0Wmm4teZWALyHtVE1aJoySLDqCnB3AxWXWwpMX8i5qF0rgTLi-T72jDNMs_bMtjKASQfar6fU_Y6MiqCXd2okmpAOQ2EX3L8OG6akZiGbo7YAKEf8SSZUF7-IAwiIDpZeQ4uka849sKuBt7Sm0wApZy5bbHvOyFhQNg1LwkYW-ExwKuQe5JbfUqsSLm3X_77fh1_52RKbjVinwkygyP91WtgPo-gd7ER4vz8J_dNeTPhXNcvAMzPDekZuK347xSl8-fJym0SxvlfwHql3bAOpZhAmMTpEeUEk3LSXg4afPgKkzlEfmrWIo1n3S3N5v9rW8Zj3MZRCE6e5QX_RnxWWsYOde3DE_MU64RZirqmE_qsvzl8XWLRc59t67lrVEfZ8JWWkMTL9K2f2o5ilZzLwwuQKvSls4zm9vt_95_p1-GWc5FrtRRsbG-Ap05nZDtHBEbCZfVHBroyls-78uM9hd-3i684bsqZq6qaLgfNQGqWMltZ7GWqLl82wZPVWBVzhm9gP8_oJUALUOFaJVOORv7B9ETXuqr_jeAyY1yyT2vK3sKvIa6hcTiafFvv6m9W7giu8Xn6zDr-seb20UggEWgSxiuWd3Z4SDADup90-J6a0QHFeWFNL-QV046i6R3CGBNfIn9UUnYSMgDcCc7r8CD5Af7gg08IOvhd0CizOguLbJPyVDAoIdhlGTwHsf26QC84DDnUGAqtqQdtVEje02GgDkSO6TzFLd9whGwOql6tm7x62Bgn41JVDCVWm3F5sOgW6YUltV2x5lsu5y2u6Px6rRcsqb943D7H-SFYkVGPgmjd-PJgh038TbAR6jXAK9qS6c5bp4wDKdoEIln52cWdx0K1n8fxrG_ADQrXGZ8IuFpdsue28EMYjptTElm5Ir4XFwKnxo6lzjubpiYMVJvXQOcofsWCTjUeGevV7qcMsqyWmWadJpqL4S9jdYlfRm3gPtU2hFdFXYhNAR-dLPfV9gc_U5sFZnoEEf97yjn3ufrx6pB_O9sGTMUmp_8QAdoS1QbFWmME6PrYs8dujFBm5_h2Sfe1C9aYw0Pv9K7o9LENOEyFxaQV880BtynaSCNyePmAV104_zSxwRwvpBayKloecbZuCyh9ymQGItobPAgA39YlK8rNWFK2D1HHc0jQ5Ke0Zc6Q2xdxsRpOVWMzLy9_AbbrzlsNOvqFMcme6zeoqEXkQHRre6ZQXGS-9-5Zmx4dEkP27q37boWV1L3M7dzpzlGoJsfNJKxKd2cxNYyT8RYKBMn7ASmKYAJ7qmkSjOOSfpEBj_w23EnZnRcLwU2tvHTA2jHL8inECW-WxoPX9VsbGUxIkaJ1yPlta2CY7OyejjLi27ZAsUBsfvfUBgds9H1ixBtw4PVozg40M-G1gRYTCne7tQYkOGc_6izPomqGPzoEo03mbmYa8YDbzN0J5PkYwVHdOAhFK72JLo1fvdmE8xcCYNSmA0KuEdgscQ7wBW_pjZhd6KvSOdOxGuOFgD9uplLDVP8uBktSVGUG2BSWvKvzq2HGATwlFoN6z94sg3kQs7wubBflHyIQvPC-Sv_tiJ6tWx8gMGt1Et26x_1Rnn1ZDb-AXLNGJ6LCLwIhwZUYUQQ_bSEHZihotttRVNjuj84mO00FemzbWXWZsLCxQ7r1iSh-2zO88VL_42FG_7X9WXoBUi3x37Z-mV5zJKGF54TwUVaTdFtkJBrZ71mKT6k6fo5K2Ri5IdwTjmtlI06yd5nZAHy7E_9ra_Xln2S1oyy0k4Xd6EODt32pH-RbtbJulf9cMVHhcykUCz3n919up_sOxGqvemzZe9yt0l9j25CbGh8ZY8wUpY-in38Jvm7I5sw1AJ2xUm6RHQwCPkTL_-2gtl3_PMHiSz-APkyx32bFhTVLAuFlfrN3pwYgkIRPFbxVymEF8iDuAjnR5IK3guVKdQt-h4EqergMP8xZa1KPtQUqIl1rHsMPK6AhdYdZchZdC0LCgcoZdgZy-y8JeeLwMecWKhuhELIK7RdlS2QCSbv0XCiL7XCoAs62CHjx53p5IpYfb8NdQwN-VcYjLyk9PQ2NT2IEtn5_qPuD9dpMOs1TW5zJYcMc5mlVh6LPHHqn-wP-qDxRsVe7GvBElQmtwnBIR2ST_fQWkvJNdli6woINHRutUgdL2aYZL7goM7nrca0wEBiFjeH0UlMUTXaPuHOX6bYKksDiSpShgL-agLSBBzslwbB7bbVUnZSKY8BCsagQsbRwEwhxDbKTQvAGTQ0JyMLr00fOv8kmE49s9RQ6Vb_oakclS0Z09IVecRwrXt5l7GDDL3Z5AkpuRqJt9o9aqMHdaSVAvNOWzvu3SyXHw6Cm6ZJyY6QrpuwiHygCJ1qSLHTBL6fzwMexfe5hwSKAmQ-D9uoWZlSPaHioH2q8YGqSLSLHmpXcF8kiHN2vRvFPgH9YrrOYRWV2MzZJj6ak9AHvJ0qaG6x1QT8HThaCRSXQaLaPZPRjdrzSSZJrVyYXvfHTzGnrO4PMYNnCE6F1TGDr6WOoq2CQ-udCqPCpMwgg6SuDah7zbVsydcZethORqOgJCIAM18b45j_YbgV1nDBdW3xPIWvIMt3esrTPD6vSdRaRNzOgGl-1CC2BjBg_fW_OWbF4vO1cP7PQ_FvXuxq2p63qMsuxRuP0VOy-J26bE1wilIqos40pkleYLyrKJCGT46qmNDa_pRKggGV30tDS_IJvVW7hg38gzxKYTUGb_-MjXmMHUj34weLMJiv7DH19jy81QXTAzKWMb6mSqgj_yNpz1FdUTEtUB4lXHljliJKp41zi5ibz8k2N6YgJp9Tr6Bl-Af_idR62RlHte_JOVHUrmn_9nXBwzrtY30CMDFON6U5vpYxf2-cRm3Mlw1hEtvhxpD3pwo8CSuX9PDy8UknursaJrRUrZ8G3kwGLOm-gLz-1cy7inHp8Zg4q_GjPKo4hgKCx7TpmZjX2VgC1iCKtKg2f7Vh1DAwELUCY9exlE4dI3C_L-SlV9INc_srODjAmebLbs-jq46uuopOb-BM1SVrSQjt1j_LQxHySPO28zqXOiXPt35oqv6XuagDPwiHSMqEzfb-D5k6_dW5fS1cPLSBOSbSE51bnVlnpzX9b1aCths-M_51oAiWuym5S-C8aq8tgsw2C1FQ0-rKjiAWT56bXBkEsfLnITl6_66HkcvXkyemLvlIzey6wNhNHo6XXXcPH44zLCmUdchZVyrzMHFa_Fmdoes9bCjENux9GBHHZBi7rgzIP95rbb0WOPL3Q4XWsfHEHY17Lpq7ZQta8I4ej_NraepR1IEBbsQGxGp_wat3Vtat95mOKCvHDVSGjS9mDVG7Y49VjBnsEuI6uES9FrjEefQcqCtOYu1RnjnPYPfvvMSzsp4Po9Ly0Cu-Yml5BOGq_6np9oUIckVDOe9kpiFKo7lwGdauvz0Jtv5s-ZqjzGskFUFLTXKZYGJWwOZl3U6gkkp78VMNAT4uFOsPALKfngbu_7p_4aJsBcUs9saK94m7KiYasmuh9vwFzB_K4qNmGfmju0qIAj-25bHngT1FzyB0iBySusOQenGR78EX_lTTsTtY6mfD72D9gz-jTYaYUsA3xs_34GZhjZEf8bpXc-NxNz90iD7qJVwF2E-0f8UghBR6ehvKRP-SlcrEoRDsH8IKv4wWOrGZC66RkRG1TAaBuOdQ5YSSrEvThZjDPW4CKqsGTtisWEqQczr4BWTEbp3sx_gCUctU-DY_0HSI7alRc4k7Tv_RUYHCV7-hLp6rns8ARQvxnzqatfBuKoqBuGVxbxEecVdg5NFKVjH5HSCYydxAC5uktSGQTEAiCygA-OuaVbygrdo_GLUBojyLJU31lxA7Nfs_5ZVAEL1APoP5kkQq3b5wT0_gyENkXuq1s_gp7GD3nVuu85tgwTLB-sc1dXEdkDfu0Gq4Asbn4yZh9dbh3QQ244YO4wRC012SaeQMib4AHiqv267oqvDOwdT4m9l-8MvY-TwlkJmYUrr__0dr0sJGp8eRZ9nenr-r9YpSqnJIy_0gnU-A5hlc20aR6qBZVhJC9Nhc_gumAjmEnhU5Cjp3YzqT4HG5-yd6fjvWEdUvR0wasaMJTvrXPH84VlLNRMHGVojMUQHYCzczq7Vpz",
+            "text": "안녕하세요, 결제 수단 수집 에이전트입니다. 사용자님의 구매에 대한 결제 수단을 수집하는 역할을 합니다. 카트 요약 정보를 제공하고, 사용 가능한 결제 수단을 제시하며, 선택한 결제 수단에 대한 토큰을 확보한 후 `root_agent`로 다시 전송합니다. 이 과정에서 `get_payment_methods` 및 `get_payment_credential_token` 도구를 사용합니다.\n\n---\n\n### 주문 요약\n\n**판매처:** Generic Merchant\n**상품:** Capsule Coffee Machine - Compact\n\n**가격 세부 정보:**\n  - 배송: $2.00\n  - 세금: $1.50\n  - 총액: £68.50\n\n**만료:** 내일 오후 3:53\n**환불 기간:** 14일\n\n---\n\n### 배송 주소\n\n**수령인:** Bugs Bunny\n**주소:** 123 Main St, Sample City, ST 00000, US\n**전화번호:** +1-000-000-0000\n**기관:** Sample Organization\n\n---\n"
+          },
+          {
+            "functionCall": {
+              "id": "adk-40782e79-2ad9-4004-ad13-720444bfb3a7",
+              "args": {
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "get_payment_methods"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 279,
+        "promptTokenCount": 5733,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5733
+          }
+        ],
+        "thoughtsTokenCount": 1195,
+        "totalTokenCount": 7207
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "91e0c8ef-7b7f-44d7-9e86-12157e5296c7",
+      "timestamp": 1775888671.533064
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-40782e79-2ad9-4004-ad13-720444bfb3a7",
+              "name": "get_payment_methods",
+              "response": {
+                "payment_method_aliases": [
+                  "American Express ending in 4444",
+                  "American Express ending in 8888"
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "ca5429c3-850b-4c48-881f-aab79b19702e",
+      "timestamp": 1775888680.533775
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "사용 가능한 결제 수단은 다음과 같습니다.\n\n1. American Express ending in 4444\n2. American Express ending in 8888\n\n어떤 결제 수단을 사용하시겠습니까?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4072
+          }
+        ],
+        "cachedContentTokenCount": 4072,
+        "candidatesTokenCount": 46,
+        "promptTokenCount": 6053,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6053
+          }
+        ],
+        "totalTokenCount": 6099
+      },
+      "invocationId": "e-11978961-2406-4e34-835f-c1b060fb933f",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "4c563809-585c-49f9-9db3-f064b180859b",
+      "timestamp": 1775888680.539559
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "1"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "c21a43a6-169f-4d32-884e-4ede06597ca4",
+      "timestamp": 1775888687.42497
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CvcDAb4-9vsYOYG274cbFXLPw3hn0aj_Pffn553dAbDlPAdatfAk_JbX_SBxiL43oSQwxTMCcUL3uEHIfL2DVr7rTGqbWtZ1LOegGTe2TYR9PQWM25GynmCkFiThJFXokjFJlMbZOMPRFdxQtTpSKhStMeF5QNJ_dFA_FFadq2wBQwpwaGh0aF5DHjLcYueygngJz6OEMuwjKXvRbsWf_Lcq060K5onA9JxSRGUm_wXUeImFJ5jY0NVVk3o6FzwSYcazyN5vQwaRaNDkpWKgne_66MTWKNPA-adWNXC76M6lnroEaqPjwY5bpPsOIVRx4toyjzuZTtse63btbx2PUUZCzIRJgsQj5exheYEFYoVi8hnFNR9Mj5l8uZewJG_gCUWALePiWRcLFJSO8dKse81-yPUlL1qyynIyjm7vd2QwZyJU6z6WB7qKbUUxoKyZJlAha2qa9CPQOL1xlej5NsNIfKMuOk53BbSoXSOXoFaFS84O940bb111---MFAbtslrzHU5u2BepuhRnkfYoxx5bFNtkuVxVNpOn-bLPsP6UuelWTCugBc117agqxgdhtdwh00kgKmG6UA-Jpcp9gN71vYhXS2nYE3yVQA6vAoruySSmwrox6CXlIFYAqT1shiiIj1R2StMWgvF00uWK8n1_DcnyV5lkJW4=",
+            "functionCall": {
+              "id": "adk-6636ab4c-327c-4b88-9641-f9acc5ac27e5",
+              "args": {
+                "payment_method_alias": "American Express ending in 4444",
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "get_payment_credential_token"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4830
+          }
+        ],
+        "cachedContentTokenCount": 4830,
+        "candidatesTokenCount": 45,
+        "promptTokenCount": 6102,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6102
+          }
+        ],
+        "thoughtsTokenCount": 138,
+        "totalTokenCount": 6285
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "7e1f8d50-fa5d-4b24-91a9-3015b17acff9",
+      "timestamp": 1775888687.429938
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-6636ab4c-327c-4b88-9641-f9acc5ac27e5",
+              "name": "get_payment_credential_token",
+              "response": {
+                "status": "success",
+                "token": "fake_payment_credential_token_0"
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {
+          "payment_credential_token": {
+            "value": "fake_payment_credential_token_0",
+            "url": "http://localhost:8002/a2a/credentials_provider"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "d6d747ac-dfeb-4c6e-b6ab-6b29da12b42d",
+      "timestamp": 1775888691.798341
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-ad23351d-febd-484b-b73c-f8c1568e05ab",
+              "args": {
+                "agent_name": "root_agent"
+              },
+              "name": "transfer_to_agent"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5667
+          }
+        ],
+        "cachedContentTokenCount": 5667,
+        "candidatesTokenCount": 21,
+        "promptTokenCount": 6180,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6180
+          }
+        ],
+        "totalTokenCount": 6201
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "16b43c09-e34a-4c3b-ae0d-5ea6d5e400fa",
+      "timestamp": 1775888691.80439
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-ad23351d-febd-484b-b73c-f8c1568e05ab",
+              "name": "transfer_to_agent",
+              "response": {
+                "result": null
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "payment_method_collector",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "transferToAgent": "root_agent",
+        "requestedAuthConfigs": {}
+      },
+      "id": "b987c1e6-8940-4eb9-86f6-b023b0eb573c",
+      "timestamp": 1775888693.432367
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "This is where you would be redirected to a trusted surface to confirm the purchase.\nBut this is a demo, so you can confirm your purchase here.\n"
+          },
+          {
+            "functionCall": {
+              "id": "adk-9b5828b5-4027-4f5e-8320-67dbf8602f17",
+              "args": {
+                "payment_method_alias": "American Express ending in 4444",
+                "user_email": "bugsbunny@gmail.com"
+              },
+              "name": "create_payment_mandate"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6774
+          }
+        ],
+        "cachedContentTokenCount": 6774,
+        "candidatesTokenCount": 76,
+        "promptTokenCount": 7390,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7390
+          }
+        ],
+        "totalTokenCount": 7466
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "9cbfe374-9b45-45bf-88c9-7301f6898420",
+      "timestamp": 1775888693.437521
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-9b5828b5-4027-4f5e-8320-67dbf8602f17",
+              "name": "create_payment_mandate",
+              "response": {
+                "result": {
+                  "payment_mandate_contents": {
+                    "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+                    "payment_details_id": "order_3",
+                    "payment_details_total": {
+                      "label": "Total",
+                      "amount": {
+                        "currency": "GBP",
+                        "value": 68.5
+                      },
+                      "refund_period": 30
+                    },
+                    "payment_response": {
+                      "request_id": "order_3",
+                      "method_name": "CARD",
+                      "details": {
+                        "token": {
+                          "value": "fake_payment_credential_token_0",
+                          "url": "http://localhost:8002/a2a/credentials_provider"
+                        }
+                      },
+                      "shipping_address": {
+                        "city": "Sample City",
+                        "country": "US",
+                        "organization": "Sample Organization",
+                        "phone_number": "+1-000-000-0000",
+                        "postal_code": "00000",
+                        "recipient": "Bugs Bunny",
+                        "region": "ST",
+                        "address_line": [
+                          "123 Main St"
+                        ]
+                      },
+                      "payer_email": "bugsbunny@gmail.com"
+                    },
+                    "merchant_agent": "Generic Merchant",
+                    "timestamp": "2026-04-11T06:24:54.906190+00:00"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "payment_mandate": {
+            "payment_mandate_contents": {
+              "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+              "payment_details_id": "order_3",
+              "payment_details_total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "GBP",
+                  "value": 68.5
+                },
+                "refund_period": 30
+              },
+              "payment_response": {
+                "request_id": "order_3",
+                "method_name": "CARD",
+                "details": {
+                  "token": {
+                    "value": "fake_payment_credential_token_0",
+                    "url": "http://localhost:8002/a2a/credentials_provider"
+                  }
+                },
+                "shipping_address": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                },
+                "payer_email": "bugsbunny@gmail.com"
+              },
+              "merchant_agent": "Generic Merchant",
+              "timestamp": "2026-04-11T06:24:54.906190+00:00"
+            }
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "802cd0d5-6021-403c-a786-06089631a0a9",
+      "timestamp": 1775888694.906318
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "### 최종 카트 내용\n\n**상품:** Capsule Coffee Machine - Compact\n**가격:** £65.00\n**배송:** $2.00\n**세금:** $1.50\n**총액:** £68.50\n\n**카트 유효 기간:** 2026년 4월 11일 오전 6:53 (UTC)\n**환불 가능 기간:** 14일\n\n---\n\n### 배송 주소\n\n**수령인:** Bugs Bunny\n**주소:** 123 Main St, Sample City, ST 00000, US\n**전화번호:** +1-000-000-0000\n**기관:** Sample Organization\n\n---\n\n### 결제 수단\n\nAmerican Express ending in 4444\n\n---\n\n선택하신 상품을 선택하신 결제 수단으로 구매하시겠습니까?\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6784
+          }
+        ],
+        "cachedContentTokenCount": 6784,
+        "candidatesTokenCount": 201,
+        "promptTokenCount": 7794,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7794
+          }
+        ],
+        "totalTokenCount": 7995
+      },
+      "invocationId": "e-0f359b69-ea54-4248-9356-07c59f4e78c3",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "f31fa2fc-6eae-43a4-9b34-d50844a6b66f",
+      "timestamp": 1775888694.918271
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "어"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "e85ac44b-d3de-488c-a3fb-c3cc12e275cb",
+      "timestamp": 1775888700.684433
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CpECAb4-9vvkCrcT7CZqfkhqlqJWnHN4LFbNlSY77E1v_-xQOxmW-fYTRtkMAS9nmHnZBE6CAPq3EQ8l_IWF3zAcC5NGWXw948N3-enMVIBQopl4-owBXywztcFvncfKjFCeRT_YUVE5vEo2Qp7WDk4_vz-ViClprW_N-Akwx1I18gLioY181E7JygpJbsuI-AVMaBdU89fL965aNhuONb2dVQ7rVWLUC8DISkVn-W01KoEuYn0KP6l048G9-ZSvKeDb0Iyz9CxAnJ69zJM6jdkA0FH2WIUo6xfrv1UoKn-2If-ew3nhAzljW0y4qSIbdEc5Oe2DcFqQ1zcKWbHBSl8n_yh1cT-r908-0mThWNGGuluc",
+            "functionCall": {
+              "id": "adk-f9a62d4a-e85a-4662-993b-39950c32fbff",
+              "args": {},
+              "name": "sign_mandates_on_user_device"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7756
+          }
+        ],
+        "cachedContentTokenCount": 7756,
+        "candidatesTokenCount": 17,
+        "promptTokenCount": 7999,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7999
+          }
+        ],
+        "thoughtsTokenCount": 55,
+        "totalTokenCount": 8071
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "8bbf63a6-67e4-4fbf-abbb-3320b020c2dd",
+      "timestamp": 1775888700.689354
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-f9a62d4a-e85a-4662-993b-39950c32fbff",
+              "name": "sign_mandates_on_user_device",
+              "response": {
+                "result": "fake_cart_mandate_hash_cart_3_fake_payment_mandate_hash_f212c3375d47471b8e53d99c41bc5929"
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "signed_payment_mandate": {
+            "payment_mandate_contents": {
+              "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+              "payment_details_id": "order_3",
+              "payment_details_total": {
+                "label": "Total",
+                "amount": {
+                  "currency": "GBP",
+                  "value": 68.5
+                },
+                "refund_period": 30
+              },
+              "payment_response": {
+                "request_id": "order_3",
+                "method_name": "CARD",
+                "details": {
+                  "token": {
+                    "value": "fake_payment_credential_token_0",
+                    "url": "http://localhost:8002/a2a/credentials_provider"
+                  }
+                },
+                "shipping_address": {
+                  "city": "Sample City",
+                  "country": "US",
+                  "organization": "Sample Organization",
+                  "phone_number": "+1-000-000-0000",
+                  "postal_code": "00000",
+                  "recipient": "Bugs Bunny",
+                  "region": "ST",
+                  "address_line": [
+                    "123 Main St"
+                  ]
+                },
+                "payer_email": "bugsbunny@gmail.com"
+              },
+              "merchant_agent": "Generic Merchant",
+              "timestamp": "2026-04-11T06:24:54.906190+00:00"
+            },
+            "user_authorization": "fake_cart_mandate_hash_cart_3_fake_payment_mandate_hash_f212c3375d47471b8e53d99c41bc5929"
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "c48925b2-d896-4247-b49c-de3692e31c3a",
+      "timestamp": 1775888702.550804
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CqoCAb4-9vsTn8RQlfP0tHjSbP2vzlxUfe5KYxXSGzqzXemeLv7_shBWEqXatKbSBzIJJ3cHfqQCblu9ZtWshm-2Xy0MVFatoGSSTngqF0p3QCpEQtryRoKJbK1EqXRjW6r_89JxdCoE2cF17Bf8nF0pzMpbCnBdYOZbfHYWN_Kni2NuGN-ceX5hE2OIWUwNBVHj7X37aTftpcSQG-Sjt-5qSC5SbMZqJHmKzLkM48tAZMAy9GJYsEInSnDJwUQskcIImGfnZEV5BtnfkcrEA50ye_vN4GRQxrUBmZG1Jd7ZAKL7vo6OY0quKNDLLY5HMa_oM5QmB3ixhGXZszOrznPpgZ-ShzxFlvfSeKNeoSRh1x-7pSW0x26JGqVHz1iJ9XvZWdmeJdDtNAjo9Q==",
+            "functionCall": {
+              "id": "adk-a1954c35-fb5b-49da-a475-5ceaeaab1e1c",
+              "args": {
+                "debug_mode": true
+              },
+              "name": "send_signed_payment_mandate_to_credentials_provider"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7700
+          }
+        ],
+        "cachedContentTokenCount": 7700,
+        "candidatesTokenCount": 27,
+        "promptTokenCount": 8150,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8150
+          }
+        ],
+        "thoughtsTokenCount": 68,
+        "totalTokenCount": 8245
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "a154dd52-f3a1-41af-a188-e72b231b652c",
+      "timestamp": 1775888702.561022
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-a1954c35-fb5b-49da-a475-5ceaeaab1e1c",
+              "name": "send_signed_payment_mandate_to_credentials_provider",
+              "response": {
+                "result": {
+                  "contextId": "7e599330-1b93-4768-94cf-e3727d5926b2",
+                  "history": [
+                    {
+                      "contextId": "7e599330-1b93-4768-94cf-e3727d5926b2",
+                      "kind": "message",
+                      "messageId": "72658c367e26418c8d24d85759dde13c",
+                      "parts": [
+                        {
+                          "kind": "text",
+                          "text": "This is the signed payment mandate"
+                        },
+                        {
+                          "data": {
+                            "ap2.mandates.PaymentMandate": {
+                              "payment_mandate_contents": {
+                                "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+                                "payment_details_id": "order_3",
+                                "payment_details_total": {
+                                  "label": "Total",
+                                  "amount": {
+                                    "currency": "GBP",
+                                    "value": 68.5
+                                  },
+                                  "refund_period": 30
+                                },
+                                "payment_response": {
+                                  "request_id": "order_3",
+                                  "method_name": "CARD",
+                                  "details": {
+                                    "token": {
+                                      "value": "fake_payment_credential_token_0",
+                                      "url": "http://localhost:8002/a2a/credentials_provider"
+                                    }
+                                  },
+                                  "shipping_address": {
+                                    "city": "Sample City",
+                                    "country": "US",
+                                    "organization": "Sample Organization",
+                                    "phone_number": "+1-000-000-0000",
+                                    "postal_code": "00000",
+                                    "recipient": "Bugs Bunny",
+                                    "region": "ST",
+                                    "address_line": [
+                                      "123 Main St"
+                                    ]
+                                  },
+                                  "payer_email": "bugsbunny@gmail.com"
+                                },
+                                "merchant_agent": "Generic Merchant",
+                                "timestamp": "2026-04-11T06:24:54.906190+00:00"
+                              },
+                              "user_authorization": "fake_cart_mandate_hash_cart_3_fake_payment_mandate_hash_f212c3375d47471b8e53d99c41bc5929"
+                            }
+                          },
+                          "kind": "data"
+                        },
+                        {
+                          "data": {
+                            "risk_data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...fake_risk_data"
+                          },
+                          "kind": "data"
+                        },
+                        {
+                          "data": {
+                            "debug_mode": true
+                          },
+                          "kind": "data"
+                        }
+                      ],
+                      "role": "agent",
+                      "taskId": "ed5e2b05-624c-4372-89af-7ec3706e93a0"
+                    }
+                  ],
+                  "id": "ed5e2b05-624c-4372-89af-7ec3706e93a0",
+                  "kind": "task",
+                  "status": {
+                    "state": "completed",
+                    "timestamp": "2026-04-11T06:25:05.804474+00:00"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "1e319cbd-b8d8-4c70-a71b-64332d3323a6",
+      "timestamp": 1775888705.808014
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CusBAb4-9vs4YgiT3R7eMWKw4Ux70sLiaN8mkevAmesqRY9wD5X9ZIVmeg-NvH-2C_Ith5XYnZ1pR46N7NGc05oGs89mSliOg5sWkRCvSw1CwQgA7X0mNdVDkyfMCvl8KkEHwjJ_w9DfRwk7SzFoZICdqDtEeJkumCFVrM-eBVK0DjCzFc-5k_lei2-Gn2wjyvNVPTBYz-ypz_Rx5dkjMzFz-jOk6vivDkJFPBWW3psg9W6OUc4m9htGP5CJIpljYE6-1wNe_xEYDfoIBBGYN10FbCC1AVaD40JKCCEbasiSz3Ym5gfG7M5JsBMYmg==",
+            "functionCall": {
+              "id": "adk-a303a56d-cc0e-4247-a80e-1efe9a2bdc97",
+              "args": {
+                "debug_mode": true
+              },
+              "name": "initiate_payment"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7673
+          }
+        ],
+        "cachedContentTokenCount": 7673,
+        "candidatesTokenCount": 17,
+        "promptTokenCount": 8937,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8937
+          }
+        ],
+        "thoughtsTokenCount": 104,
+        "totalTokenCount": 9058
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "d0e4c904-c195-4877-8296-3a9b6d6f5dc0",
+      "timestamp": 1775888705.817404
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-a303a56d-cc0e-4247-a80e-1efe9a2bdc97",
+              "name": "initiate_payment",
+              "response": {
+                "result": {
+                  "message": {
+                    "contextId": "7e599330-1b93-4768-94cf-e3727d5926b2",
+                    "kind": "message",
+                    "messageId": "1126ff3c-9452-4353-b0e3-7e66fdd612e8",
+                    "parts": [
+                      {
+                        "kind": "text",
+                        "text": "Please provide the challenge response to complete the payment."
+                      },
+                      {
+                        "data": {
+                          "challenge": {
+                            "type": "otp",
+                            "display_text": "The payment method issuer sent a verification code to the phone number on file, please enter it below. It will be shared with the issuer so they can authorize the transaction.(Demo only hint: the code is 123)"
+                          }
+                        },
+                        "kind": "data"
+                      }
+                    ],
+                    "role": "agent",
+                    "taskId": "d7410330-3efb-4762-9822-622adb02c2b1"
+                  },
+                  "state": "input-required",
+                  "timestamp": "2026-04-11T06:25:11.973546+00:00"
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "initiate_payment_task_id": "69ce9965-bca7-49a7-bfc3-27a55722cbfe"
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "cb4dd6d2-8765-45f7-ba4b-e307913300d3",
+      "timestamp": 1775888711.977724
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The payment method issuer sent a verification code to the phone number on file, please enter it below. It will be shared with the issuer so they can authorize the transaction.(Demo only hint: the code is 123)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8589
+          }
+        ],
+        "cachedContentTokenCount": 8589,
+        "candidatesTokenCount": 46,
+        "promptTokenCount": 9242,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9242
+          }
+        ],
+        "totalTokenCount": 9288
+      },
+      "invocationId": "e-a42cb61d-2ee9-4a2c-b563-53965c7c44cb",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "855ef298-e668-425e-b8a2-158cf9439d21",
+      "timestamp": 1775888711.986139
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "123"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-f02cd835-22f4-4df8-a75a-44c1c4668292",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "869c2104-f3ef-4d91-9809-d23d38e0e062",
+      "timestamp": 1775888721.355086
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "thoughtSignature": "CtYBAb4-9vtYwTIydo_exgWZe-98xH0Gz-UgiLle7cu8dUw5vUD59B71a13s6mwIJD5DCFHw3QGPT0rJFqO4TFWRKgM3lNoE3sWszliGu8YynJqJMWLqQeOsm-dDlHZ7C8zIGhk-Wlc-CK6vvllSEfCRpCYXDYaL3Zm745yRTgpF9DuLgwqKT5N5lFZ_2gjjQQ0vabYSPKDQFqcu0aerH_TPvZI_VRMFzavkc7ktqdks8B-SX9w-S-skvvyhUnf0HyEYk-qWBc3v5mjJ8IH29xwLcA-sh6_gdA==",
+            "functionCall": {
+              "id": "adk-553903b0-15de-4f62-8b54-5f66e4b8ee6f",
+              "args": {
+                "challenge_response": "123",
+                "debug_mode": true
+              },
+              "name": "initiate_payment_with_otp"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7776
+          }
+        ],
+        "cachedContentTokenCount": 7776,
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 9233,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9233
+          }
+        ],
+        "thoughtsTokenCount": 48,
+        "totalTokenCount": 9311
+      },
+      "invocationId": "e-f02cd835-22f4-4df8-a75a-44c1c4668292",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "longRunningToolIds": [],
+      "id": "f64d8dfe-7a49-4087-bb8f-1367d28684eb",
+      "timestamp": 1775888721.361222
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-553903b0-15de-4f62-8b54-5f66e4b8ee6f",
+              "name": "initiate_payment_with_otp",
+              "response": {
+                "result": {
+                  "message": {
+                    "contextId": "7e599330-1b93-4768-94cf-e3727d5926b2",
+                    "kind": "message",
+                    "messageId": "ded53b41-7bd8-4aa7-bb2d-6622a92b38fb",
+                    "parts": [
+                      {
+                        "kind": "text",
+                        "text": "{'status': 'success'}"
+                      }
+                    ],
+                    "role": "agent",
+                    "taskId": "d7410330-3efb-4762-9822-622adb02c2b1"
+                  },
+                  "state": "completed",
+                  "timestamp": "2026-04-11T06:25:29.791084+00:00"
+                }
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-f02cd835-22f4-4df8-a75a-44c1c4668292",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {
+          "payment_receipt": {
+            "payment_mandate_id": "f212c3375d47471b8e53d99c41bc5929",
+            "timestamp": "2026-04-11T06:25:28.217892+00:00",
+            "payment_id": "b683d5ee1e85403bab4e6b316df1d1d7",
+            "amount": {
+              "currency": "GBP",
+              "value": 68.5
+            },
+            "payment_status": {
+              "merchant_confirmation_id": "b683d5ee1e85403bab4e6b316df1d1d7",
+              "psp_confirmation_id": "b683d5ee1e85403bab4e6b316df1d1d7"
+            },
+            "payment_method_details": {
+              "method_name": "CARD"
+            }
+          }
+        },
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "a11974b3-a9fa-4c39-866b-8a820de1e2ed",
+      "timestamp": 1775888729.793769
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "### Payment Receipt\n\n**상품:** Capsule Coffee Machine - Compact\n**가격:** £65.00\n**배송:** $2.00\n**세금:** $1.50\n**총액:** £68.50\n\n---\n\n### 배송 주소\n\n**수령인:** Bugs Bunny\n**주소:** 123 Main St, Sample City, ST 00000, US\n**전화번호:** +1-000-000-0000\n**기관:** Sample Organization\n\n---\n\n### 결제 수단\n\nAmerican Express ending in 4444\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8704
+          }
+        ],
+        "cachedContentTokenCount": 8704,
+        "candidatesTokenCount": 138,
+        "promptTokenCount": 9476,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9476
+          }
+        ],
+        "totalTokenCount": 9614
+      },
+      "invocationId": "e-f02cd835-22f4-4df8-a75a-44c1c4668292",
+      "author": "root_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {}
+      },
+      "id": "9324d55b-8570-432a-996f-e1ed00ecd127",
+      "timestamp": 1775888729.800794
+    }
+  ],
+  "lastUpdateTime": 1775888729.800794
+}
